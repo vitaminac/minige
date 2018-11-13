@@ -24,6 +24,7 @@ public:
 	void saveAsOff(std::ostream & os);
 
 	Vec3 surfaceNormal(Triangle & t) const;
+	double facetArea(Triangle & f) const;
 };
 
 std::ostream& operator << (std::ostream & os, const Triangle& t);

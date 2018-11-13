@@ -35,5 +35,7 @@ int main() {
 	std::cout << "Saving as the .off format" << std::endl;
 	mesh.saveAsOff(off_out);
 
-	std::cout << "The surface normal associated with " << mesh.faces[0] << " is " << mesh.surfaceNormal(mesh.faces[0]);
+	std::cout << "The surface normal associated with " << mesh.faces[0] << " is " << mesh.surfaceNormal(mesh.faces[0]) << std::endl;
+
+	std::cout << "The surface' area of " << mesh.faces[0] << " is " << mesh.facetArea(mesh.faces[0]) << std::endl;
 }

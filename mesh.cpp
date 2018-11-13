@@ -99,3 +99,14 @@ Vec3 TriangleMesh::surfaceNormal(Triangle & t) const {
 
 	return u.cross(v).normalize();
 }
+
+double TriangleMesh::facetArea(Triangle & f) const {
+	auto a = this->vertices[f.a];
+	auto b = this->vertices[f.b];
+	auto c = this->vertices[f.c];
+
+	auto u = b - a;
+	auto v = c - a;
+
+	return u.cross(v).module() / 2;
+}

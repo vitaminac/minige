@@ -25,6 +25,8 @@ int main() {
 	std::cout << "The cross product of " << a << " with " << b << " is " << a.cross(b) << std::endl;
 	std::cout << "The cross product of " << b << " with " << a << " is " << b.cross(a) << std::endl;
 
+	std::cout << "The angle between " << a << " and " << b << " is " << a.includedAngle(b) << std::endl;
+
 	TriangleMesh mesh;
 	std::ifstream off_in("16Triangles.off");
 	std::cout << "Reading file 16Triangles.off" << std::endl;

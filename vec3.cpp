@@ -54,3 +54,12 @@ Vec3 Vec3::cross(const Vec3 & other) const {
 		this->x*other.y - this->y*other.x
 	);
 }
+
+double Vec3::includedAngle(Vec3 & v) const {
+	// compute |u| * |v|
+	double divisor = sqrt(this->operator*(*this) * (v * v));
+	double cosine = this->operator*(v) / divisor;
+	double sine = this->cross(v).module() / divisor;
+
+	return atan2(sine, cosine);
+}

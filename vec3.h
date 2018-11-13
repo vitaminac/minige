@@ -26,6 +26,8 @@ public:
 	double operator*(const Vec3 & other) const;
 
 	Vec3 cross(const Vec3 & other) const;
+
+	double includedAngle(Vec3 & v) const;
 };
 
 ostream& operator<<(ostream& out, const Vec3& v);

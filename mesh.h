@@ -23,8 +23,9 @@ public:
 	void importFromOff(std::istream &is);
 	void saveAsOff(std::ostream & os);
 
-	Vec3 surfaceNormal(Triangle & t) const;
 	double facetArea(Triangle & f) const;
+	Vec3 surfaceNormal(const Triangle & t) const;
+	Vec3 vertexNormal(unsigned int index) const;
 };
 
 std::ostream& operator << (std::ostream & os, const Triangle& t);

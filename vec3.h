@@ -32,4 +32,5 @@ public:
 
 ostream& operator<<(ostream& out, const Vec3& v);
 Vec3 operator*(double scalar, const Vec3 & vector);
+const Vec3 ZERO_VECTOR = Vec3(0, 0, 0);
 #endif

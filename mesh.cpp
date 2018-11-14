@@ -89,7 +89,18 @@ void TriangleMesh::saveAsOff(std::ostream & os) {
 	}
 }
 
-Vec3 TriangleMesh::surfaceNormal(Triangle & t) const {
+double TriangleMesh::facetArea(Triangle & f) const {
+	auto a = this->vertices[f.a];
+	auto b = this->vertices[f.b];
+	auto c = this->vertices[f.c];
+
+	auto u = b - a;
+	auto v = c - a;
+
+	return u.cross(v).module() / 2;
+}
+
+Vec3 TriangleMesh::surfaceNormal(const Triangle & t) const {
 	auto a = this->vertices[t.a];
 	auto b = this->vertices[t.b];
 	auto c = this->vertices[t.c];
@@ -100,13 +111,12 @@ Vec3 TriangleMesh::surfaceNormal(Triangle & t) const {
 	return u.cross(v).normalize();
 }
 
-double TriangleMesh::facetArea(Triangle & f) const {
-	auto a = this->vertices[f.a];
-	auto b = this->vertices[f.b];
-	auto c = this->vertices[f.c];
-
-	auto u = b - a;
-	auto v = c - a;
-
-	return u.cross(v).module() / 2;
+Vec3 TriangleMesh::vertexNormal(unsigned int index) const {
+	Vec3 norm = ZERO_VECTOR;
+	for (auto & f : this->faces) {
+		if (f.a == index || f.b == index || f.c == index) {
+			norm = norm + this->surfaceNormal(f);
+		}
+	}
+	return norm.normalize();
 }

@@ -1,3 +1,4 @@
+#include <iostream>
 #include "window.h"
 
 namespace gengine {
@@ -16,6 +17,15 @@ namespace gengine {
 			}
 			glfwMakeContextCurrent(this->window);
 			glfwSetWindowSizeCallback(window, onWindowResize);
+
+			std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
+
+			/* Be sure we do the glew initialization after we have made the context  */
+			if (glewInit() != GLEW_OK) {
+				throw "Problem: glewInit failed, something is seriously wrong";
+			}
+
+			std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
 		}
 
 		Window::~Window() {
@@ -34,7 +44,7 @@ namespace gengine {
 			glfwSwapBuffers(this->window);
 
 			/* This function retrieves the size, in pixels, of the framebuffer of the specified window. If you wish to retrieve the size of the window in screen coordinates */
-			glfwGetFramebufferSize(this->window, &(this->width), &(this->height));
+			// TODO: glfwGetFramebufferSize(this->window, &(this->width), &(this->height));
 
 			/*
 			* GLFW needs to communicate regularly with the window system both in order to receive events

@@ -32,5 +32,8 @@
     <ClInclude Include="src\gengine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\graphic\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

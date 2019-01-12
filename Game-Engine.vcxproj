@@ -163,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\gengine.h" />
+    <ClInclude Include="src\graphic\common.h" />
     <ClInclude Include="src\graphic\graphic.h" />
     <ClInclude Include="src\graphic\window.h" />
   </ItemGroup>

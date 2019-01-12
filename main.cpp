@@ -5,8 +5,6 @@ using namespace gengine;
 using namespace graphic;
 int main()
 {
-	const unsigned char *version = glGetString(GL_VERSION);
-
 	Window window("Game Engine", 800, 600);
 	glClearColor(0, 0, 1, 1);
 
@@ -17,6 +15,7 @@ int main()
 
 	while (!window.closed()) {
 		std::cout << "Window's width: " << window.getWidth() << " window's height: " << window.getHeight() << std::endl;
+		std::cout << "Mouse position: x:" << window.getMousePosition().x << " y: " << window.getMousePosition().y << std::endl;
 		window.clear();
 #if 1
 		glBegin(GL_QUADS);

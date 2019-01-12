@@ -76,7 +76,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir);$(IncludePath);$(ProjectDir)src;$(ProjectDir)GLEW</IncludePath>
+    <IncludePath>$(ProjectDir);$(IncludePath);$(ProjectDir)src;$(ProjectDir)GLEW;</IncludePath>
     <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(ProjectDir)GLFW;$(ProjectDir)GLEW</LibraryPath>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)bin\$(Configuration)\Intermediate\</IntDir>
@@ -169,6 +169,7 @@
     <ClInclude Include="src\gengine.h" />
     <ClInclude Include="src\geometry\geometry.h" />
     <ClInclude Include="src\geometry\mesh.h" />
+    <ClInclude Include="test.h" />
     <ClInclude Include="src\geometry\vec2.h" />
     <ClInclude Include="src\geometry\vec3.h" />
     <ClInclude Include="src\geometry\vec4.h" />

@@ -9,7 +9,7 @@ namespace gengine {
 
 		Vec3 operator-(const Vec3 & left, const Vec3 & right)
 		{
-			return Vec3(left.x - right.x, left.y - right.y, left.z + right.z);
+			return Vec3(left.x - right.x, left.y - right.y, left.z - right.z);
 		}
 
 		Vec3 operator-(const Vec3 & operand)

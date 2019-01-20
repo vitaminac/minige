@@ -44,7 +44,7 @@ namespace gengine {
 
 		ostream & operator<<(ostream & out, const Vec4 & v)
 		{
-			out << "vec4: (" << v.x << "," << v.y << "," << v.z << "," << v.z << ")";
+			out << "vec4: (" << v.x << "," << v.y << "," << v.z << "," << v.w << ")";
 			return out;
 		}
 	}

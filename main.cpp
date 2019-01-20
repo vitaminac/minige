@@ -67,6 +67,16 @@ int main()
 	test(mesh.vertexNormal(0), Vec3(0, 0, 1), "The vertex normal associated with vectex 0 (0,-0.942809,0) is (0,0,1)");
 	std::cout << "The vertex normal associated with vectex 0 " << mesh.vertices[0] << " is " << mesh.vertexNormal(0) << std::endl;
 
+	Mat4 position = Mat4::translation(Vec3(2, 3, 4));
+	
+	Vec4& c = position.columns[3];
+	std::cout << c << std::endl;
+
+	position = position * Mat4::identity();
+
+	c = position.columns[3];
+	std::cout << c << std::endl;
+
 	Window window("Game Engine", 800, 600);
 	glClearColor(0, 0, 1, 1);
 

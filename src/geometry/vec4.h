@@ -10,6 +10,7 @@ namespace gengine {
 		private:
 			float x, y, z, w;
 		public:
+			Vec4() = default;
 			inline Vec4(const float& x, const float& y, const float& z, const float& w) : x(x), y(y), z(z), w(w)
 			{
 			}

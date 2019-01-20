@@ -1,15 +1,19 @@
 #pragma once
 #include "vec3.h"
+#include "vec4.h"
 #include "maths.h"
 
 namespace gengine {
 	namespace geometry {
-		class Mat4 {
-		private:
-			float elements[4 * 4];
-			inline Mat4() {
-			}
-		public:
+		typedef struct Mat4 {
+			union
+			{
+				float elements[4 * 4];
+				Vec4 columns[4];
+			};
+			
+			Mat4() = default;
+
 			friend Mat4 operator*(const Mat4& left, const Mat4& right);
 
 			static Mat4 diagonal(float diagonal);
@@ -27,6 +31,6 @@ namespace gengine {
 			static Mat4 orthographic(const Vec3& min_corner, const Vec3& max_corner);
 
 			static Mat4 perspective(float fov, float aspectRatio, float near, float far);
-		};
+		} Mat4;
 	}
 }

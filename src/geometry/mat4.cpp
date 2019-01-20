@@ -76,6 +76,8 @@ namespace gengine {
 			mat4.elements[0 + 2 * 4] = z * x * omcosine + z * sine;
 			mat4.elements[1 + 2 * 4] = z * y * omcosine + x * sine;
 			mat4.elements[2 + 2 * 4] = z * z * omcosine + cosine;
+
+			return mat4;
 		}
 
 		Mat4 Mat4::scale(const Vec3& k)

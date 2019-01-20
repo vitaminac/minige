@@ -158,6 +158,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\geometry\mat4.cpp" />
     <ClCompile Include="src\geometry\mesh.cpp" />
     <ClCompile Include="src\geometry\vec2.cpp" />
     <ClCompile Include="src\geometry\vec3.cpp" />
@@ -168,6 +169,8 @@
   <ItemGroup>
     <ClInclude Include="src\gengine.h" />
     <ClInclude Include="src\geometry\geometry.h" />
+    <ClInclude Include="src\geometry\mat4.h" />
+    <ClInclude Include="src\geometry\maths.h" />
     <ClInclude Include="src\geometry\mesh.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="src\geometry\vec2.h" />

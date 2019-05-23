@@ -31,6 +31,10 @@ namespace gengine {
 				return this->w;
 			}
 
+			float operator[](const int index) const;
+
+			float dot(const Vec4& vector) const;
+
 			friend Vec4 operator+(const Vec4& left, const Vec4& right);
 			friend Vec4 operator-(const Vec4& left, const Vec4& right);
 			friend Vec4 operator-(const Vec4& operand);

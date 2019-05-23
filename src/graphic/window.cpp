@@ -47,12 +47,15 @@ namespace gengine {
 			{
 				throw "Initialization failed";
 			}
+
 			this->window = glfwCreateWindow(width, height, title, NULL, NULL);
+			
 			if (!this->window)
 			{
 				glfwTerminate();
 				throw  "Window or OpenGL context creation failed";
 			}
+
 			glfwMakeContextCurrent(this->window);
 
 			glfwSetWindowUserPointer(this->window, this);

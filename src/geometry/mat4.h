@@ -5,16 +5,19 @@
 
 namespace gengine {
 	namespace geometry {
+		/* Column Major 4x4 Matrix */
 		typedef struct Mat4 {
 			union
 			{
 				float elements[4 * 4];
 				Vec4 columns[4];
 			};
-			
+
 			Mat4() = default;
 
 			friend Mat4 operator*(const Mat4& left, const Mat4& right);
+
+			const Vec4& operator[](int index) const;
 
 			static Mat4 diagonal(float diagonal);
 

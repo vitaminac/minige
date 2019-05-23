@@ -25,6 +25,10 @@
 * [glew](https://github.com/nigels-com/glew)
 * [glfw](https://github.com/glfw/glfw)
 
+## Videos
+
+* [Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+
 ## Institute
 
 * [Game Institute](https://www.gameinstitute.com/)

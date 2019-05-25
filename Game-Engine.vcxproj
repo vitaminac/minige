@@ -163,8 +163,10 @@
     <ClCompile Include="src\geometry\vec2.cpp" />
     <ClCompile Include="src\geometry\vec3.cpp" />
     <ClCompile Include="src\geometry\vec4.cpp" />
+    <ClCompile Include="src\graphic\shader.cpp" />
     <ClCompile Include="src\graphic\window.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\utils\fileutils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\gengine.h" />
@@ -172,6 +174,8 @@
     <ClInclude Include="src\geometry\mat4.h" />
     <ClInclude Include="src\geometry\maths.h" />
     <ClInclude Include="src\geometry\mesh.h" />
+    <ClInclude Include="src\graphic\shader.h" />
+    <ClInclude Include="src\utils\fileutils.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="src\geometry\vec2.h" />
     <ClInclude Include="src\geometry\vec3.h" />
@@ -179,6 +183,10 @@
     <ClInclude Include="src\graphic\common.h" />
     <ClInclude Include="src\graphic\graphic.h" />
     <ClInclude Include="src\graphic\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\basic.frag" />
+    <None Include="src\shaders\basic.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

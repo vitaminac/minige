@@ -6,12 +6,12 @@ using std::ostream;
 
 namespace gengine {
 	namespace geometry {
-		class Vec4 {
+		class vec4 {
 		private:
 			float x, y, z, w;
 		public:
-			Vec4() = default;
-			inline Vec4(const float& x, const float& y, const float& z, const float& w) : x(x), y(y), z(z), w(w)
+			vec4() = default;
+			inline vec4(const float& x, const float& y, const float& z, const float& w) : x(x), y(y), z(z), w(w)
 			{
 			}
 
@@ -33,17 +33,17 @@ namespace gengine {
 
 			float operator[](const int index) const;
 
-			float dot(const Vec4& vector) const;
+			float dot(const vec4& vector) const;
 
-			friend Vec4 operator+(const Vec4& left, const Vec4& right);
-			friend Vec4 operator-(const Vec4& left, const Vec4& right);
-			friend Vec4 operator-(const Vec4& operand);
-			friend Vec4 operator*(const Vec4& vector, float scalar);
-			friend Vec4 operator*(float scalar, const Vec4& vector);
-			friend Vec4 operator*(const Vec4& left, const Vec4& right);
-			friend Vec4 operator/(const Vec4& left, const Vec4& right);
-			friend bool operator==(const Vec4& left, const Vec4& right);
-			friend ostream& operator<<(ostream& out, const Vec4& vector);
+			friend vec4 operator+(const vec4& left, const vec4& right);
+			friend vec4 operator-(const vec4& left, const vec4& right);
+			friend vec4 operator-(const vec4& operand);
+			friend vec4 operator*(const vec4& vector, float scalar);
+			friend vec4 operator*(float scalar, const vec4& vector);
+			friend vec4 operator*(const vec4& left, const vec4& right);
+			friend vec4 operator/(const vec4& left, const vec4& right);
+			friend bool operator==(const vec4& left, const vec4& right);
+			friend ostream& operator<<(ostream& out, const vec4& vector);
 		};
 	}
 }

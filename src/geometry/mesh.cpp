@@ -48,7 +48,7 @@ namespace gengine {
 				double x, y, z;
 				if (!(is >> x >> y >> z))
 					throw "error loading coordinates";
-				this->vertices.push_back(Vec3(x, y, z));
+				this->vertices.push_back(vec3(x, y, z));
 			}
 
 			// read the values of triangles
@@ -102,7 +102,7 @@ namespace gengine {
 			return u.cross(v).module() / 2;
 		}
 
-		Vec3 TriangleMesh::surfaceNormal(const Triangle & t) const {
+		vec3 TriangleMesh::surfaceNormal(const Triangle & t) const {
 			auto a = this->vertices[t.a];
 			auto b = this->vertices[t.b];
 			auto c = this->vertices[t.c];
@@ -113,8 +113,8 @@ namespace gengine {
 			return u.cross(v).normalize();
 		}
 
-		Vec3 TriangleMesh::vertexNormal(unsigned int index) const {
-			Vec3 norm = ZERO_VECTOR;
+		vec3 TriangleMesh::vertexNormal(unsigned int index) const {
+			vec3 norm = vec3::ZERO;
 			for (auto & f : this->faces) {
 				if (f.a == index || f.b == index || f.c == index) {
 					norm = norm + this->surfaceNormal(f);

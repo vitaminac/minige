@@ -6,34 +6,34 @@
 namespace gengine {
 	namespace geometry {
 		/* Column Major 4x4 Matrix */
-		typedef struct Mat4 {
+		typedef struct mat4 {
 			union
 			{
 				float elements[4 * 4];
-				Vec4 columns[4];
+				vec4 columns[4];
 			};
 
-			Mat4() = default;
+			mat4() = default;
 
-			friend Mat4 operator*(const Mat4& left, const Mat4& right);
+			friend mat4 operator*(const mat4& left, const mat4& right);
 
-			const Vec4& operator[](int index) const;
+			const vec4& operator[](const int index) const;
 
-			static Mat4 diagonal(float diagonal);
+			static mat4 diagonal(const float diagonal);
 
-			static Mat4 identity();
+			static mat4 identity();
 
-			static Mat4 zero();
+			static mat4 zero();
 
-			static Mat4 translation(const Vec3& translation);
+			static mat4 translation(const vec3& translation);
 
-			static Mat4 rotation(const Vec3& axis, const float angle);
+			static mat4 rotation(const vec3& axis, const float angle);
 
-			static Mat4 scale(const Vec3& k);
+			static mat4 scale(const vec3& k);
 
-			static Mat4 orthographic(const Vec3& min_corner, const Vec3& max_corner);
+			static mat4 orthographic(const vec3& min_corner, const vec3& max_corner);
 
-			static Mat4 perspective(float fov, float aspectRatio, float near, float far);
-		} Mat4;
+			static mat4 perspective(float fov, float aspectRatio, float near, float far);
+		} mat4;
 	}
 }

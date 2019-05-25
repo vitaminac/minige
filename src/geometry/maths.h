@@ -1,3 +1,4 @@
+#pragma once
 #define SP_PI 3.14159265358f
 
 namespace gengine {

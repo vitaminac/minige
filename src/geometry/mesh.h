@@ -18,15 +18,15 @@ namespace gengine {
 
 		class TriangleMesh {
 		public:
-			std::vector<Vec3> vertices;
+			std::vector<vec3> vertices;
 			std::vector<Triangle> faces;
 
 			void importFromOff(std::istream &is);
 			void saveAsOff(std::ostream & os);
 
 			double facetArea(Triangle & f) const;
-			Vec3 surfaceNormal(const Triangle & t) const;
-			Vec3 vertexNormal(unsigned int index) const;
+			vec3 surfaceNormal(const Triangle & t) const;
+			vec3 vertexNormal(unsigned int index) const;
 		};
 
 		std::ostream& operator << (std::ostream & os, const Triangle& t);

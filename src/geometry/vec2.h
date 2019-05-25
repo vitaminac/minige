@@ -4,11 +4,11 @@ using std::ostream;
 
 namespace gengine {
 	namespace geometry {
-		class Vec2 {
+		class vec2 {
 		private:
 			float x, y;
 		public:
-			inline Vec2(const float& x, const float& y) : x(x), y(y)
+			inline vec2(const float& x, const float& y) : x(x), y(y)
 			{
 			}
 
@@ -20,15 +20,15 @@ namespace gengine {
 				return this->y;
 			}
 
-			friend Vec2 operator+(const Vec2& left, const Vec2& right);
-			friend Vec2 operator-(const Vec2& left, const Vec2& right);
-			friend Vec2 operator-(const Vec2& operand);
-			friend Vec2 operator*(const Vec2& vector, float scalar);
-			friend Vec2 operator*(float scalar, const Vec2& vector);
-			friend Vec2 operator*(const Vec2& left, const Vec2& right);
-			friend Vec2 operator/(const Vec2& left, const Vec2& right);
-			friend bool operator==(const Vec2& left, const Vec2& right);
-			friend ostream& operator<<(ostream& out, const Vec2& vector);
+			friend vec2 operator+(const vec2& left, const vec2& right);
+			friend vec2 operator-(const vec2& left, const vec2& right);
+			friend vec2 operator-(const vec2& operand);
+			friend vec2 operator*(const vec2& vector, float scalar);
+			friend vec2 operator*(float scalar, const vec2& vector);
+			friend vec2 operator*(const vec2& left, const vec2& right);
+			friend vec2 operator/(const vec2& left, const vec2& right);
+			friend bool operator==(const vec2& left, const vec2& right);
+			friend ostream& operator<<(ostream& out, const vec2& vector);
 		};
 	}
 }

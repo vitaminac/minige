@@ -3,48 +3,51 @@
 using std::ostream;
 
 namespace gengine {
-	namespace geometry {
-		class Vec3 {
-		private:
-			float x, y, z;
-		public:
-			inline Vec3(const float& x, const float& y, const float& z) : x(x), y(y), z(z)
-			{
-			}
+    namespace geometry {
+        class vec3 {
+        private:
+            float x, y, z;
+        public:
+            inline vec3(const float& x, const float& y, const float& z) : x(x), y(y), z(z)
+            {
+            }
 
-			inline const float& getX()const {
-				return this->x;
-			}
+            inline const float& getX()const {
+                return this->x;
+            }
 
-			inline const float& getY() const {
-				return this->y;
-			}
+            inline const float& getY() const {
+                return this->y;
+            }
 
-			inline const float& getZ() const {
-				return this->z;
-			}
+            inline const float& getZ() const {
+                return this->z;
+            }
 
-			friend Vec3 operator+(const Vec3& left, const Vec3& right);
-			friend Vec3 operator-(const Vec3& left, const Vec3& right);
-			friend Vec3 operator-(const Vec3& operand);
-			friend Vec3 operator*(const Vec3& vector, float scalar);
-			friend Vec3 operator*(float scalar, const Vec3& vector);
-			friend Vec3 operator*(const Vec3& left, const Vec3& right);
-			friend Vec3 operator/(const Vec3& left, const Vec3& right);
-			friend bool operator==(const Vec3& left, const Vec3& right);
-			friend ostream& operator<<(ostream& out, const Vec3& vector);
+            friend vec3 operator+(const vec3& left, const vec3& right);
+            friend vec3 operator-(const vec3& left, const vec3& right);
+            friend vec3 operator-(const vec3& operand);
+            friend vec3 operator*(const vec3& vector, float scalar);
+            friend vec3 operator*(float scalar, const vec3& vector);
+            friend vec3 operator*(const vec3& left, const vec3& right);
+            friend vec3 operator/(const vec3& left, const vec3& right);
+            friend bool operator==(const vec3& left, const vec3& right);
+            friend ostream& operator<<(ostream& out, const vec3& vector);
 
-			double module2() const;
-			double module() const;
+            double module2() const;
+            double module() const;
 
-			Vec3 normalize() const;
+            vec3 normalize() const;
 
-			double dot(const Vec3& other) const;
-			Vec3 cross(const Vec3& other) const;
+            double dot(const vec3& other) const;
+            vec3 cross(const vec3& other) const;
 
-			double includedAngle(Vec3& v) const;
-		};
+            double includedAngle(vec3& v) const;
 
-		const Vec3 ZERO_VECTOR = Vec3(0, 0, 0);
-	}
+            static const vec3 ZERO;
+            static const vec3 RIGHT;
+            static const vec3 UP;
+            static const vec3 FORWARD;
+        };
+    }
 }

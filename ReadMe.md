@@ -3,6 +3,7 @@
 ## Manual
 
 * [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
+* [VR](https://developers.google.com/vr/)
 
 ## Books
 
@@ -18,12 +19,14 @@
 * [hge](https://github.com/kvakvs/hge)
 * [Godot](https://github.com/godotengine/godot)
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
+* [Unreal](https://github.com/EpicGames/UnrealEngine)
 
 ### Game Server
 
 * [Pomelo](https://github.com/NetEase/pomelo)
 * [KBEngine](https://github.com/kbengine/kbengine)
 * [Skynet](https://github.com/cloudwu/skynet)
+* [Photon](https://www.photonengine.com/)
 
 ## Libraries
 

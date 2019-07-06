@@ -4,24 +4,10 @@ using std::ostream;
 
 namespace gengine {
     namespace geometry {
-        class vec3 {
-        private:
+        struct vec3 {
             float x, y, z;
-        public:
             inline vec3(const float& x, const float& y, const float& z) : x(x), y(y), z(z)
             {
-            }
-
-            inline const float& getX()const {
-                return this->x;
-            }
-
-            inline const float& getY() const {
-                return this->y;
-            }
-
-            inline const float& getZ() const {
-                return this->z;
             }
 
             friend vec3 operator+(const vec3& left, const vec3& right);

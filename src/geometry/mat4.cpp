@@ -49,9 +49,9 @@ namespace gengine {
         mat4 mat4::translation(const vec3& translation)
         {
             auto mat4 = mat4::identity();
-            mat4.elements[0 + 3 * 4] = translation.getX();
-            mat4.elements[1 + 3 * 4] = translation.getY();
-            mat4.elements[2 + 3 * 4] = translation.getZ();
+            mat4.elements[0 + 3 * 4] = translation.x;
+            mat4.elements[1 + 3 * 4] = translation.y;
+            mat4.elements[2 + 3 * 4] = translation.z;
             return mat4;
         }
         mat4 mat4::rotation(const vec3& axis, const float angle)
@@ -63,9 +63,9 @@ namespace gengine {
             /* one munis cosine */
             auto omcosine = 1 - cosine;
 
-            auto x = axis.getX();
-            auto y = axis.getY();
-            auto z = axis.getZ();
+            auto x = axis.x;
+            auto y = axis.y;
+            auto z = axis.z;
 
             mat4.elements[0 + 0 * 4] = x * x * omcosine + cosine;
             mat4.elements[1 + 0 * 4] = x * y * omcosine + z * sine;
@@ -85,22 +85,22 @@ namespace gengine {
         mat4 mat4::scale(const vec3& k)
         {
             auto mat4 = mat4::identity();
-            mat4.elements[0 + 0 * 4] = k.getX();
-            mat4.elements[1 + 1 * 4] = k.getY();
-            mat4.elements[2 + 2 * 4] = k.getZ();
+            mat4.elements[0 + 0 * 4] = k.x;
+            mat4.elements[1 + 1 * 4] = k.y;
+            mat4.elements[2 + 2 * 4] = k.z;
             return mat4;
         }
 
         mat4 mat4::orthographic(const vec3& min_corner, const vec3& max_corner)
         {
             auto mat4 = mat4::zero();
-            mat4.elements[0 + 0 * 4] = 2.0f / (max_corner.getX() - min_corner.getX());
-            mat4.elements[1 + 1 * 4] = 2.0f / (max_corner.getY() - min_corner.getY());
-            mat4.elements[2 + 2 * 4] = -2.0f / (max_corner.getZ() - min_corner.getZ());
+            mat4.elements[0 + 0 * 4] = 2.0f / (max_corner.x - min_corner.x);
+            mat4.elements[1 + 1 * 4] = 2.0f / (max_corner.y - min_corner.y);
+            mat4.elements[2 + 2 * 4] = -2.0f / (max_corner.z - min_corner.z);
 
-            mat4.elements[0 + 3 * 4] = -(max_corner.getX() + min_corner.getX()) / (max_corner.getX() - min_corner.getX());
-            mat4.elements[1 + 3 * 4] = -(max_corner.getY() + min_corner.getY()) / (max_corner.getY() - min_corner.getY());
-            mat4.elements[2 + 3 * 4] = (max_corner.getZ() + min_corner.getZ()) / (max_corner.getZ() - min_corner.getZ());
+            mat4.elements[0 + 3 * 4] = -(max_corner.x + min_corner.x) / (max_corner.x - min_corner.x);
+            mat4.elements[1 + 3 * 4] = -(max_corner.y + min_corner.y) / (max_corner.y - min_corner.y);
+            mat4.elements[2 + 3 * 4] = (max_corner.z + min_corner.z) / (max_corner.z - min_corner.z);
 
             mat4.elements[3 + 3 * 4] = 1.0f;
             return mat4;

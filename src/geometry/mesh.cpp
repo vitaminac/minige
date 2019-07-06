@@ -83,7 +83,7 @@ namespace gengine {
 
 			// write vertices
 			for (auto & v : this->vertices) {
-				os << v.getX() << " " << v.getY() << " " << v.getZ() << "\n";
+				os << v.x << " " << v.y << " " << v.z << "\n";
 			}
 			// write triangles
 			for (auto & t : this->faces) {

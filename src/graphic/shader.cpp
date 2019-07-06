@@ -99,17 +99,17 @@ namespace gengine {
 
         void Shader::setUniformVector2(const GLchar* name, const vec2& vector) const
         {
-            glUniform2f(this->getUniformLocation(name), vector.getX(), vector.getY());
+            glUniform2f(this->getUniformLocation(name), vector.x, vector.y);
         }
 
         void Shader::setUniformVector3(const GLchar* name, const vec3& vector) const
         {
-            glUniform3f(this->getUniformLocation(name), vector.getX(), vector.getY(), vector.getZ());
+            glUniform3f(this->getUniformLocation(name), vector.x, vector.y, vector.z);
         }
 
         void Shader::setUniformVector4(const GLchar* name, const vec4& vector) const
         {
-            glUniform4f(this->getUniformLocation(name), vector.getX(), vector.getY(), vector.getZ(), vector.getW());
+            glUniform4f(this->getUniformLocation(name), vector.x, vector.y, vector.z, vector.w);
         }
 
         void Shader::setUniformMat4(const GLchar* name, const mat4& matrix) const

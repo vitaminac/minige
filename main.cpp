@@ -30,9 +30,9 @@ void test_vector() {
     std::cout << "The opposite of " << v << " is " << -v << std::endl;
 
     auto u = a.normalize();
-    test(u.getX(), 0.267261, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
-    test(u.getY(), 0.534522, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
-    test(u.getZ(), 0.801784, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
+    test(u.x, 0.267261, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
+    test(u.y, 0.534522, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
+    test(u.z, 0.801784, "The unit vector of (1,2,3) is (0.267261,0.534522,0.801784)", 0.001);
     std::cout << "The unit vector of " << a << " is " << a.normalize() << std::endl;
 
     test(a.dot(b), 22, "The dot product of (1,2,3) with (1,3,5) is 22", 0);
@@ -97,46 +97,7 @@ int main()
     const int window_width = 960;
     const int window_height = 540;
     Window window("Game Engine", window_width, window_height);
-    // window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
-
-    GLfloat vertices[] =
-    {
-        0, 0, 0,
-        0, 3, 0,
-        8, 3, 0,
-        8, 0, 0
-    };
-
-    GLushort indices[] =
-    {
-        0, 1, 2,
-        2, 3, 0
-    };
-
-    GLfloat colorsA[] =
-    {
-        1, 0, 1, 1,
-        1, 0, 1, 1,
-        1, 0, 1, 1,
-        1, 0, 1, 1
-    };
-
-    GLfloat colorsB[] =
-    {
-        0.2f, 0.3f, 0.8f, 1,
-        0.2f, 0.3f, 0.8f, 1,
-        0.2f, 0.3f, 0.8f, 1,
-        0.2f, 0.3f, 0.8f, 1
-    };
-
-    VertexArrayObject sprite1, sprite2;
-    IndexedVertexBufferObject ibo(indices, 6);
-
-    sprite1.addBuffer(new VertexBufferObject(vertices, 4 * 3, 3), 0);
-    sprite1.addBuffer(new VertexBufferObject(colorsA, 4 * 4, 4), 1);
-
-    sprite2.addBuffer(new VertexBufferObject(vertices, 4 * 3, 3), 0);
-    sprite2.addBuffer(new VertexBufferObject(colorsB, 4 * 4, 4), 1);
+    window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
 
     const float content_width = 16;
     const float content_height = 9;
@@ -144,31 +105,25 @@ int main()
 
     Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
     shader.enable();
-    
+
     shader.setUniformMat4("projection_matrix", ortho);
     shader.setUniformMat4("model_matrix", mat4::rotation(vec3::FORWARD, 10.0f) * mat4::translation(vec3(4, 3, 0)));
-    
+
     shader.setUniformVector2("light_position", vec2(4.0f, 1.5f));
     shader.setUniformVector4("colour", vec4(0.2f, 0.3f, 0.8f, 1.0f));
+
+    Renderable2D sprite1(vec3(5, 5, 0), vec2(4, 4), vec4(1, 0, 1, 1), shader);
+    Renderable2D sprite2(vec3(7, 1, 0), vec2(2, 3), vec4(0.2f, 0, 1, 1), shader);
+    Simple2DRenderer renderer;
 
     while (!window.closed()) {
         window.clear();
         const Position& p = window.getMousePosition();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
 
-        sprite1.bind();
-        ibo.bind();
-        shader.setUniformMat4("model_matrix", mat4::translation(vec3(4, 3, 0)));
-        glDrawElements(GL_TRIANGLES, ibo.getCount(), GL_UNSIGNED_SHORT, 0);
-        ibo.unbind();
-        sprite1.unbind();
-
-        sprite2.bind();
-        ibo.bind();
-        shader.setUniformMat4("model_matrix", mat4::translation(vec3(0, 0, 0)));
-        glDrawElements(GL_TRIANGLES, ibo.getCount(), GL_UNSIGNED_SHORT, 0);
-        ibo.unbind(); // TODO: why we need bind twice
-        sprite2.unbind();
+        renderer.submit(&sprite1);
+        renderer.submit(&sprite2);
+        renderer.flush();
 
         window.update();
     }

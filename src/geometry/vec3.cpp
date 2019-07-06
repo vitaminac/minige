@@ -57,7 +57,7 @@ namespace gengine {
         }
 
         double vec3::dot(const vec3 & other) const {
-            return this->x* other.x + this->y * other.y + this->z * other.z;
+            return (double)this->x* other.x + (double)this->y * other.y + (double)this->z * other.z;
         }
 
         vec3 vec3::normalize() const {

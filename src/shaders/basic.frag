@@ -5,9 +5,14 @@ layout (location = 0) out vec4 color;
 uniform vec4 colour;
 uniform vec2 light_position;
 
-in vec4 pos;
+in data
+{
+	vec4 position;
+	vec4 color;
+} fragment_shader_in;
 
 void main() {
-    float intensity = 1.0 / length(pos.xy - light_position);
-    color = colour * intensity;
+    float intensity = 1.0 / length(fragment_shader_in.position.xy - light_position);
+    // color = colour * intensity;
+    color = fragment_shader_in.color * intensity;
 }

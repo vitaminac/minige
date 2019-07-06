@@ -5,6 +5,11 @@
 * [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 * [VR](https://developers.google.com/vr/)
 
+## Tutorial
+
+* [Learn OpenGL](https://learnopengl.com/)
+* [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+
 ## Books
 
 * [3D Math Primer for Graphics and Game Develpment](doc/3D-Math-Primer-for-Graphics-and-Game-Develpment.pdf)

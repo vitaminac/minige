@@ -94,37 +94,82 @@ int main()
     test_mat4();
     test_file_utils();
 
-    Window window("Game Engine", 800, 600);
-    glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
+    const int window_width = 960;
+    const int window_height = 540;
+    Window window("Game Engine", window_width, window_height);
+    // window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
 
-    GLfloat vertices[] = {
+    GLfloat vertices[] =
+    {
         0, 0, 0,
-        8, 0, 0,
-        0, 3, 0,
         0, 3, 0,
         8, 3, 0,
         8, 0, 0
     };
 
-    GLuint vbo;
-    glGenBuffers(1, &vbo);
-    glBindBuffer(GL_ARRAY_BUFFER, vbo);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, 0);
-    glEnableVertexAttribArray(0);
+    GLushort indices[] =
+    {
+        0, 1, 2,
+        2, 3, 0
+    };
 
-    mat4 ortho = mat4::orthographic(vec3(0.0f, 0.0f, -1.0f), vec3(16.0f, 9.0f, 1.0f));
+    GLfloat colorsA[] =
+    {
+        1, 0, 1, 1,
+        1, 0, 1, 1,
+        1, 0, 1, 1,
+        1, 0, 1, 1
+    };
+
+    GLfloat colorsB[] =
+    {
+        0.2f, 0.3f, 0.8f, 1,
+        0.2f, 0.3f, 0.8f, 1,
+        0.2f, 0.3f, 0.8f, 1,
+        0.2f, 0.3f, 0.8f, 1
+    };
+
+    VertexArrayObject sprite1, sprite2;
+    IndexedVertexBufferObject ibo(indices, 6);
+
+    sprite1.addBuffer(new VertexBufferObject(vertices, 4 * 3, 3), 0);
+    sprite1.addBuffer(new VertexBufferObject(colorsA, 4 * 4, 4), 1);
+
+    sprite2.addBuffer(new VertexBufferObject(vertices, 4 * 3, 3), 0);
+    sprite2.addBuffer(new VertexBufferObject(colorsB, 4 * 4, 4), 1);
+
+    const float content_width = 16;
+    const float content_height = 9;
+    mat4 ortho = mat4::orthographic(vec3(0.0f, 0.0f, -1.0f), vec3(content_width, content_height, 1.0f));
 
     Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
     shader.enable();
+    
     shader.setUniformMat4("projection_matrix", ortho);
     shader.setUniformMat4("model_matrix", mat4::rotation(vec3::FORWARD, 10.0f) * mat4::translation(vec3(4, 3, 0)));
+    
     shader.setUniformVector2("light_position", vec2(4.0f, 1.5f));
     shader.setUniformVector4("colour", vec4(0.2f, 0.3f, 0.8f, 1.0f));
 
     while (!window.closed()) {
         window.clear();
-        glDrawArrays(GL_TRIANGLES, 0, 6);
+        const Position& p = window.getMousePosition();
+        shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
+
+        sprite1.bind();
+        ibo.bind();
+        shader.setUniformMat4("model_matrix", mat4::translation(vec3(4, 3, 0)));
+        glDrawElements(GL_TRIANGLES, ibo.getCount(), GL_UNSIGNED_SHORT, 0);
+        ibo.unbind();
+        sprite1.unbind();
+
+        sprite2.bind();
+        ibo.bind();
+        shader.setUniformMat4("model_matrix", mat4::translation(vec3(0, 0, 0)));
+        glDrawElements(GL_TRIANGLES, ibo.getCount(), GL_UNSIGNED_SHORT, 0);
+        ibo.unbind(); // TODO: why we need bind twice
+        sprite2.unbind();
+
         window.update();
     }
     return 0;

@@ -7,41 +7,42 @@
 #define MAX_BUTTONS	32
 
 namespace gengine {
-	namespace graphic {
-		class Window {
-		private:
-			const char *title;
-			int width, height;
-			Position position;
-			bool keys[MAX_KEYS];
-			bool buttons[MAX_BUTTONS];
-			GLFWwindow *window = NULL;
+    namespace graphic {
+        class Window {
+        private:
+            const char* title;
+            int width, height;
+            Position position;
+            bool keys[MAX_KEYS];
+            bool buttons[MAX_BUTTONS];
+            GLFWwindow* window = NULL;
 
-			friend static void onCursorPositionChange(GLFWwindow* window, double x, double y);
-			friend static void onWindowResize(GLFWwindow* window, int width, int height);
-			friend static void onMouseButtonClick(GLFWwindow* window, int button, int action, int mods);
-			friend static void onKeyPress(GLFWwindow* window, int key, int scancode, int action, int mods);
+            friend static void onCursorPositionChange(GLFWwindow* window, double x, double y);
+            friend static void onWindowResize(GLFWwindow* window, int width, int height);
+            friend static void onMouseButtonClick(GLFWwindow* window, int button, int action, int mods);
+            friend static void onKeyPress(GLFWwindow* window, int key, int scancode, int action, int mods);
 
-		public:
-			Window(const char *title, int width, int height);
-			~Window();
-			void update();
-			bool closed() const;
-			void clear() const;
+        public:
+            Window(const char* title, int width, int height);
+            ~Window();
+            void update();
+            bool closed() const;
+            void clear() const;
+            void setBackgroundColor(float red, float green, float blue, float alpha);
 
-			inline int getWidth() const { return this->width; }
+            inline int getWidth() const { return this->width; }
 
-			inline int getHeight() const { return this->height; }
+            inline int getHeight() const { return this->height; }
 
-			inline const Position& getMousePosition() const { return this->position; }
+            inline const Position& getMousePosition() const { return this->position; }
 
-			inline bool isKeyPressed(unsigned int keycode) const {
-				return keycode >= MAX_KEYS ? false : this->keys[keycode];
-			}
+            inline bool isKeyPressed(unsigned int keycode) const {
+                return keycode >= MAX_KEYS ? false : this->keys[keycode];
+            }
 
-			inline bool isMouseButtonPressed(unsigned int button) const {
-				return button >= MAX_BUTTONS ? false : this->buttons[button];
-			}
-		};
-	}
+            inline bool isMouseButtonPressed(unsigned int button) const {
+                return button >= MAX_BUTTONS ? false : this->buttons[button];
+            }
+        };
+    }
 }

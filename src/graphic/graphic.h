@@ -6,3 +6,5 @@
 #include "buffers/vbo.h"
 #include "renderable2d.h"
 #include "simple2drenderer.h"
+#include "batchRenderer2D.h"
+#include "sprite.h"

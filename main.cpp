@@ -1,5 +1,7 @@
 #include <iostream>
 #include <fstream>
+#include <time.h>
+
 #include "gengine.h"
 #include "test.h"
 
@@ -107,22 +109,38 @@ int main()
     shader.enable();
 
     shader.setUniformMat4("projection_matrix", ortho);
-    shader.setUniformMat4("model_matrix", mat4::rotation(vec3::FORWARD, 10.0f) * mat4::translation(vec3(4, 3, 0)));
 
-    shader.setUniformVector2("light_position", vec2(4.0f, 1.5f));
-    shader.setUniformVector4("colour", vec4(0.2f, 0.3f, 0.8f, 1.0f));
+    std::vector<Renderable2D*> sprites;
 
-    Renderable2D sprite1(vec3(5, 5, 0), vec2(4, 4), vec4(1, 0, 1, 1), shader);
-    Renderable2D sprite2(vec3(7, 1, 0), vec2(2, 3), vec4(0.2f, 0, 1, 1), shader);
-    Simple2DRenderer renderer;
+    srand(time(NULL));
+
+    for (float y = 0; y < 9.0f; y += 0.05)
+    {
+        for (float x = 0; x < 16.0f; x += 0.05)
+        {
+            sprites.push_back(new Sprite(x, y, 0.04f, 0.04f, vec4(rand() % 1000 / 1000.0f, 0, 1, 1)));
+        }
+    }
+
+    Sprite sprite1(5, 5, 4, 4, vec4(1, 0, 1, 1));
+    Sprite sprite2(7, 1, 2, 3, vec4(0.2f, 0, 1, 1));
+
+    BatchRenderer2D renderer;
+
+    printf("Sprites: %d\n", sprites.size());
 
     while (!window.closed()) {
         window.clear();
         const Position& p = window.getMousePosition();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
 
-        renderer.submit(&sprite1);
-        renderer.submit(&sprite2);
+        renderer.begin();
+        for (int i = 0; i < sprites.size(); i++)
+        {
+            renderer.submit(sprites[i]);
+        }
+        renderer.end();
+
         renderer.flush();
 
         window.update();

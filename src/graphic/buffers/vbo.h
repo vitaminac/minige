@@ -10,7 +10,7 @@ namespace gengine {
             GLuint component_count;
         public:
             VertexBufferObject(GLfloat* data, GLsizei count, GLuint componentCount);
-
+            ~VertexBufferObject();
             void bind() const;
             void unbind() const;
 
@@ -24,7 +24,8 @@ namespace gengine {
             GLuint count;
         public:
             IndexedVertexBufferObject(GLushort* data, GLsizei count);
-
+            IndexedVertexBufferObject(GLuint* data, GLsizei count);
+            ~IndexedVertexBufferObject();
             void bind() const;
             void unbind() const;
 

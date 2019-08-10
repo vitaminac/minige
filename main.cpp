@@ -91,6 +91,7 @@ void test_file_utils() {
 
 int main()
 {
+    // test
     test_vector();
     test_mesh();
     test_mat4();
@@ -103,14 +104,12 @@ int main()
 
     const float content_width = 16;
     const float content_height = 9;
-    mat4 ortho = mat4::orthographic(vec3(0.0f, 0.0f, -1.0f), vec3(content_width, content_height, 1.0f));
 
-    Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
-    shader.enable();
+    Shader* s = new Shader("src/shaders/basic.vert", "src/shaders/basic.frag");
+    Shader& shader = *s;
+    shader.enable(); // TODO : delete?
 
-    shader.setUniformMat4("projection_matrix", ortho);
-
-    std::vector<Renderable2D*> sprites;
+    TileLayer layer(&shader, content_width, content_height);
 
     srand(time(NULL));
 
@@ -118,16 +117,9 @@ int main()
     {
         for (float x = 0; x < 16.0f; x += 0.05)
         {
-            sprites.push_back(new Sprite(x, y, 0.04f, 0.04f, vec4(rand() % 1000 / 1000.0f, 0, 1, 1)));
+            layer.add(new Sprite(x, y, 0.04f, 0.04f, vec4(rand() % 1000 / 1000.0f, 0, 1, 1)));
         }
     }
-
-    Sprite sprite1(5, 5, 4, 4, vec4(1, 0, 1, 1));
-    Sprite sprite2(7, 1, 2, 3, vec4(0.2f, 0, 1, 1));
-
-    BatchRenderer2D renderer;
-
-    printf("Sprites: %d\n", sprites.size());
 
     Timer timer;
     unsigned int frames = 0;
@@ -136,20 +128,8 @@ int main()
 
         const Position& p = window.getMousePosition();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
-        mat4 mat = mat4::translation(vec3(5, 5, 5));
-        mat = mat * mat4::rotation(vec3(0, 0, 1), timer.elapsed() * 360);
-        mat = mat * mat4::translation(vec3(-5, -5, -5));
-        shader.setUniformMat4("model_matrix", mat);
 
-        renderer.begin();
-        for (int i = 0; i < sprites.size(); i++)
-        {
-            renderer.submit(sprites[i]);
-        }
-        renderer.end();
-
-        renderer.flush();
-
+        layer.render();
         window.update();
         frames++;
         if (timer.elapsed() > 1) {

@@ -8,3 +8,5 @@
 #include "simple2drenderer.h"
 #include "batchRenderer2D.h"
 #include "sprite.h"
+#include "layers/layer.h"
+#include "layers/tilelayer.h"

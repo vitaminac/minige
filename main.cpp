@@ -129,10 +129,17 @@ int main()
 
     printf("Sprites: %d\n", sprites.size());
 
+    Timer timer;
+    unsigned int frames = 0;
     while (!window.closed()) {
         window.clear();
+
         const Position& p = window.getMousePosition();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
+        mat4 mat = mat4::translation(vec3(5, 5, 5));
+        mat = mat * mat4::rotation(vec3(0, 0, 1), timer.elapsed() * 360);
+        mat = mat * mat4::translation(vec3(-5, -5, -5));
+        shader.setUniformMat4("model_matrix", mat);
 
         renderer.begin();
         for (int i = 0; i < sprites.size(); i++)
@@ -144,6 +151,12 @@ int main()
         renderer.flush();
 
         window.update();
+        frames++;
+        if (timer.elapsed() > 1) {
+            printf("fps: %d\n", frames);
+            frames = 0;
+            timer.reset();
+        }
     }
     return 0;
 }

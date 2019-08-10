@@ -64,6 +64,9 @@ namespace gengine {
             glfwSetMouseButtonCallback(this->window, onMouseButtonClick);
             glfwSetKeyCallback(this->window, onKeyPress);
 
+            // turn off vsync
+            glfwSwapInterval(0.0);
+
             std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
 
             /* Be sure we do the glew initialization after we have made the context  */

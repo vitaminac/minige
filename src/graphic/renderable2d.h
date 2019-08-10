@@ -12,7 +12,7 @@ namespace gengine {
         struct VertexData
         {
             vec3 vertex;
-            vec4 color;
+            unsigned int color;
         };
 
         class Renderable2D

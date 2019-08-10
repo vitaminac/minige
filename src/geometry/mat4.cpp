@@ -100,7 +100,7 @@ namespace gengine {
 
             mat4.elements[0 + 3 * 4] = -(max_corner.x + min_corner.x) / (max_corner.x - min_corner.x);
             mat4.elements[1 + 3 * 4] = -(max_corner.y + min_corner.y) / (max_corner.y - min_corner.y);
-            mat4.elements[2 + 3 * 4] = (max_corner.z + min_corner.z) / (max_corner.z - min_corner.z);
+            mat4.elements[2 + 3 * 4] = -(max_corner.z + min_corner.z) / (max_corner.z - min_corner.z);
 
             mat4.elements[3 + 3 * 4] = 1.0f;
             return mat4;

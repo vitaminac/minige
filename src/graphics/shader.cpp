@@ -114,7 +114,7 @@ namespace gengine {
 
         void Shader::setUniformMat4(const GLchar* name, const mat4& matrix) const
         {
-            glUniformMatrix4fv(this->getUniformLocation(name), 1, false, matrix.elements);
+            glUniformMatrix4fv(this->getUniformLocation(name), 1, GL_FALSE, matrix.elements);
         }
     }
 }

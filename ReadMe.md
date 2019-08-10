@@ -12,10 +12,10 @@
 
 ## Books
 
-* [3D Math Primer for Graphics and Game Develpment](doc/3D-Math-Primer-for-Graphics-and-Game-Develpment.pdf)
-* [Real Time Rendering](doc/Real-Time-Rendering.pdf)
-* [Mathematics for 3D Game Programming](doc/Mathematics-for-3D-Game-Programming.pdf)
-* [Fundamentals of Computer Graphics](doc/Fundamentals-of-Computer-Graphics.pdf)
+* 3D Math Primer for Graphics and Game Develpment
+* Real Time Rendering
+* Mathematics for 3D Game Programming
+* Fundamentals of Computer Graphics
 
 ## Projects
 
@@ -42,6 +42,7 @@
 ## Videos
 
 * [Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+* [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
 
 ## Institute
 

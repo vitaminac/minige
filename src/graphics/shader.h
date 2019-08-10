@@ -6,7 +6,7 @@
 namespace gengine {
     using namespace geometry;
 
-    namespace graphic {
+    namespace graphics {
         class Shader {
         private:
             GLuint shaderID;

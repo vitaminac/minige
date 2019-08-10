@@ -3,7 +3,7 @@
 #include "window.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         static void onWindowResize(GLFWwindow* window, int width, int height)
         {

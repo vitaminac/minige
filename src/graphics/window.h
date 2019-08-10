@@ -7,7 +7,7 @@
 #define MAX_BUTTONS	32
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         class Window {
         private:
             const char* title;

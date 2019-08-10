@@ -5,7 +5,7 @@
 #include "static_sprite.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         class Simple2DRenderer : public Renderer2D
         {

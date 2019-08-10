@@ -6,7 +6,7 @@
 #include "test.h"
 
 using namespace gengine;
-using namespace graphic;
+using namespace graphics;
 using namespace geometry;
 
 void test_vector() {

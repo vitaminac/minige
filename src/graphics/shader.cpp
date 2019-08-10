@@ -4,7 +4,7 @@
 #include <iostream>
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         GLuint Shader::load()
         {
             auto program = glCreateProgram();
@@ -62,7 +62,7 @@ namespace gengine {
             return program;
         }
 
-        gengine::graphic::Shader::Shader(const char* vertexPath, const char* fragmentPath) : vertexPath(vertexPath), fragmentPath(fragmentPath)
+        Shader::Shader(const char* vertexPath, const char* fragmentPath) : vertexPath(vertexPath), fragmentPath(fragmentPath)
         {
             this->shaderID = this->load();
         }

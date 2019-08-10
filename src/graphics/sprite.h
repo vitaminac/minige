@@ -2,7 +2,7 @@
 #include "renderable2d.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         class Sprite : public Renderable2D
         {
         private:

@@ -1,7 +1,7 @@
 #include "BatchRenderer2D.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         BatchRenderer2D::BatchRenderer2D()
         {
             init();

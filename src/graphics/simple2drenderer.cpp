@@ -1,7 +1,7 @@
 #include "simple2drenderer.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         void Simple2DRenderer::submit(const Renderable2D* renderable)
         {

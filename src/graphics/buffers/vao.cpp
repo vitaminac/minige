@@ -1,7 +1,7 @@
 #include "vao.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         VertexArrayObject::VertexArrayObject()
         {

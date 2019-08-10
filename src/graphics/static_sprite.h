@@ -3,7 +3,7 @@
 #include "renderable2d.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         class StaticSprite : public Renderable2D
         {

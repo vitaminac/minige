@@ -8,7 +8,7 @@
 #include "shader.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         struct VertexData
         {
             vec3 vertex;

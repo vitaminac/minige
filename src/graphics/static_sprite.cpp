@@ -1,7 +1,7 @@
 #include "static_sprite.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
 
         StaticSprite::StaticSprite(float x, float y, float width, float height, const vec4& color, Shader& shader)
             : Renderable2D(vec3(x, y, 0), vec2(width, height), color), shader(shader)

@@ -1,7 +1,7 @@
 #include "vbo.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         // TODO: what is difference of count and componentCount
         VertexBufferObject::VertexBufferObject(GLfloat* data, GLsizei count, GLuint componentCount) : component_count(componentCount)
         {

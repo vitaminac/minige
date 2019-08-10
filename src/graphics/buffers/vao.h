@@ -5,7 +5,7 @@
 #include "./vbo.h"
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         /**
         VAOs do store which buffer objects are associated with which attributes
 

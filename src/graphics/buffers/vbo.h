@@ -2,7 +2,7 @@
 #include <GL/glew.h>
 
 namespace gengine {
-    namespace graphic {
+    namespace graphics {
         class VertexBufferObject
         {
         private:

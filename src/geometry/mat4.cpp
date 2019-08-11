@@ -17,6 +17,25 @@ namespace gengine {
             return matrix;
         }
 
+        vec3 operator*(const mat4& left, const vec3& right)
+        {
+            return vec3(
+                left.columns[0].x * right.x + left.columns[1].x * right.y + left.columns[2].x * right.z,
+                left.columns[0].y * right.x + left.columns[1].y * right.y + left.columns[2].y * right.z,
+                left.columns[0].z * right.x + left.columns[1].z * right.y + left.columns[2].z * right.z
+            );
+        }
+
+        vec4 operator*(const mat4& left, const vec4& right)
+        {
+            return vec4(
+                left.columns[0].x * right.x + left.columns[1].x * right.y + left.columns[2].x * right.z + left.columns[3].x * right.w,
+                left.columns[0].y * right.x + left.columns[1].y * right.y + left.columns[2].y * right.z + left.columns[3].y * right.w,
+                left.columns[0].z * right.x + left.columns[1].z * right.y + left.columns[2].z * right.z + left.columns[3].z * right.w,
+                left.columns[0].w * right.x + left.columns[1].w * right.y + left.columns[2].w * right.z + left.columns[3].w * right.w
+            );
+        }
+
         const vec4& mat4::operator[](const int index) const
         {
             return this->columns[index];

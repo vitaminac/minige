@@ -68,19 +68,20 @@ namespace gengine {
 
             unsigned int c = a << 24 | b << 16 | g << 8 | r;
 
-            buffer->vertex = position;
+            // TODO: why we do the multiplication here and why not submitting as a model matrix
+            buffer->vertex = *accumulated_transformation * position;
             buffer->color = c;
             buffer++;
 
-            buffer->vertex = vec3(position.x, position.y + size.y, position.z);
+            buffer->vertex = *accumulated_transformation * vec3(position.x, position.y + size.y, position.z);
             buffer->color = c;
             buffer++;
 
-            buffer->vertex = vec3(position.x + size.x, position.y + size.y, position.z);
+            buffer->vertex = *accumulated_transformation * vec3(position.x + size.x, position.y + size.y, position.z);
             buffer->color = c;
             buffer++;
 
-            buffer->vertex = vec3(position.x + size.x, position.y, position.z);
+            buffer->vertex = *accumulated_transformation * vec3(position.x + size.x, position.y, position.z);
             buffer->color = c;
             buffer++;
 

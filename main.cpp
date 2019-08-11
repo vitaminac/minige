@@ -106,11 +106,12 @@ int main()
     const float content_height = 9;
 
     Shader* s = new Shader("src/shaders/basic.vert", "src/shaders/basic.frag");
+    Shader* s2 = new Shader("src/shaders/basic.vert", "src/shaders/basic.frag");
     Shader& shader = *s;
+    Shader& shader2 = *s2;
+
+    TileLayer layer(s, content_width, content_height);
     shader.enable(); // TODO : delete?
-
-    TileLayer layer(&shader, content_width, content_height);
-
     srand(time(NULL));
 
     for (float y = 0; y < 9.0f; y += 0.05)
@@ -121,15 +122,25 @@ int main()
         }
     }
 
+    TileLayer panel(s2, content_width, content_height);
+    Sprite* button = new Sprite(0.0f, 5.0f, 6, 3, geometry::vec4(1, 0, 1, 1));
+    panel.add(button);
+
+    auto initial_position = vec2(4.0f, 5.0f);
+    shader2.enable();
+    shader2.setUniformVector2("light_position", initial_position);
+
     Timer timer;
     unsigned int frames = 0;
     while (!window.closed()) {
         window.clear();
 
-        const Position& p = window.getMousePosition();
+        auto& p = window.getMousePosition();
+        shader.enable();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
-
         layer.render();
+
+        panel.render();
         window.update();
         frames++;
         if (timer.elapsed() > 1) {

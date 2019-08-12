@@ -10,3 +10,4 @@
 #include "sprite.h"
 #include "layers/layer.h"
 #include "layers/tilelayer.h"
+#include "layers/group.h"

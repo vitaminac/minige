@@ -179,6 +179,7 @@
     <ClCompile Include="src\graphics\batchRenderer2D.cpp" />
     <ClCompile Include="src\graphics\buffers\vbo.cpp" />
     <ClCompile Include="src\graphics\buffers\vao.cpp" />
+    <ClCompile Include="src\graphics\layers\group.cpp" />
     <ClCompile Include="src\graphics\layers\layer.cpp" />
     <ClCompile Include="src\graphics\layers\tilelayer.cpp" />
     <ClCompile Include="src\graphics\shader.cpp" />
@@ -198,6 +199,7 @@
     <ClInclude Include="src\graphics\batchRenderer2D.h" />
     <ClInclude Include="src\graphics\buffers\vbo.h" />
     <ClInclude Include="src\graphics\buffers\vao.h" />
+    <ClInclude Include="src\graphics\layers\group.h" />
     <ClInclude Include="src\graphics\layers\layer.h" />
     <ClInclude Include="src\graphics\layers\tilelayer.h" />
     <ClInclude Include="src\graphics\renderable2d.h" />

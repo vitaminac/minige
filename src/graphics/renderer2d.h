@@ -1,11 +1,13 @@
 #pragma once
 
+#include <vector>
 #include <GL/glew.h>
-#include "../geometry/geometry.h"
-#include "renderable2d.h"
+#include "geometry/geometry.h"
 
 namespace gengine {
     namespace graphics {
+
+        class Renderable2D; // forward declaration
 
         class Renderer2D
         {

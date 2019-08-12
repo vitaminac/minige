@@ -47,5 +47,7 @@ namespace gengine {
 			out << "vec2: (" << vector.x << ", " << vector.y << ")";
 			return out;
 		}
+
+        const vec2 vec2::ZERO = vec2(0, 0);
 	}
 }

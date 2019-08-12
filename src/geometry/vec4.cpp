@@ -63,5 +63,7 @@ namespace gengine {
         {
             return	(this->x * vector.x) + (this->y * vector.y) + (this->z * vector.z) + (this->w * vector.w);
         }
+
+        const vec4 vec4::ZERO = vec4(0, 0, 0, 0);
     }
 }

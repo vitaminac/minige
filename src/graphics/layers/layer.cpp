@@ -29,7 +29,7 @@ namespace gengine {
             this->shader->enable();
             this->renderer->begin();
             for (const Renderable2D* renderable : this->renderables)
-                this->renderer->submit(renderable);
+                renderable->submit(this->renderer);
             this->renderer->end();
             this->renderer->flush();
         }

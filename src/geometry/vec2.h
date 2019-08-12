@@ -19,6 +19,8 @@ namespace gengine {
             friend vec2 operator/(const vec2& left, const vec2& right);
             friend bool operator==(const vec2& left, const vec2& right);
             friend ostream& operator<<(ostream& out, const vec2& vector);
+
+            static const vec2 ZERO;
         };
     }
 }

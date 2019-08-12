@@ -123,8 +123,13 @@ int main()
     }
 
     TileLayer panel(s2, content_width, content_height);
-    Sprite* button = new Sprite(0.0f, 5.0f, 6, 3, geometry::vec4(1, 0, 1, 1));
-    panel.add(button);
+    Group* group = new Group(mat4::translation(geometry::vec3(0.0f, 0.0f, 0.0f)));
+    group->add(new Sprite(0, 0, 5, 5, geometry::vec4(0, 0, 1, 1)));
+    Group* button = new Group(mat4::translation(vec3(5.0f, 5.0f, 0.0f)));
+    button->add(new Sprite(0, 0, 2.5f, 2.0f, geometry::vec4(1, 0, 0, 1)));
+    button->add(new Sprite(2.5, 0, 2.5f, 2.0f, geometry::vec4(0, 1, 0, 1)));
+    group->add(button);
+    panel.add(group);
 
     auto initial_position = vec2(4.0f, 5.0f);
     shader2.enable();

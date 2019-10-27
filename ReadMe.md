@@ -20,12 +20,18 @@
 ## Projects
 
 * [Sparky](https://github.com/TheCherno/Sparky)
-* [libgdx](https://github.com/libgdx/libgdx)
-* [hge](https://github.com/kvakvs/hge)
-* [Godot](https://github.com/godotengine/godot)
+* [ogre](https://github.com/OGRECave/ogre)
+* [KlayGE](https://github.com/gongminmin/KlayGE)
+* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
+* [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
 * [Unreal](https://github.com/EpicGames/UnrealEngine)
+* [libgdx](https://github.com/libgdx/libgdx)
+* [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
+* [hge](https://github.com/kvakvs/hge)
+* [Godot](https://github.com/godotengine/godot)
 * [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
+* [irrlicht](https://github.com/zaki/irrlicht)
 
 ### Game Server
 

@@ -25,6 +25,7 @@
 * [Godot](https://github.com/godotengine/godot)
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
 * [Unreal](https://github.com/EpicGames/UnrealEngine)
+* [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
 
 ### Game Server
 

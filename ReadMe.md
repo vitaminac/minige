@@ -32,6 +32,7 @@
 * [Godot](https://github.com/godotengine/godot)
 * [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
 * [irrlicht](https://github.com/zaki/irrlicht)
+* [Quake 3 Arena](https://github.com/id-Software/Quake-III-Arena)
 
 ### Game Server
 

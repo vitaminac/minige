@@ -19,6 +19,8 @@
 
 ## Projects
 
+### Game Engine
+
 * [Sparky](https://github.com/TheCherno/Sparky)
 * [ogre](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
@@ -32,7 +34,14 @@
 * [Godot](https://github.com/godotengine/godot)
 * [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
 * [irrlicht](https://github.com/zaki/irrlicht)
-* [Quake 3 Arena](https://github.com/id-Software/Quake-III-Arena)
+* [Torque3D](https://github.com/GarageGames/Torque3D)
+
+### Physicas Engine
+
+* [PhysX SDK](https://developer.nvidia.com/physx-sdk)
+* [Box2D](https://github.com/erincatto/Box2D)
+* [bullet3](https://github.com/bulletphysics/bullet3)
+* [liquidfun](https://github.com/google/liquidfun)
 
 ### Game Server
 
@@ -40,8 +49,23 @@
 * [KBEngine](https://github.com/kbengine/kbengine)
 * [Skynet](https://github.com/cloudwu/skynet)
 * [Photon](https://www.photonengine.com/)
+* [orleans](https://github.com/dotnet/Orleans)
+* [orbit](https://github.com/orbit/orbit)
+* [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 
-## Libraries
+### Game
+
+* [id-Software](https://github.com/id-Software)
+* [0ad](https://github.com/0ad/0ad)
+* [wesnoth](https://github.com/wesnoth/wesnoth)
+* [A list of popular/awesome videos games](https://github.com/leereilly/games)
+
+### Ohter
+
+* [EASTL](https://github.com/electronicarts/EASTL)
+* [behaviac](https://github.com/Tencent/behaviac)
+
+### Libraries
 
 * [glm](https://github.com/g-truc/glm)
 * [glew](https://github.com/nigels-com/glew)

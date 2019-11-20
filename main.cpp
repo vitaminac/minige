@@ -92,7 +92,7 @@ void test_file_utils() {
 }
 
 void test_free_image() {
-    const char* filename = "opengl.png";
+    const char* filename = "test.png";
 
     //image format
     FREE_IMAGE_FORMAT fif = FIF_UNKNOWN;

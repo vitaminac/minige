@@ -23,7 +23,6 @@
 
 ### Game Engine
 
-* [Sparky](https://github.com/TheCherno/Sparky)
 * [ogre](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
 * [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
@@ -75,7 +74,8 @@
 
 ## Videos
 
-* [Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+* [Cherno: Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+* [Cherno: Game Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
 * [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
 
 ## Institute

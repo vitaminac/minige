@@ -9,6 +9,8 @@
 
 * [Learn OpenGL](https://learnopengl.com/)
 * [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+* [OPENGL – Introduction](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL2.pdf)
+* [OPENGL – USING SHADERS](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL3.pdf)
 
 ## Books
 

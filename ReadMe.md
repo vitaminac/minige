@@ -73,6 +73,7 @@
 * [glm](https://github.com/g-truc/glm)
 * [glew](https://github.com/nigels-com/glew)
 * [glfw](https://github.com/glfw/glfw)
+* [FreeImage](http://freeimage.sourceforge.net)
 
 ## Videos
 

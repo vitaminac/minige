@@ -19,7 +19,7 @@ namespace gengine {
 
         void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index)
         {
-            bind();
+            this->bind();
             buffer->bind();
 
             // Enables the generic vertex attribute specified by index for use in drawing
@@ -46,8 +46,7 @@ namespace gengine {
 
         void VertexArrayObject::bind() const
         {
-            // Bind VAO
-            // Enables all of the arrays store in the VAO, turns them on
+            // Enables all of the arrays store in the VAO
             glBindVertexArray(vao_id);
         }
 

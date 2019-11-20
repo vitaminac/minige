@@ -7,15 +7,19 @@ namespace gengine {
     namespace graphics {
         GLuint Shader::load()
         {
+            // generate a program object
             auto program = glCreateProgram();
+
+            // generate vertex and fragment shader
             auto vertex = glCreateShader(GL_VERTEX_SHADER);
             auto fragment = glCreateShader(GL_FRAGMENT_SHADER);
 
+            // load and compile shader
             std::string vertSourceString = FileUtils::read_file(this->vertexPath);
             std::string fragSourceString = FileUtils::read_file(this->fragmentPath);
 
-            const char* vertexSource = vertSourceString.c_str();
-            const char* fragmentSource = fragSourceString.c_str();
+            auto vertexSource = vertSourceString.c_str();
+            auto fragmentSource = fragSourceString.c_str();
 
             GLint result;
 
@@ -51,8 +55,11 @@ namespace gengine {
                 throw ss.str();
             }
 
+            // attach both shaders to program object
             glAttachShader(program, vertex);
             glAttachShader(program, fragment);
+
+            // ¨C link the shaders to the right programmable processor
             glLinkProgram(program);
             glValidateProgram(program);
 

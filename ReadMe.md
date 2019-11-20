@@ -18,6 +18,8 @@
 * Real Time Rendering
 * Mathematics for 3D Game Programming
 * Fundamentals of Computer Graphics
+* [Physically Based Rendering:From Theory To Implementation](http://www.pbr-book.org/)
+* Game Coding Complete
 
 ## Projects
 

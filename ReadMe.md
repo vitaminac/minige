@@ -1,16 +1,12 @@
 # Reference
 
-## Manual
-
-* [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
-* [VR](https://developers.google.com/vr/)
-
 ## Tutorial
 
 * [Learn OpenGL](https://learnopengl.com/)
 * [OpenGL Tutorial](http://www.opengl-tutorial.org/)
 * [OPENGL – Introduction](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL2.pdf)
 * [OPENGL – USING SHADERS](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL3.pdf)
+* [VR](https://developers.google.com/vr/)
 
 ## Books
 
@@ -18,8 +14,10 @@
 * Real Time Rendering
 * Mathematics for 3D Game Programming
 * Fundamentals of Computer Graphics
+* [Game Engine Architecture](https://www.gameenginebook.com/)
 * [Physically Based Rendering:From Theory To Implementation](http://www.pbr-book.org/)
 * Game Coding Complete
+* [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 
 ## Projects
 

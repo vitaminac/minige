@@ -186,6 +186,7 @@
     <ClCompile Include="src\graphics\simple2drenderer.cpp" />
     <ClCompile Include="src\graphics\sprite.cpp" />
     <ClCompile Include="src\graphics\static_sprite.cpp" />
+    <ClCompile Include="src\graphics\texture.cpp" />
     <ClCompile Include="src\graphics\window.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\utils\fileutils.cpp" />
@@ -208,7 +209,9 @@
     <ClInclude Include="src\graphics\simple2drenderer.h" />
     <ClInclude Include="src\graphics\sprite.h" />
     <ClInclude Include="src\graphics\static_sprite.h" />
+    <ClInclude Include="src\graphics\texture.h" />
     <ClInclude Include="src\utils\fileutils.h" />
+    <ClInclude Include="src\utils\imageload.h" />
     <ClInclude Include="src\utils\timer.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="src\geometry\vec2.h" />

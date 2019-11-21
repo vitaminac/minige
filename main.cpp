@@ -131,6 +131,7 @@ void test_free_image() {
     //retrieve the image data
     bits = FreeImage_GetBits(dib);
     unsigned int bitsPerPixel = FreeImage_GetBPP(dib);
+    unsigned int bytesPerPixel = bitsPerPixel / 8;
     unsigned int pitch = FreeImage_GetPitch(dib);
 
     //get the image width and height
@@ -141,16 +142,14 @@ void test_free_image() {
     if ((bits == 0) || (width == 0) || (height == 0))
         throw "load image extras data failed";
 
-    for (int y = height; y > 0; y--)
+    for (int y = height - 1; y >= 0; y--)
     {
-        BYTE* pixel = (BYTE*)bits;
+        BYTE* pixel = ((BYTE*)bits) + y * pitch;
         for (int x = 0; x < width; x++)
         {
-            std::cout << +pixel[FI_RGBA_RED] << " " << +pixel[FI_RGBA_GREEN] << " " << +pixel[FI_RGBA_BLUE] << std::endl;
-            pixel += 3;
+            std::cout << +pixel[FI_RGBA_RED] << " " << + pixel[FI_RGBA_GREEN] << " " << + pixel[FI_RGBA_BLUE] << std::endl;
+            pixel += bytesPerPixel;
         }
-        // next line
-        bits += pitch;
     }
     FreeImage_Unload(dib);
 }
@@ -168,6 +167,7 @@ int main()
     const int window_height = 540;
     Window window("Game Engine", window_width, window_height);
     window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
+    window.drawBackgroud();
 
     const float content_width = 16;
     const float content_height = 9;
@@ -198,6 +198,15 @@ int main()
     group->add(button);
     panel.add(group);
 
+    // select active texture unit
+    glActiveTexture(GL_TEXTURE1);
+    Texture texture("test.png");
+    texture.bind();
+
+    shader.enable();
+    shader.setUniformInteger("tex", 1);
+    shader.disable();
+
     auto initial_position = vec2(4.0f, 5.0f);
     shader2.enable();
     shader2.setUniformVector2("light_position", initial_position);
@@ -206,7 +215,6 @@ int main()
     unsigned int frames = 0;
     while (!window.closed()) {
         window.clear();
-
         auto& p = window.getMousePosition();
         shader.enable();
         shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));

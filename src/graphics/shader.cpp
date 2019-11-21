@@ -96,7 +96,7 @@ namespace gengine {
 
         void Shader::setUniformInteger(const GLchar* name, const int value) const
         {
-            glUniform1d(this->getUniformLocation(name), value);
+            glUniform1i(this->getUniformLocation(name), value);
         }
 
         void Shader::setUniformFloat(const GLchar* name, const float value) const

@@ -121,7 +121,11 @@ namespace gengine {
 
         void Window::setBackgroundColor(float red, float green, float blue, float alpha)
         {
-            glClearColor(red, green, blue, alpha);
+            this->backgroud = vec4(red, green, blue, alpha);
+        }
+        void Window::drawBackgroud()
+        {
+            glClearColor(this->backgroud.x, this->backgroud.y, this->backgroud.z, this->backgroud.w);
         }
     }
 }

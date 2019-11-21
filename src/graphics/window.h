@@ -2,9 +2,12 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include "common.h"
+#include "geometry/vec4.h"
 
 #define MAX_KEYS	1024
 #define MAX_BUTTONS	32
+
+using namespace gengine::geometry;
 
 namespace gengine {
     namespace graphics {
@@ -16,6 +19,7 @@ namespace gengine {
             bool keys[MAX_KEYS];
             bool buttons[MAX_BUTTONS];
             GLFWwindow* window = NULL;
+            vec4 backgroud;
 
             friend static void onCursorPositionChange(GLFWwindow* window, double x, double y);
             friend static void onWindowResize(GLFWwindow* window, int width, int height);
@@ -29,6 +33,7 @@ namespace gengine {
             bool closed() const;
             void clear() const;
             void setBackgroundColor(float red, float green, float blue, float alpha);
+            void drawBackgroud();
 
             inline int getWidth() const { return this->width; }
 

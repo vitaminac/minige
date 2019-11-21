@@ -5,28 +5,28 @@ namespace gengine {
     class Timer
     {
     private:
-        LARGE_INTEGER m_Start;
-        double m_Frequency;
+        LARGE_INTEGER start;
+        double frequency;
     public:
         Timer()
         {
-            LARGE_INTEGER frequency;
-            QueryPerformanceFrequency(&frequency);
-            m_Frequency = 1.0 / frequency.QuadPart;
-            QueryPerformanceCounter(&m_Start);
+            LARGE_INTEGER fq;
+            QueryPerformanceFrequency(&fq);
+            frequency = 1.0 / fq.QuadPart;
+            QueryPerformanceCounter(&start);
         }
 
         void reset()
         {
-            QueryPerformanceCounter(&m_Start);
+            QueryPerformanceCounter(&start);
         }
 
         float elapsed()
         {
             LARGE_INTEGER current;
             QueryPerformanceCounter(&current);
-            uint64_t cycles = current.QuadPart - m_Start.QuadPart;
-            return (float)(cycles * m_Frequency);
+            uint64_t cycles = current.QuadPart - start.QuadPart;
+            return (float)(cycles * frequency);
         }
     };
 }

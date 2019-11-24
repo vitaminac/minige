@@ -86,6 +86,6 @@
 * [腾讯游戏学院](https://gameinstitute.qq.com/)
 * [网易游戏学院](http://game.academy.163.com/)
 
-## Practise
+## Practice
 
 * [Game Jams](https://itch.io/jams)

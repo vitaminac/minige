@@ -36,6 +36,7 @@
 * [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
 * [irrlicht](https://github.com/zaki/irrlicht)
 * [Torque3D](https://github.com/GarageGames/Torque3D)
+* [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 
 ### Physicas Engine
 
@@ -62,7 +63,7 @@
 * [wesnoth](https://github.com/wesnoth/wesnoth)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 
-### Ohter
+### Other
 
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)

@@ -15,17 +15,21 @@
 * Mathematics for 3D Game Programming
 * Fundamentals of Computer Graphics
 * [Game Engine Architecture](https://www.gameenginebook.com/)
-* [Physically Based Rendering:From Theory To Implementation](http://www.pbr-book.org/)
+* [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
 * Game Coding Complete
 * [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 
 ## Projects
 
+### Rendering
+
+* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
+* [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
+
 ### Game Engine
 
 * [ogre](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
-* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
 * [Unreal](https://github.com/EpicGames/UnrealEngine)
@@ -61,6 +65,7 @@
 * [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
 * [wesnoth](https://github.com/wesnoth/wesnoth)
+* [OpenRA](https://github.com/OpenRA/OpenRA)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 
 ### Other
@@ -73,13 +78,14 @@
 * [glm](https://github.com/g-truc/glm)
 * [glew](https://github.com/nigels-com/glew)
 * [glfw](https://github.com/glfw/glfw)
+* [glut](https://www.opengl.org/resources/libraries/glut/)
 * [FreeImage](http://freeimage.sourceforge.net)
 
 ## Videos
 
-* [Cherno: Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
-* [Cherno: Game Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
-* [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+- [ ] [Cherno: Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+- [ ] [Cherno: Game Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
+- [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
 
 ## Institute
 

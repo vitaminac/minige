@@ -92,9 +92,9 @@ namespace gengine {
 
             mat4.elements[0 + 1 * 4] = y * x * omcosine - z * sine;
             mat4.elements[1 + 1 * 4] = y * y * omcosine + cosine;
-            mat4.elements[2 + 1 * 4] = y * z * omcosine + y * sine;
+            mat4.elements[2 + 1 * 4] = y * z * omcosine + x * sine;
 
-            mat4.elements[0 + 2 * 4] = z * x * omcosine + z * sine;
+            mat4.elements[0 + 2 * 4] = z * x * omcosine + y * sine;
             mat4.elements[1 + 2 * 4] = z * y * omcosine - x * sine;
             mat4.elements[2 + 2 * 4] = z * z * omcosine + cosine;
 

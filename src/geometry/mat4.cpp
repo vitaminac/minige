@@ -125,7 +125,7 @@ namespace gengine {
             return mat4;
         }
 
-        mat4 mat4::perspective(float fov, float aspectRatio, float near, float far)
+        mat4 mat4::perspective(const float fov, const float aspectRatio, const float near, const float far)
         {
             mat4 mat4 = mat4::zero();
 

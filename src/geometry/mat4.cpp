@@ -140,7 +140,7 @@ namespace gengine {
             return mat4;
         }
 
-        mat4 mat4::frustum(const float left, const float right, const float bottom, const float top, const float near, const float far)
+        mat4 mat4::perspective_frustum(const float left, const float right, const float bottom, const float top, const float near, const float far)
         {
             mat4 mat4 = mat4::zero();
 

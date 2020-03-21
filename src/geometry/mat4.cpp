@@ -110,18 +110,18 @@ namespace gengine {
             return mat4;
         }
 
-        mat4 mat4::orthographic(const vec3& min_corner, const vec3& max_corner)
+        mat4 mat4::orthographic(const float left, const float right, const float bottom, const float top, const float near, const float far)
         {
-            auto mat4 = mat4::zero();
-            mat4.elements[0 + 0 * 4] = 2.0f / (max_corner.x - min_corner.x);
-            mat4.elements[1 + 1 * 4] = 2.0f / (max_corner.y - min_corner.y);
-            mat4.elements[2 + 2 * 4] = -2.0f / (max_corner.z - min_corner.z);
+            auto mat4 = mat4::identity();
 
-            mat4.elements[0 + 3 * 4] = -(max_corner.x + min_corner.x) / (max_corner.x - min_corner.x);
-            mat4.elements[1 + 3 * 4] = -(max_corner.y + min_corner.y) / (max_corner.y - min_corner.y);
-            mat4.elements[2 + 3 * 4] = -(max_corner.z + min_corner.z) / (max_corner.z - min_corner.z);
+            mat4.elements[0 + 0 * 4] = 2.0f / (right - left);
+            mat4.elements[1 + 1 * 4] = 2.0f / (top - bottom);
+            mat4.elements[2 + 2 * 4] = 2.0f / (near - far);
 
-            mat4.elements[3 + 3 * 4] = 1.0f;
+            mat4.elements[0 + 3 * 4] = (left + right) / (left - right);
+            mat4.elements[1 + 3 * 4] = (bottom + top) / (bottom - top);
+            mat4.elements[2 + 3 * 4] = (near + far) / (near - far);
+            
             return mat4;
         }
 
@@ -133,6 +133,21 @@ namespace gengine {
 
             mat4.elements[0 + 0 * 4] = e / aspectRatio;
             mat4.elements[1 + 1 * 4] = e;
+            mat4.elements[2 + 2 * 4] = (near + far) / (near - far);
+            mat4.elements[2 + 3 * 4] = -1.0f;
+            mat4.elements[3 + 2 * 4] = (2.0f * near * far) / (near - far);
+
+            return mat4;
+        }
+
+        mat4 mat4::frustum(const float left, const float right, const float bottom, const float top, const float near, const float far)
+        {
+            mat4 mat4 = mat4::zero();
+
+            mat4.elements[0 + 0 * 4] = 2 * near / (right - left);
+            mat4.elements[1 + 1 * 4] = 2 * near / (top - bottom);
+            mat4.elements[2 + 0 * 4] = (right + left) / (right - left);
+            mat4.elements[2 + 1 * 4] = (top + bottom) / (top - bottom);
             mat4.elements[2 + 2 * 4] = (near + far) / (near - far);
             mat4.elements[2 + 3 * 4] = -1.0f;
             mat4.elements[3 + 2 * 4] = (2.0f * near * far) / (near - far);

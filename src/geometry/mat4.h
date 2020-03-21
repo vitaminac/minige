@@ -33,9 +33,11 @@ namespace gengine {
 
 			static mat4 scale(const vec3& k);
 
-			static mat4 orthographic(const vec3& min_corner, const vec3& max_corner);
+			static mat4 orthographic(const float left, const float right, const float bottom, const float top, const float near, const float far);
 
-			static mat4 perspective(float fov, float aspectRatio, float near, float far);
+			static mat4 perspective(const float fov, const float aspectRatio, const float near, const float far);
+
+			static mat4 frustum(const float left, const float right, const float bottom, const float top, const float near, const float far);
 		} mat4;
 	}
 }

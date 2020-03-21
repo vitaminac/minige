@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 
 16Triangles_out.off
+!*.vcxproj.user

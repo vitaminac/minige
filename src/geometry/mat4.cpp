@@ -127,19 +127,15 @@ namespace gengine {
 
         mat4 mat4::perspective(float fov, float aspectRatio, float near, float far)
         {
-            mat4 mat4 = mat4::identity();
+            mat4 mat4 = mat4::zero();
 
-            float q = 1.0f / tan(toRadians(0.5f * fov));
-            float a = q / aspectRatio;
+            float e = 1.0f / tan(toRadians(0.5f * fov));
 
-            float b = (near + far) / (near - far);
-            float c = (2.0f * near * far) / (near - far);
-
-            mat4.elements[0 + 0 * 4] = a;
-            mat4.elements[1 + 1 * 4] = q;
-            mat4.elements[2 + 2 * 4] = b;
+            mat4.elements[0 + 0 * 4] = e / aspectRatio;
+            mat4.elements[1 + 1 * 4] = e;
+            mat4.elements[2 + 2 * 4] = (near + far) / (near - far);
             mat4.elements[2 + 3 * 4] = -1.0f;
-            mat4.elements[3 + 2 * 4] = c;
+            mat4.elements[3 + 2 * 4] = (2.0f * near * far) / (near - far);
 
             return mat4;
         }

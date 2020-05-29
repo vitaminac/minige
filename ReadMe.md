@@ -6,6 +6,9 @@
 * [OpenGL Tutorial](http://www.opengl-tutorial.org/)
 * [OPENGL – Introduction](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL2.pdf)
 * [OPENGL – USING SHADERS](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL3.pdf)
+* [The Book of Shaders](https://thebookofshaders.com/)
+* [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
+* [OpenGL Step by Step](http://ogldev.atspace.co.uk/)
 * [Scratchapixel](https://www.scratchapixel.com/)
 * [VR](https://developers.google.com/vr/)
 
@@ -19,6 +22,11 @@
 * [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
 * Game Coding Complete
 * [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
+* Foundations of Game Engine Development
+
+## Courses
+
+- [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
 
 ## Projects
 
@@ -42,6 +50,7 @@
 * [irrlicht](https://github.com/zaki/irrlicht)
 * [Torque3D](https://github.com/GarageGames/Torque3D)
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
+* [minetest](https://github.com/minetest/minetest)
 
 ### Physicas Engine
 
@@ -68,16 +77,18 @@
 * [wesnoth](https://github.com/wesnoth/wesnoth)
 * [OpenRA](https://github.com/OpenRA/OpenRA)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
+* [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 
 ### Other
 
+* [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
 ### Libraries
 
+* [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
 * [glm](https://github.com/g-truc/glm)
-* [glew](https://github.com/nigels-com/glew)
 * [glfw](https://github.com/glfw/glfw)
 * [glut](https://www.opengl.org/resources/libraries/glut/)
 * [FreeImage](http://freeimage.sourceforge.net)

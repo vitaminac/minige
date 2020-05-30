@@ -85,9 +85,9 @@
 ### Libraries
 
 * [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
+* [OpenGL Utility Libraries](https://www.opengl.org/resources/libraries/)
 * [glm](https://github.com/g-truc/glm)
 * [glfw](https://github.com/glfw/glfw)
-* [glut](https://www.opengl.org/resources/libraries/glut/)
 * [FreeImage](http://freeimage.sourceforge.net)
 
 ## Videos

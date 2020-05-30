@@ -4,13 +4,14 @@
 
 * [Learn OpenGL](https://learnopengl.com/)
 * [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+* [Vulkan Tutorial](https://vulkan-tutorial.com/)
 * [OPENGL – Introduction](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL2.pdf)
 * [OPENGL – USING SHADERS](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL3.pdf)
 * [The Book of Shaders](https://thebookofshaders.com/)
 * [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [OpenGL Step by Step](http://ogldev.atspace.co.uk/)
 * [Scratchapixel](https://www.scratchapixel.com/)
-* [VR](https://developers.google.com/vr/)
+* [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
 
 ## Books
 
@@ -23,10 +24,6 @@
 * Game Coding Complete
 * [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 * Foundations of Game Engine Development
-
-## Courses
-
-- [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
 
 ## Projects
 
@@ -95,9 +92,13 @@
 
 ## Videos
 
-- [ ] [Cherno: Sparky Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
-- [ ] [Cherno: Game Engine](https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT)
-- [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+* [Cherno](https://www.youtube.com/user/TheChernoProject/playlists)
+* [thebennybox](https://www.youtube.com/user/thebennybox/playlists)
+
+## VR/AR
+
+* [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
+* [VR](https://developers.google.com/vr/)
 
 ## Institute
 

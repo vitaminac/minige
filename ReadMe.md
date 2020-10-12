@@ -27,34 +27,42 @@
 
 ## Projects
 
-### Rendering
+### Graphic Engine
 
+* [OGRE](https://github.com/OGRECave/ogre)
+* [KlayGE](https://github.com/gongminmin/KlayGE)
 * [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
+* [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
 
 ### Game Engine
 
-* [ogre](https://github.com/OGRECave/ogre)
-* [KlayGE](https://github.com/gongminmin/KlayGE)
+* [libgdx](https://github.com/libgdx/libgdx)
+* [Godot](https://github.com/godotengine/godot)
+* [minetest](https://github.com/minetest/minetest)
+
+#### 2D Game Engine
+
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+* [Solarus](https://gitlab.com/solarus-games/solarus)
+* [HGE](https://github.com/kvakvs/hge)
+
+#### 3D Game Engine
+
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
 * [Unreal](https://github.com/EpicGames/UnrealEngine)
-* [libgdx](https://github.com/libgdx/libgdx)
-* [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
-* [hge](https://github.com/kvakvs/hge)
-* [Godot](https://github.com/godotengine/godot)
 * [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
-* [irrlicht](https://github.com/zaki/irrlicht)
+* [Panda3D](https://github.com/panda3d/panda3d)
 * [Torque3D](https://github.com/GarageGames/Torque3D)
+* [Irrlicht](http://irrlicht.sourceforge.net/)
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
-* [minetest](https://github.com/minetest/minetest)
 
 ### Physicas Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)
 * [Box2D](https://github.com/erincatto/Box2D)
-* [bullet3](https://github.com/bulletphysics/bullet3)
-* [liquidfun](https://github.com/google/liquidfun)
+* [Bullet3](https://github.com/bulletphysics/bullet3)
+* [LiquidFun](https://github.com/google/liquidfun)
 
 ### Game Server
 
@@ -69,10 +77,12 @@
 
 ### Game
 
+* [Unity FPSSample](https://github.com/Unity-Technologies/FPSSample)
 * [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
-* [wesnoth](https://github.com/wesnoth/wesnoth)
 * [OpenRA](https://github.com/OpenRA/OpenRA)
+* [The Battle for Wesnoth](https://github.com/wesnoth/wesnoth)
+* [Endless Sky](http://endless-sky.github.io/)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 

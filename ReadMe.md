@@ -77,7 +77,6 @@
 
 ### Game
 
-* [Unity FPSSample](https://github.com/Unity-Technologies/FPSSample)
 * [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
 * [OpenRA](https://github.com/OpenRA/OpenRA)

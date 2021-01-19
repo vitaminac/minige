@@ -51,7 +51,8 @@
 
 * [Unity](https://github.com/Unity-Technologies/UnityCsReference)
 * [Unreal](https://github.com/EpicGames/UnrealEngine)
-* [CRYENGINE](https://github.com/CRYTEK/CRYENGINE)
+* [CryEngine](https://github.com/CRYTEK/CRYENGINE)
+* [Amazon Lumberyard](https://github.com/aws/lumberyard)
 * [Panda3D](https://github.com/panda3d/panda3d)
 * [Torque3D](https://github.com/GarageGames/Torque3D)
 * [Irrlicht](http://irrlicht.sourceforge.net/)

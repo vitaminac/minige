@@ -7,11 +7,13 @@ namespace gengine {
     class Image
     {
     private:
+        // pointer to the image, once loaded
         FIBITMAP* bitmap = nullptr;
     public:
         Image(const char* filename);
         ~Image();
 
+        // pointer to the image data
         const unsigned char const* getData() const;
         const unsigned int getWidth() const;
         const unsigned int getHeight() const;

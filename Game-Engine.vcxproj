@@ -176,8 +176,9 @@
     <ClCompile Include="src\geometry\vec2.cpp" />
     <ClCompile Include="src\geometry\vec3.cpp" />
     <ClCompile Include="src\geometry\vec4.cpp" />
+    <ClCompile Include="src\graphics\buffers\IndexedVertexBufferObject.cpp" />
     <ClCompile Include="src\graphics\renderer\BatchRenderer2D.cpp" />
-    <ClCompile Include="src\graphics\buffers\vbo.cpp" />
+    <ClCompile Include="src\graphics\buffers\VertexBufferObject.cpp" />
     <ClCompile Include="src\graphics\buffers\VertexArrayObject.cpp" />
     <ClCompile Include="src\graphics\renderable\Group.cpp" />
     <ClCompile Include="src\graphics\renderable\Layer.cpp" />
@@ -198,8 +199,9 @@
     <ClInclude Include="src\geometry\mat4.h" />
     <ClInclude Include="src\geometry\maths.h" />
     <ClInclude Include="src\geometry\mesh.h" />
+    <ClInclude Include="src\graphics\buffers\IndexedVertexBufferObject.h" />
     <ClInclude Include="src\graphics\renderer\BatchRenderer2D.h" />
-    <ClInclude Include="src\graphics\buffers\vbo.h" />
+    <ClInclude Include="src\graphics\buffers\VertexBufferObject.h" />
     <ClInclude Include="src\graphics\buffers\VertexArrayObject.h" />
     <ClInclude Include="src\graphics\renderable\Group.h" />
     <ClInclude Include="src\graphics\renderable\Layer.h" />

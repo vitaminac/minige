@@ -3,20 +3,6 @@
 
 namespace gengine {
     namespace graphics {
-        class VertexBufferObject
-        {
-        private:
-            GLuint vbo_id;
-            GLuint component_count;
-        public:
-            VertexBufferObject(GLfloat* data, GLsizei count, GLuint componentCount);
-            ~VertexBufferObject();
-            void bind() const;
-            void unbind() const;
-
-            inline GLuint getComponentCount() const { return component_count; }
-        };
-
         class IndexedVertexBufferObject
         {
         private:

@@ -1,6 +1,7 @@
 #pragma once
-#include "../buffers/vbo.h"
+#include "../buffers/VertexBufferObject.h"
 #include "../buffers/VertexArrayObject.h"
+#include "../buffers/IndexedVertexBufferObject.h"
 
 #include "geometry/geometry.h"
 #include "../shader.h"

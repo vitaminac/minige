@@ -1,8 +1,9 @@
 #pragma once
 #include "Renderer2D.h"
 #include "../buffers/VertexArrayObject.h"
+#include "../buffers/VertexBufferObject.h"
+#include "../buffers/IndexedVertexBufferObject.h"
 #include "../renderable/Renderable2d.h"
-#include "../buffers/vbo.h"
 
 namespace gengine {
     namespace graphics {
@@ -20,7 +21,7 @@ namespace gengine {
         {
         private:
             VertexArrayObject vao;
-            GLuint vbo;
+            VertexBufferObject vbo;
             IndexedVertexBufferObject* ibo;
             GLsizei index_count;
             VertexData* buffer;

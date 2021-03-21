@@ -39,7 +39,7 @@
     <ClCompile Include="src\graphics\buffers\VertexArrayObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\buffers\vbo.cpp">
+    <ClCompile Include="src\graphics\buffers\VertexBufferObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\renderer\BatchRenderer2D.cpp">
@@ -73,6 +73,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\utils\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\buffers\IndexedVertexBufferObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,7 +116,7 @@
     <ClInclude Include="src\graphics\buffers\VertexArrayObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\buffers\vbo.h">
+    <ClInclude Include="src\graphics\buffers\VertexBufferObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\renderable\Layer.h">
@@ -159,6 +162,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\utils\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics\buffers\IndexedVertexBufferObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

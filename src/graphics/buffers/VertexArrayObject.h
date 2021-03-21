@@ -2,7 +2,7 @@
 #include <vector>
 #include <GL/glew.h>
 
-#include "./vbo.h"
+#include "./VertexBufferObject.h"
 
 namespace gengine {
     namespace graphics {
@@ -32,7 +32,7 @@ namespace gengine {
 
             void bind() const;
             void unbind() const;
-            void addBuffer(VertexBufferObject* buffer, GLuint index);
+            void addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount);
         };
     }
 }

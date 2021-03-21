@@ -23,8 +23,8 @@ namespace gengine {
                 color.x, color.y, color.z, color.w
             };
 
-            this->vao->addBuffer(new VertexBufferObject(vertices, 4 * 3, 3), 0);
-            this->vao->addBuffer(new VertexBufferObject(colors, 4 * 4, 4), 1);
+            this->vao->addBuffer(new VertexBufferObject(vertices, 4 * 3 * sizeof(GLfloat), GL_STATIC_DRAW), 0, 3);
+            this->vao->addBuffer(new VertexBufferObject(colors, 4 * 4 * sizeof(GLfloat), GL_STATIC_DRAW), 1, 4);
 
             GLushort indices[] = { 0, 1, 2, 2, 3, 0 };
             this->ibo = new IndexedVertexBufferObject(indices, 6);

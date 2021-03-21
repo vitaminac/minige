@@ -28,7 +28,7 @@ namespace gengine {
         }
 
 
-        void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index)
+        void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount)
         {
             this->bind();
             buffer->bind();
@@ -49,7 +49,7 @@ namespace gengine {
             */
 
             // Specify format of a VBO, put that information in the VAO
-            glVertexAttribPointer(index, buffer->getComponentCount(), GL_FLOAT, GL_FALSE, 0, 0);
+            glVertexAttribPointer(index, componentCount, GL_FLOAT, GL_FALSE, 0, 0);
 
             buffer->unbind();
             this->unbind();

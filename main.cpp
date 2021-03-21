@@ -92,9 +92,14 @@ void test_file_utils() {
 }
 
 void test_simple_renderer() {
-    GameWindow window("Test Simple Renderer", 960, 540);
+    const int window_width = 960;
+    const int window_height = 540;
+    GameWindow window("Test Simple Renderer", window_width, window_height);
+    window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
 
-    mat4 ortho = mat4::orthographic(0.0f, 16.0f, 0.0f, 9.0f, -1.0f, 1.0f);
+    const float content_width = 16;
+    const float content_height = 9;
+    mat4 ortho = mat4::orthographic(0.0f, content_width, 0.0f, content_height, -1.0f, 1.0f);
 
     Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
     shader.enable();
@@ -107,10 +112,9 @@ void test_simple_renderer() {
     while (!window.closed())
     {
         window.clear();
-        double x, y;
         auto& p = window.getMousePosition();
-        shader.enable();
-        shader.setUniformVector2("light_pos", vec2((float)(p.x * 16.0f / 960.0f), (float)(9.0f - p.y * 9.0f / 540.0f)));
+        shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
+        
         renderer.submit(&sprite);
         renderer.submit(&sprite2);
         renderer.flush();
@@ -129,8 +133,8 @@ void test_batch_renderer_tilelayer() {
     const float content_width = 16;
     const float content_height = 9;
 
-    Shader* s = new Shader("src/shaders/basic.vert", "src/shaders/basic.frag");
-    Shader* s2 = new Shader("src/shaders/basic.vert", "src/shaders/basic.frag");
+    Shader* s = new Shader("src/shaders/basic.vert", "src/shaders/texture.frag");
+    Shader* s2 = new Shader("src/shaders/basic.vert", "src/shaders/texture.frag");
     Shader& shader = *s;
     Shader& shader2 = *s2;
 

@@ -17,7 +17,7 @@ namespace gengine {
                 sprite->getIBO()->bind();
 
                 sprite->getShader().setUniformMat4("model_matrix", mat4::translation(sprite->getPosition()));
-                glDrawElements(GL_TRIANGLES, sprite->getIBO()->getCount(), GL_UNSIGNED_SHORT, nullptr);
+                glDrawElements(GL_TRIANGLES, sprite->getIBO()->getCount(), GL_UNSIGNED_INT, nullptr);
 
                 sprite->getIBO()->unbind();
                 sprite->getVAO()->unbind();

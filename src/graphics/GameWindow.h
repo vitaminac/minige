@@ -11,7 +11,7 @@ using namespace gengine::geometry;
 
 namespace gengine {
     namespace graphics {
-        class Window {
+        class GameWindow {
         private:
             const char* title;
             int width, height;
@@ -27,8 +27,8 @@ namespace gengine {
             friend static void onKeyPress(GLFWwindow* window, int key, int scancode, int action, int mods);
 
         public:
-            Window(const char* title, int width, int height);
-            ~Window();
+            GameWindow(const char* title, int width, int height);
+            ~GameWindow();
             void update();
             bool closed() const;
             void clear() const;

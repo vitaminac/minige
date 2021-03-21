@@ -1,5 +1,5 @@
 #pragma once
-#include "window.h"
+#include "GameWindow.h"
 #include "common.h"
 #include "shader.h"
 #include "buffers/vao.h"

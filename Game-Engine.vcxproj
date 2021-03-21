@@ -187,7 +187,7 @@
     <ClCompile Include="src\graphics\sprite.cpp" />
     <ClCompile Include="src\graphics\static_sprite.cpp" />
     <ClCompile Include="src\graphics\Texture.cpp" />
-    <ClCompile Include="src\graphics\window.cpp" />
+    <ClCompile Include="src\graphics\GameWindow.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\utils\fileutils.cpp" />
     <ClCompile Include="src\utils\Image.cpp" />
@@ -220,7 +220,7 @@
     <ClInclude Include="src\geometry\vec4.h" />
     <ClInclude Include="src\graphics\common.h" />
     <ClInclude Include="src\graphics\graphics.h" />
-    <ClInclude Include="src\graphics\window.h" />
+    <ClInclude Include="src\graphics\GameWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\shaders\basic.frag" />

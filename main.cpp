@@ -165,7 +165,7 @@ int main()
 
     const int window_width = 960;
     const int window_height = 540;
-    Window window("Game Engine", window_width, window_height);
+    GameWindow window("Game Engine", window_width, window_height);
     window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
     window.drawBackgroud();
 

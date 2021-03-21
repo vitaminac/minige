@@ -1,13 +1,12 @@
 #include <iostream>
 #include <memory.h>
-#include "window.h"
+#include "GameWindow.h"
 
 namespace gengine {
     namespace graphics {
-
         static void onWindowResize(GLFWwindow* window, int width, int height)
         {
-            Window* win = static_cast<Window*>(glfwGetWindowUserPointer(window));
+            GameWindow* win = static_cast<GameWindow*>(glfwGetWindowUserPointer(window));
             win->width = width;
             win->height = height;
 
@@ -22,22 +21,22 @@ namespace gengine {
         }
 
         static void onCursorPositionChange(GLFWwindow* window, double x, double y) {
-            Window* win = static_cast<Window*>(glfwGetWindowUserPointer(window));
+            GameWindow* win = static_cast<GameWindow*>(glfwGetWindowUserPointer(window));
             win->position.x = x;
             win->position.y = y;
         }
 
         static void onMouseButtonClick(GLFWwindow* window, int button, int action, int mods) {
-            Window* win = static_cast<Window*>(glfwGetWindowUserPointer(window));
+            GameWindow* win = static_cast<GameWindow*>(glfwGetWindowUserPointer(window));
             win->buttons[button] = action != GLFW_RELEASE;
         }
 
         static void onKeyPress(GLFWwindow* window, int key, int scancode, int action, int mods) {
-            Window* win = (Window*)glfwGetWindowUserPointer(window);
+            GameWindow* win = (GameWindow*)glfwGetWindowUserPointer(window);
             win->keys[key] = action != GLFW_RELEASE;
         }
 
-        Window::Window(const char* title, int width, int height) :title(title), width(width), height(height)
+        GameWindow::GameWindow(const char* title, int width, int height) :title(title), width(width), height(height)
         {
             // 
             memset(this->keys, false, sizeof(this->keys));
@@ -77,12 +76,12 @@ namespace gengine {
             std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
         }
 
-        Window::~Window() {
+        GameWindow::~GameWindow() {
             glfwDestroyWindow(this->window);
             glfwTerminate();
         }
 
-        void Window::update()
+        void GameWindow::update()
         {
             GLenum error = glGetError();
             if (error != GL_NO_ERROR)
@@ -105,12 +104,12 @@ namespace gengine {
             glfwPollEvents();
         }
 
-        bool Window::closed() const
+        bool GameWindow::closed() const
         {
             return glfwWindowShouldClose(this->window) != 0;
         }
 
-        void Window::clear() const
+        void GameWindow::clear() const
         {
             /*
             * Clear the color buffer at the start of the frame
@@ -119,11 +118,11 @@ namespace gengine {
             glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
         }
 
-        void Window::setBackgroundColor(float red, float green, float blue, float alpha)
+        void GameWindow::setBackgroundColor(float red, float green, float blue, float alpha)
         {
             this->backgroud = vec4(red, green, blue, alpha);
         }
-        void Window::drawBackgroud()
+        void GameWindow::drawBackgroud()
         {
             glClearColor(this->backgroud.x, this->backgroud.y, this->backgroud.z, this->backgroud.w);
         }

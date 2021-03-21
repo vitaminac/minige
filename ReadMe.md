@@ -77,13 +77,17 @@
 * [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 * [MaNGOS](https://github.com/MaNGOS)
 
-### Game
+### Open Source Game
 
 * [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
 * [OpenRA](https://github.com/OpenRA/OpenRA)
+* [SuperTuxKart](https://github.com/supertuxkart/stk-code)
+* [Half-Life 1](https://github.com/ValveSoftware/halflife)
 * [The Battle for Wesnoth](https://github.com/wesnoth/wesnoth)
 * [Endless Sky](http://endless-sky.github.io/)
+* [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
+* [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 

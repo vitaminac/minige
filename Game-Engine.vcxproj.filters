@@ -36,7 +36,7 @@
     <ClCompile Include="src\utils\fileutils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\buffers\vao.cpp">
+    <ClCompile Include="src\graphics\buffers\VertexArrayObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\buffers\vbo.cpp">
@@ -110,7 +110,7 @@
     <ClInclude Include="src\utils\timer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\buffers\vao.h">
+    <ClInclude Include="src\graphics\buffers\VertexArrayObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\buffers\vbo.h">

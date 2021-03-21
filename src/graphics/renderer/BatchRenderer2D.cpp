@@ -2,12 +2,11 @@
 
 namespace gengine {
     namespace graphics {
-        BatchRenderer2D::BatchRenderer2D()
+        BatchRenderer2D::BatchRenderer2D() : vao(VertexArrayObject())
         {
-            glGenVertexArrays(1, &vao);
             glGenBuffers(1, &vbo);
 
-            glBindVertexArray(vao);
+            this->vao.bind();
             glBindBuffer(GL_ARRAY_BUFFER, vbo);
             glBufferData(GL_ARRAY_BUFFER, RENDERER_BUFFER_SIZE, NULL, GL_DYNAMIC_DRAW);
             glEnableVertexAttribArray(SHADER_VERTEX_INDEX);
@@ -15,6 +14,7 @@ namespace gengine {
             glVertexAttribPointer(SHADER_VERTEX_INDEX, 3, GL_FLOAT, GL_FALSE, RENDERER_VERTEX_SIZE, (const GLvoid*)0);
             glVertexAttribPointer(SHADER_COLOR_INDEX, 4, GL_UNSIGNED_BYTE, GL_TRUE, RENDERER_VERTEX_SIZE, (const GLvoid*)(offsetof(VertexData, VertexData::color)));
             glBindBuffer(GL_ARRAY_BUFFER, 0);
+            this->vao.unbind();
 
             GLuint* indices = new GLuint[RENDERER_INDICES_SIZE];
 
@@ -33,15 +33,12 @@ namespace gengine {
             }
 
             ibo = new IndexedVertexBufferObject(indices, RENDERER_INDICES_SIZE);
-
-            glBindVertexArray(0);
         }
 
         BatchRenderer2D::~BatchRenderer2D()
         {
             delete ibo;
             glDeleteBuffers(1, &vbo);
-            glDeleteVertexArrays(1, &vao);
         }
 
         void BatchRenderer2D::begin()
@@ -91,13 +88,13 @@ namespace gengine {
 
         void BatchRenderer2D::flush()
         {
-            glBindVertexArray(vao);
+            this->vao.bind();
             ibo->bind();
 
             glDrawElements(GL_TRIANGLES, index_count, GL_UNSIGNED_INT, NULL);
 
             ibo->unbind();
-            glBindVertexArray(0);
+            this->vao.unbind();
 
             index_count = 0;
         }

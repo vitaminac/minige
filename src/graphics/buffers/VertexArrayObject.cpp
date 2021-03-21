@@ -1,4 +1,4 @@
-#include "vao.h"
+#include "VertexArrayObject.h"
 
 namespace gengine {
     namespace graphics {
@@ -16,6 +16,17 @@ namespace gengine {
             // When you are done this will destroy the VAO
             glDeleteVertexArrays(1, &vao_id);
         }
+
+        void VertexArrayObject::bind() const
+        {
+            glBindVertexArray(vao_id);
+        }
+
+        void VertexArrayObject::unbind() const
+        {
+            glBindVertexArray(0);
+        }
+
 
         void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index)
         {
@@ -41,19 +52,7 @@ namespace gengine {
             glVertexAttribPointer(index, buffer->getComponentCount(), GL_FLOAT, GL_FALSE, 0, 0);
 
             buffer->unbind();
-            unbind();
-        }
-
-        void VertexArrayObject::bind() const
-        {
-            // Enables all of the arrays store in the VAO
-            glBindVertexArray(vao_id);
-        }
-
-        void VertexArrayObject::unbind() const
-        {
-            // Unbind VAO
-            glBindVertexArray(0);
+            this->unbind();
         }
     }
 }

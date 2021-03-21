@@ -2,7 +2,7 @@
 #include "GameWindow.h"
 #include "common.h"
 #include "shader.h"
-#include "buffers/vao.h"
+#include "buffers/VertexArrayObject.h"
 #include "buffers/vbo.h"
 #include "renderer/SimpleRenderer2D.h"
 #include "renderer/BatchRenderer2D.h"

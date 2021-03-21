@@ -178,7 +178,7 @@
     <ClCompile Include="src\geometry\vec4.cpp" />
     <ClCompile Include="src\graphics\renderer\BatchRenderer2D.cpp" />
     <ClCompile Include="src\graphics\buffers\vbo.cpp" />
-    <ClCompile Include="src\graphics\buffers\vao.cpp" />
+    <ClCompile Include="src\graphics\buffers\VertexArrayObject.cpp" />
     <ClCompile Include="src\graphics\renderable\Group.cpp" />
     <ClCompile Include="src\graphics\renderable\Layer.cpp" />
     <ClCompile Include="src\graphics\renderable\Tilelayer.cpp" />
@@ -200,7 +200,7 @@
     <ClInclude Include="src\geometry\mesh.h" />
     <ClInclude Include="src\graphics\renderer\BatchRenderer2D.h" />
     <ClInclude Include="src\graphics\buffers\vbo.h" />
-    <ClInclude Include="src\graphics\buffers\vao.h" />
+    <ClInclude Include="src\graphics\buffers\VertexArrayObject.h" />
     <ClInclude Include="src\graphics\renderable\Group.h" />
     <ClInclude Include="src\graphics\renderable\Layer.h" />
     <ClInclude Include="src\graphics\renderable\Tilelayer.h" />

@@ -30,9 +30,9 @@ namespace gengine {
             VertexArrayObject();
             ~VertexArrayObject();
 
-            void addBuffer(VertexBufferObject* buffer, GLuint index);
             void bind() const;
             void unbind() const;
+            void addBuffer(VertexBufferObject* buffer, GLuint index);
         };
     }
 }

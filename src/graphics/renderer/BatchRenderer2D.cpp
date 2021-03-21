@@ -4,15 +4,6 @@ namespace gengine {
     namespace graphics {
         BatchRenderer2D::BatchRenderer2D() : vao(VertexArrayObject()), vbo(VertexBufferObject(NULL, RENDERER_BUFFER_SIZE, GL_DYNAMIC_DRAW))
         {
-            this->vao.bind();
-            this->vbo.bind();
-            glEnableVertexAttribArray(SHADER_VERTEX_INDEX);
-            glEnableVertexAttribArray(SHADER_COLOR_INDEX);
-            glVertexAttribPointer(SHADER_VERTEX_INDEX, 3, GL_FLOAT, GL_FALSE, RENDERER_VERTEX_SIZE, (const GLvoid*)0);
-            glVertexAttribPointer(SHADER_COLOR_INDEX, 4, GL_UNSIGNED_BYTE, GL_TRUE, RENDERER_VERTEX_SIZE, (const GLvoid*)(offsetof(VertexData, VertexData::color)));
-            this->vbo.unbind();
-            this->vao.unbind();
-
             GLuint* indices = new GLuint[RENDERER_INDICES_SIZE];
 
             int offset = 0;
@@ -28,6 +19,9 @@ namespace gengine {
 
                 offset += 4;
             }
+
+            this->vao.addBuffer(&this->vbo, SHADER_VERTEX_INDEX, 3, GL_FLOAT, GL_FALSE, RENDERER_VERTEX_SIZE, (const GLvoid*)0);
+            this->vao.addBuffer(&this->vbo, SHADER_COLOR_INDEX, 4, GL_UNSIGNED_BYTE, GL_TRUE, RENDERER_VERTEX_SIZE, (const GLvoid*)(offsetof(VertexData, VertexData::color)));
 
             ibo = new IndexedVertexBufferObject(indices, RENDERER_INDICES_SIZE);
         }
@@ -85,11 +79,11 @@ namespace gengine {
         void BatchRenderer2D::flush()
         {
             this->vao.bind();
-            ibo->bind();
+            this->ibo->bind();
 
-            glDrawElements(GL_TRIANGLES, index_count, GL_UNSIGNED_INT, NULL);
+            glDrawElements(GL_TRIANGLES, index_count, GL_UNSIGNED_INT, nullptr);
 
-            ibo->unbind();
+            this->ibo->unbind();
             this->vao.unbind();
 
             index_count = 0;

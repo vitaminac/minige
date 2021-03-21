@@ -10,6 +10,8 @@ namespace gengine {
         private:
             VertexArrayObject* vao;
             IndexedVertexBufferObject* ibo;
+            VertexBufferObject* vbo_position;
+            VertexBufferObject* vbo_color;
             Shader& shader;
         public:
             StaticSprite(float x, float y, float width, float height, const vec4& color, Shader& shader);

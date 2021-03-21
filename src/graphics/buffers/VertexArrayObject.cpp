@@ -11,9 +11,6 @@ namespace gengine {
 
         VertexArrayObject::~VertexArrayObject()
         {
-            for (int i = 0; i < buffers.size(); i++)
-                delete buffers[i];
-            // When you are done this will destroy the VAO
             glDeleteVertexArrays(1, &vao_id);
         }
 
@@ -27,9 +24,7 @@ namespace gengine {
             glBindVertexArray(0);
         }
 
-
-        void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount)
-        {
+        void VertexArrayObject::addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount, GLenum type, GLboolean normalized, GLsizei stride, const void* offset) {
             this->bind();
             buffer->bind();
 
@@ -49,7 +44,7 @@ namespace gengine {
             */
 
             // Specify format of a VBO, put that information in the VAO
-            glVertexAttribPointer(index, componentCount, GL_FLOAT, GL_FALSE, 0, 0);
+            glVertexAttribPointer(index, componentCount, type, normalized, stride, offset);
 
             buffer->unbind();
             this->unbind();

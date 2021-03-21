@@ -9,7 +9,6 @@ namespace gengine {
             GLuint vbo_id;
             GLuint count;
         public:
-            IndexedVertexBufferObject(GLushort* data, GLsizei count);
             IndexedVertexBufferObject(GLuint* data, GLsizei count);
             ~IndexedVertexBufferObject();
             void bind() const;

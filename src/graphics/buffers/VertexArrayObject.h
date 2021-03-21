@@ -32,7 +32,7 @@ namespace gengine {
 
             void bind() const;
             void unbind() const;
-            void addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount);
+            void addBuffer(VertexBufferObject* buffer, GLuint index, GLint componentCount, GLenum type, GLboolean normalized, GLsizei stride, const void* offset);
         };
     }
 }

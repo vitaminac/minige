@@ -23,10 +23,12 @@ namespace gengine {
                 color.x, color.y, color.z, color.w
             };
 
-            this->vao->addBuffer(new VertexBufferObject(vertices, 4 * 3 * sizeof(GLfloat), GL_STATIC_DRAW), 0, 3);
-            this->vao->addBuffer(new VertexBufferObject(colors, 4 * 4 * sizeof(GLfloat), GL_STATIC_DRAW), 1, 4);
+            this->vbo_position = new VertexBufferObject(vertices, 4 * 3 * sizeof(GLfloat), GL_STATIC_DRAW);
+            this->vao->addBuffer(this->vbo_position, 0, 3, GL_FLOAT, GL_FALSE, 0, 0);
+            this->vbo_color = new VertexBufferObject(colors, 4 * 4 * sizeof(GLfloat), GL_STATIC_DRAW);
+            this->vao->addBuffer(this->vbo_color, 1, 4, GL_FLOAT, GL_FALSE, 0, 0);
 
-            GLushort indices[] = { 0, 1, 2, 2, 3, 0 };
+            GLuint indices[] = { 0, 1, 2, 2, 3, 0 };
             this->ibo = new IndexedVertexBufferObject(indices, 6);
         }
 
@@ -34,6 +36,8 @@ namespace gengine {
         {
             delete vao;
             delete ibo;
+            delete this->vbo_position;
+            delete this->vbo_color;
         }
     }
 }

@@ -4,6 +4,7 @@
 #include <iostream>
 
 namespace gengine {
+    using namespace geometry;
     namespace graphics {
         GLuint Shader::load()
         {

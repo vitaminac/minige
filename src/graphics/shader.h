@@ -4,8 +4,6 @@
 #include "../utils/fileutils.h"
 
 namespace gengine {
-    using namespace geometry;
-
     namespace graphics {
         class Shader {
         private:
@@ -27,10 +25,10 @@ namespace gengine {
 
             void setUniformInteger(const GLchar* name, const int value) const;
             void setUniformFloat(const GLchar* name, const float value) const;
-            void setUniformVector2(const GLchar* name, const vec2& vector) const;
-            void setUniformVector3(const GLchar* name, const vec3& vector) const;
-            void setUniformVector4(const GLchar* name, const vec4& vector) const;
-            void setUniformMat4(const GLchar* name, const mat4& matrix) const;
+            void setUniformVector2(const GLchar* name, const geometry::vec2& vector) const;
+            void setUniformVector3(const GLchar* name, const geometry::vec3& vector) const;
+            void setUniformVector4(const GLchar* name, const geometry::vec4& vector) const;
+            void setUniformMat4(const GLchar* name, const geometry::mat4& matrix) const;
         };
     }
 }

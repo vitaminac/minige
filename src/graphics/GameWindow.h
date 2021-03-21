@@ -7,8 +7,6 @@
 #define MAX_KEYS	1024
 #define MAX_BUTTONS	32
 
-using namespace gengine::geometry;
-
 namespace gengine {
     namespace graphics {
         class GameWindow {
@@ -19,7 +17,7 @@ namespace gengine {
             bool keys[MAX_KEYS];
             bool buttons[MAX_BUTTONS];
             GLFWwindow* window = nullptr;
-            vec4 backgroud;
+            geometry::vec4 backgroud;
 
             friend static void onCursorPositionChange(GLFWwindow* window, double x, double y);
             friend static void onWindowResize(GLFWwindow* window, int width, int height);

@@ -120,7 +120,7 @@ namespace gengine {
 
         void GameWindow::setBackgroundColor(float red, float green, float blue, float alpha)
         {
-            this->backgroud = vec4(red, green, blue, alpha);
+            this->backgroud = geometry::vec4(red, green, blue, alpha);
         }
         void GameWindow::drawBackgroud()
         {

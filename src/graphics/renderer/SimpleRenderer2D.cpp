@@ -1,6 +1,7 @@
 #include "SimpleRenderer2D.h"
 
 namespace gengine {
+    using namespace geometry;
     namespace graphics {
 
         void Simple2DRenderer::submit(const Renderable2D* renderable)

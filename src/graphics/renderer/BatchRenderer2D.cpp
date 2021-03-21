@@ -1,6 +1,7 @@
 #include "BatchRenderer2D.h"
 
 namespace gengine {
+    using namespace geometry;
     namespace graphics {
         BatchRenderer2D::BatchRenderer2D() : vao(VertexArrayObject()), vbo(VertexBufferObject(NULL, RENDERER_BUFFER_SIZE, GL_DYNAMIC_DRAW))
         {

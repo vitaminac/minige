@@ -18,7 +18,7 @@ namespace gengine {
             Position position;
             bool keys[MAX_KEYS];
             bool buttons[MAX_BUTTONS];
-            GLFWwindow* window = NULL;
+            GLFWwindow* window = nullptr;
             vec4 backgroud;
 
             friend static void onCursorPositionChange(GLFWwindow* window, double x, double y);

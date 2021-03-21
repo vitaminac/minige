@@ -45,7 +45,7 @@
     <ClCompile Include="src\graphics\renderer\BatchRenderer2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\shader.cpp">
+    <ClCompile Include="src\graphics\Shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\renderer\SimpleRenderer2D.cpp">
@@ -134,7 +134,7 @@
     <ClInclude Include="src\graphics\renderer\Renderer2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\shader.h">
+    <ClInclude Include="src\graphics\Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\renderer\SimpleRenderer2D.h">

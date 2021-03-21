@@ -2,6 +2,8 @@
 #include <GL/glew.h>
 #include "../geometry/geometry.h"
 #include "../utils/fileutils.h"
+#include "common.h"
+#include <string>
 
 namespace gengine {
     namespace graphics {
@@ -29,6 +31,7 @@ namespace gengine {
             void setUniformVector3(const GLchar* name, const geometry::vec3& vector) const;
             void setUniformVector4(const GLchar* name, const geometry::vec4& vector) const;
             void setUniformMat4(const GLchar* name, const geometry::mat4& matrix) const;
+            void setLight(const std::string& name, Light light);
         };
     }
 }

@@ -1,5 +1,5 @@
 #pragma once
-#include "../shader.h"
+#include "../Shader.h"
 #include "Renderable2D.h"
 
 namespace gengine {

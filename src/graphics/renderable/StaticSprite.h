@@ -1,5 +1,4 @@
 #pragma once
-#include "../shader.h"
 #include "../buffers/VertexBufferObject.h"
 #include "../buffers/VertexArrayObject.h"
 #include "../buffers/IndexedVertexBufferObject.h"

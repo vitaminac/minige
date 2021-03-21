@@ -183,7 +183,7 @@
     <ClCompile Include="src\graphics\renderable\Group.cpp" />
     <ClCompile Include="src\graphics\renderable\Layer.cpp" />
     <ClCompile Include="src\graphics\renderable\Tilelayer.cpp" />
-    <ClCompile Include="src\graphics\shader.cpp" />
+    <ClCompile Include="src\graphics\Shader.cpp" />
     <ClCompile Include="src\graphics\renderer\SimpleRenderer2D.cpp" />
     <ClCompile Include="src\graphics\renderable\Sprite.cpp" />
     <ClCompile Include="src\graphics\renderable\StaticSprite.cpp" />
@@ -208,7 +208,7 @@
     <ClInclude Include="src\graphics\renderable\Tilelayer.h" />
     <ClInclude Include="src\graphics\renderable\Renderable2D.h" />
     <ClInclude Include="src\graphics\renderer\Renderer2D.h" />
-    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\graphics\Shader.h" />
     <ClInclude Include="src\graphics\renderer\SimpleRenderer2D.h" />
     <ClInclude Include="src\graphics\renderable\Sprite.h" />
     <ClInclude Include="src\graphics\renderable\StaticSprite.h" />

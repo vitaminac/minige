@@ -1,7 +1,7 @@
-#include "shader.h"
 #include <vector>
 #include <sstream>
 #include <iostream>
+#include "Shader.h"
 
 namespace gengine {
     using namespace geometry;
@@ -123,6 +123,11 @@ namespace gengine {
         void Shader::setUniformMat4(const GLchar* name, const mat4& matrix) const
         {
             glUniformMatrix4fv(this->getUniformLocation(name), 1, GL_FALSE, matrix.elements);
+        }
+
+        void Shader::setLight(const std::string& name, Light light)
+        {
+            setUniformVector2((name + ".position").c_str(), light.position);
         }
     }
 }

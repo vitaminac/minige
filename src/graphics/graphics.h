@@ -1,7 +1,7 @@
 #pragma once
 #include "GameWindow.h"
 #include "common.h"
-#include "shader.h"
+#include "Shader.h"
 #include "buffers/VertexArrayObject.h"
 #include "buffers/VertexBufferObject.h"
 #include "buffers/IndexedVertexBufferObject.h"

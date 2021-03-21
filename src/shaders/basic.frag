@@ -1,7 +1,12 @@
 #version 330 core
 layout (location = 0) out vec4 diffuseColor;
 
-uniform vec2 light_position;
+struct Light
+{
+  vec2 position;
+};
+
+uniform Light light;
 
 in data
 {
@@ -10,6 +15,6 @@ in data
 } fragment_shader_in;
 
 void main() {
-    float intensity = 1.0 / length(fragment_shader_in.position.xy - light_position);
+    float intensity = 1.0 / length(fragment_shader_in.position.xy - light.position);
     diffuseColor = fragment_shader_in.color * intensity;
 }

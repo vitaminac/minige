@@ -1,6 +1,6 @@
 #pragma once
 #include "geometry/geometry.h"
-#include "../shader.h"
+#include "../Shader.h"
 #include "Renderable2D.h"
 
 namespace gengine {

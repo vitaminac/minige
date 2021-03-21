@@ -109,12 +109,17 @@ void test_simple_renderer() {
     StaticSprite sprite2(7, 1, 2, 3, vec4(0.2f, 0, 1, 1), shader);
     Simple2DRenderer renderer;
 
+    struct Light light = {
+        vec2(0.0f, 0.0f)
+    };
+
     while (!window.closed())
     {
         window.clear();
         auto& p = window.getMousePosition();
-        shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
-        
+        light.position = vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height));
+        shader.setLight("light", light);
+
         renderer.submit(&sprite);
         renderer.submit(&sprite2);
         renderer.flush();
@@ -169,16 +174,20 @@ void test_batch_renderer_tilelayer() {
     shader.disable();
 
     auto initial_position = vec2(4.0f, 5.0f);
+    struct Light light = {
+        initial_position
+    };
     shader2.enable();
-    shader2.setUniformVector2("light_position", initial_position);
+    shader2.setLight("light", light);
 
     Timer timer;
     unsigned int frames = 0;
     while (!window.closed()) {
         window.clear();
         auto& p = window.getMousePosition();
+        light.position = vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height));
         shader.enable();
-        shader.setUniformVector2("light_position", vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height)));
+        shader.setLight("light", light);
         layer.render();
 
         panel.render();

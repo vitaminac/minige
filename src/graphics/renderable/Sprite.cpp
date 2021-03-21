@@ -5,5 +5,10 @@ namespace gengine {
             : Renderable2D(vec3(x, y, 0), vec2(width, height), color)
         {
         }
+
+        void Sprite::render(Renderer2D* renderer) const
+        {
+            renderer->submit(this);
+        }
     }
 }

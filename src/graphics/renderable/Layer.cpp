@@ -1,4 +1,4 @@
-#include "layer.h"
+#include "Layer.h"
 
 namespace gengine {
     namespace graphics {
@@ -29,7 +29,7 @@ namespace gengine {
             this->shader->enable();
             this->renderer->begin();
             for (const Renderable2D* renderable : this->renderables)
-                renderable->submit(this->renderer);
+                renderable->render(this->renderer);
             this->renderer->end();
             this->renderer->flush();
         }

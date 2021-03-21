@@ -1,4 +1,4 @@
-#include "static_sprite.h"
+#include "StaticSprite.h"
 
 namespace gengine {
     namespace graphics {

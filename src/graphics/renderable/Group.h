@@ -1,6 +1,6 @@
 #pragma once
-#include "../renderable2d.h"
-#include "../renderer2d.h"
+#include "renderable2d.h"
+#include "../renderer/Renderer2d.h"
 
 namespace gengine {
     namespace graphics {
@@ -13,7 +13,7 @@ namespace gengine {
         public:
             Group(const geometry::mat4& transform);
             void add(Renderable2D* renderable);
-            void submit(Renderer2D* renderer) const override;
+            virtual void render(Renderer2D* renderer) const override;
         };
     }
 }

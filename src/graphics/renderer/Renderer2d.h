@@ -1,5 +1,4 @@
 #pragma once
-
 #include <vector>
 #include <GL/glew.h>
 #include "geometry/geometry.h"

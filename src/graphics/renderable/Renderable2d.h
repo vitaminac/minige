@@ -1,11 +1,10 @@
 #pragma once
-
-#include "buffers/vbo.h"
-#include "buffers/vao.h"
+#include "../buffers/vbo.h"
+#include "../buffers/vao.h"
 
 #include "geometry/geometry.h"
-#include "shader.h"
-#include "renderer2d.h"
+#include "../shader.h"
+#include "../renderer/Renderer2d.h"
 
 namespace gengine {
     namespace graphics {
@@ -29,12 +28,9 @@ namespace gengine {
             {
             }
 
-            virtual ~Renderable2D() {}
+            virtual ~Renderable2D() = default;
 
-            virtual void submit(Renderer2D* renderer) const
-            {
-                renderer->submit(this);
-            }
+            virtual void render(Renderer2D* renderer) const = 0;
 
             inline const vec3& getPosition() const { return position; }
             inline const vec2& getSize() const { return size; }

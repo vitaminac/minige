@@ -1,4 +1,4 @@
-#include "tilelayer.h"
+#include "TileLayer.h"
 
 namespace gengine {
     namespace graphics {

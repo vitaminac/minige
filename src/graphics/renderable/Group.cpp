@@ -1,4 +1,4 @@
-#include "group.h"
+#include "Group.h"
 
 namespace gengine {
     namespace graphics {
@@ -11,12 +11,12 @@ namespace gengine {
             this->children.push_back(renderable);
         }
 
-        void Group::submit(Renderer2D* renderer) const
+        void Group::render(Renderer2D* renderer) const
         {
             renderer->push(this->transform);
 
             for (const Renderable2D* renderable : children)
-                renderable->submit(renderer);
+                renderable->render(renderer);
 
             renderer->pop();
         }

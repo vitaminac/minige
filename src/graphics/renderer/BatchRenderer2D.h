@@ -1,8 +1,8 @@
 #pragma once
 #include <cstddef>
-#include "renderer2d.h"
-#include "renderable2d.h"
-#include "buffers/vbo.h"
+#include "Renderer2d.h"
+#include "../renderable/Renderable2d.h"
+#include "../buffers/vbo.h"
 
 namespace gengine {
     namespace graphics {

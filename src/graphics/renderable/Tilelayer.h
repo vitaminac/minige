@@ -1,7 +1,7 @@
 #pragma once
 
 #include "layer.h"
-#include "../BatchRenderer2D.h"
+#include "../renderer/BatchRenderer2D.h"
 
 namespace gengine {
     namespace graphics {

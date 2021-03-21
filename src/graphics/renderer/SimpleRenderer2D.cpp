@@ -1,4 +1,4 @@
-#include "simple2drenderer.h"
+#include "SimpleRenderer2D.h"
 
 namespace gengine {
     namespace graphics {

@@ -42,31 +42,31 @@
     <ClCompile Include="src\graphics\buffers\vbo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\batchRenderer2D.cpp">
+    <ClCompile Include="src\graphics\renderer\BatchRenderer2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\shader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\simple2drenderer.cpp">
+    <ClCompile Include="src\graphics\renderer\SimpleRenderer2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\sprite.cpp">
+    <ClCompile Include="src\graphics\renderable\Sprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\static_sprite.cpp">
+    <ClCompile Include="src\graphics\renderable\StaticSprite.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\GameWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\layers\layer.cpp">
+    <ClCompile Include="src\graphics\renderable\Layer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\layers\tilelayer.cpp">
+    <ClCompile Include="src\graphics\renderable\Tilelayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\graphics\layers\group.cpp">
+    <ClCompile Include="src\graphics\renderable\Group.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\graphics\Texture.cpp">
@@ -116,31 +116,31 @@
     <ClInclude Include="src\graphics\buffers\vbo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\layers\layer.h">
+    <ClInclude Include="src\graphics\renderable\Layer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\batchRenderer2D.h">
+    <ClInclude Include="src\graphics\renderer\BatchRenderer2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\renderable2d.h">
+    <ClInclude Include="src\graphics\renderable\Renderable2d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\renderer2d.h">
+    <ClInclude Include="src\graphics\renderer\Renderer2d.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\simple2drenderer.h">
+    <ClInclude Include="src\graphics\renderer\SimpleRenderer2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\sprite.h">
+    <ClInclude Include="src\graphics\renderable\Sprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\static_sprite.h">
+    <ClInclude Include="src\graphics\renderable\StaticSprite.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\GameWindow.h">
@@ -149,10 +149,10 @@
     <ClInclude Include="src\graphics\graphics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\layers\tilelayer.h">
+    <ClInclude Include="src\graphics\renderable\Tilelayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\layers\group.h">
+    <ClInclude Include="src\graphics\renderable\Group.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\Texture.h">

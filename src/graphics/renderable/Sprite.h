@@ -9,6 +9,8 @@ namespace gengine {
 
         public:
             Sprite(float x, float y, float width, float height, const vec4& color);
+
+            virtual void render(Renderer2D* renderer) const override;
         };
     }
 }

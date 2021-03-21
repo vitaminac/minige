@@ -20,6 +20,5 @@ namespace gengine {
             inline const unsigned int getWidth() const { return width; }
             inline const unsigned int getHeight() const { return height; }
         };
-
     }
 }

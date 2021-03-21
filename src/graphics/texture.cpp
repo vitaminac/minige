@@ -1,4 +1,4 @@
-#include "texture.h"
+#include "Texture.h"
 #include "utils/imageload.h"
 
 namespace gengine {

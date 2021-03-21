@@ -1,6 +1,6 @@
 #pragma once
-#include <string>
 #include <GL/glew.h>
+#include "utils/Image.h"
 
 namespace gengine {
     namespace graphics {
@@ -8,17 +8,15 @@ namespace gengine {
         class Texture
         {
         private:
-            std::string filename;
             GLuint tid;
-            GLsizei width, height;
+            const Image* const image;
         public:
-            Texture(const std::string& filename);
+            Texture(const Image* const image);
             ~Texture();
             void bind() const;
             void unbind() const;
 
-            inline const unsigned int getWidth() const { return width; }
-            inline const unsigned int getHeight() const { return height; }
+            inline const Image* const getImage() const { return image; }
         };
     }
 }

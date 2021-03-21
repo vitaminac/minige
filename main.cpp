@@ -200,7 +200,8 @@ int main()
 
     // select active texture unit
     glActiveTexture(GL_TEXTURE1);
-    Texture texture("test.png");
+    Image image("test.png");
+    Texture texture(&image);
     texture.bind();
 
     shader.enable();

@@ -190,6 +190,7 @@
     <ClCompile Include="src\graphics\window.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\utils\fileutils.cpp" />
+    <ClCompile Include="src\utils\Image.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\gengine.h" />
@@ -211,7 +212,7 @@
     <ClInclude Include="src\graphics\static_sprite.h" />
     <ClInclude Include="src\graphics\Texture.h" />
     <ClInclude Include="src\utils\fileutils.h" />
-    <ClInclude Include="src\utils\imageload.h" />
+    <ClInclude Include="src\utils\Image.h" />
     <ClInclude Include="src\utils\timer.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="src\geometry\vec2.h" />

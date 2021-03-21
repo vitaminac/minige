@@ -72,6 +72,9 @@
     <ClCompile Include="src\graphics\Texture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\utils\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\gengine.h">
@@ -155,7 +158,7 @@
     <ClInclude Include="src\graphics\Texture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\utils\imageload.h">
+    <ClInclude Include="src\utils\Image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

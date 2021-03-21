@@ -1,5 +1,6 @@
 #pragma once
-#include "graphics/graphics.h"
-#include "geometry/geometry.h"
 #include "utils/fileutils.h"
 #include "utils/timer.h"
+#include "utils/Image.h"
+#include "graphics/graphics.h"
+#include "geometry/geometry.h"

@@ -1,8 +1,8 @@
 #pragma once
 
 #include <deque>
-#include "Renderer2d.h"
-#include "../renderable/Renderable2d.h"
+#include "Renderer2D.h"
+#include "../renderable/Renderable2D.h"
 #include "../renderable/StaticSprite.h"
 
 namespace gengine {

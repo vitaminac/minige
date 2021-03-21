@@ -1,6 +1,6 @@
 #pragma once
 #include <cstddef>
-#include "Renderer2d.h"
+#include "Renderer2D.h"
 #include "../renderable/Renderable2d.h"
 #include "../buffers/vbo.h"
 

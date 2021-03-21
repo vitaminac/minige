@@ -125,10 +125,10 @@
     <ClInclude Include="src\graphics\common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\renderable\Renderable2d.h">
+    <ClInclude Include="src\graphics\renderable\Renderable2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\graphics\renderer\Renderer2d.h">
+    <ClInclude Include="src\graphics\renderer\Renderer2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\shader.h">

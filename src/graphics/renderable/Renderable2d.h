@@ -4,7 +4,7 @@
 
 #include "geometry/geometry.h"
 #include "../shader.h"
-#include "../renderer/Renderer2d.h"
+#include "../renderer/Renderer2D.h"
 
 namespace gengine {
     namespace graphics {

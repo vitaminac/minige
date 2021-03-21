@@ -204,8 +204,8 @@
     <ClInclude Include="src\graphics\renderable\Group.h" />
     <ClInclude Include="src\graphics\renderable\Layer.h" />
     <ClInclude Include="src\graphics\renderable\Tilelayer.h" />
-    <ClInclude Include="src\graphics\renderable\Renderable2d.h" />
-    <ClInclude Include="src\graphics\renderer\Renderer2d.h" />
+    <ClInclude Include="src\graphics\renderable\Renderable2D.h" />
+    <ClInclude Include="src\graphics\renderer\Renderer2D.h" />
     <ClInclude Include="src\graphics\shader.h" />
     <ClInclude Include="src\graphics\renderer\SimpleRenderer2D.h" />
     <ClInclude Include="src\graphics\renderable\Sprite.h" />

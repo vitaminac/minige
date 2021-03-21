@@ -6,7 +6,6 @@
 #include "buffers/vbo.h"
 #include "renderer/SimpleRenderer2D.h"
 #include "renderer/BatchRenderer2D.h"
-#include "renderable/Renderable2d.h"
 #include "renderable/Sprite.h"
 #include "renderable/Layer.h"
 #include "renderable/TileLayer.h"

@@ -12,35 +12,34 @@ namespace gengine {
         {
         protected:
             std::vector<geometry::mat4> transformations;
-            const geometry::mat4* accumulated_transformation;
             Renderer2D()
             {
                 transformations.push_back(geometry::mat4::identity());
-                accumulated_transformation = &transformations.back();
             }
         public:
+            virtual ~Renderer2D() = default;
             virtual void submit(const Renderable2D* renderable) = 0;
             virtual void flush() = 0;
-            virtual void begin() {}
-            virtual void end() {}
+            virtual void begin() = 0;
+            virtual void end() = 0;
 
-            void push(const geometry::mat4& matrix, bool override = false)
+            void pushTransform(const geometry::mat4& transform)
             {
-                if (override)
-                    transformations.push_back(matrix);
-                else
-                    transformations.push_back(transformations.back() * matrix);
-
-                accumulated_transformation = &transformations.back();
+                transformations.push_back(transformations.back() * transform);
             }
 
-            void pop()
+            void popTransform()
             {
-                // TODO: Add to log!
-                if (transformations.size() > 1)
+                if (transformations.size() > 1) {
                     transformations.pop_back();
+                }
+                else {
+                    throw "Renderer2D popTransform when size <= 1";
+                }
+            }
 
-                accumulated_transformation = &transformations.back();
+            inline const geometry::mat4& getAccumulatedTransformation() const {
+                return transformations.back();
             }
         };
     }

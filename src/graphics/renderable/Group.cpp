@@ -13,12 +13,12 @@ namespace gengine {
 
         void Group::render(Renderer2D* renderer) const
         {
-            renderer->push(this->transform);
+            renderer->pushTransform(this->transform);
 
             for (const Renderable2D* renderable : children)
                 renderable->render(renderer);
 
-            renderer->pop();
+            renderer->popTransform();
         }
     }
 }

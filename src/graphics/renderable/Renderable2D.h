@@ -8,12 +8,6 @@
 
 namespace gengine {
     namespace graphics {
-        struct VertexData
-        {
-            vec3 vertex;
-            unsigned int color;
-        };
-
         class Renderable2D
         {
         protected:

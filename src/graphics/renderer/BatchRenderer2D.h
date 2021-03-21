@@ -1,5 +1,4 @@
 #pragma once
-#include <cstddef>
 #include "Renderer2D.h"
 #include "../renderable/Renderable2d.h"
 #include "../buffers/vbo.h"
@@ -31,8 +30,6 @@ namespace gengine {
             void submit(const Renderable2D* renderable) override;
             void end() override;
             void flush() override;
-        private:
-            void init();
         };
     }
 }

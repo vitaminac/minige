@@ -6,6 +6,12 @@
 namespace gengine {
     namespace graphics {
 
+        struct VertexData
+        {
+            geometry::vec3 vertex;
+            unsigned int color;
+        };
+
         class Renderable2D; // forward declaration
 
         class Renderer2D

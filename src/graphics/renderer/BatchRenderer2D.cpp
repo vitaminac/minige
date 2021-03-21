@@ -4,18 +4,6 @@ namespace gengine {
     namespace graphics {
         BatchRenderer2D::BatchRenderer2D()
         {
-            init();
-        }
-
-        BatchRenderer2D::~BatchRenderer2D()
-        {
-            delete ibo;
-            glDeleteBuffers(1, &vbo);
-            glDeleteVertexArrays(1, &vao);
-        }
-
-        void BatchRenderer2D::init()
-        {
             glGenVertexArrays(1, &vao);
             glGenBuffers(1, &vbo);
 
@@ -47,6 +35,13 @@ namespace gengine {
             ibo = new IndexedVertexBufferObject(indices, RENDERER_INDICES_SIZE);
 
             glBindVertexArray(0);
+        }
+
+        BatchRenderer2D::~BatchRenderer2D()
+        {
+            delete ibo;
+            glDeleteBuffers(1, &vbo);
+            glDeleteVertexArrays(1, &vao);
         }
 
         void BatchRenderer2D::begin()

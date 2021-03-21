@@ -17,6 +17,7 @@ namespace gengine {
             StaticSprite(float x, float y, float width, float height, const vec4& color, Shader& shader);
             ~StaticSprite();
 
+            virtual void render(Renderer2D* renderer) const override;
             inline const VertexArrayObject* getVAO() const { return vao; }
             inline const IndexedVertexBufferObject* getIBO() const { return ibo; }
 

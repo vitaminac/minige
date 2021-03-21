@@ -13,8 +13,10 @@ namespace gengine {
         private:
             std::deque<const StaticSprite*> queue;
         public:
-            void submit(const Renderable2D* renderable) override;
-            void flush() override;
+            virtual void submit(const Renderable2D* renderable) override;
+            virtual void flush() override;
+            virtual void begin() override;
+            virtual void end() override;
         };
     }
 }

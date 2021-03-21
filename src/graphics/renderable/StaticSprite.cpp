@@ -39,5 +39,10 @@ namespace gengine {
             delete this->vbo_position;
             delete this->vbo_color;
         }
+
+        void StaticSprite::render(Renderer2D* renderer) const
+        {
+            renderer->submit(this);
+        }
     }
 }

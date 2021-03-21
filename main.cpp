@@ -91,17 +91,38 @@ void test_file_utils() {
     std::cout << cpp << std::endl;
 }
 
-int main()
-{
-    // test
-    test_vector();
-    test_mesh();
-    test_mat4();
-    test_file_utils();
+void test_simple_renderer() {
+    GameWindow window("Test Simple Renderer", 960, 540);
 
+    mat4 ortho = mat4::orthographic(0.0f, 16.0f, 0.0f, 9.0f, -1.0f, 1.0f);
+
+    Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
+    shader.enable();
+    shader.setUniformMat4("projection_matrix", ortho);
+
+    StaticSprite sprite(5, 5, 4, 4, vec4(1, 0, 1, 1), shader);
+    StaticSprite sprite2(7, 1, 2, 3, vec4(0.2f, 0, 1, 1), shader);
+    Simple2DRenderer renderer;
+
+    while (!window.closed())
+    {
+        window.clear();
+        double x, y;
+        auto& p = window.getMousePosition();
+        shader.enable();
+        shader.setUniformVector2("light_pos", vec2((float)(p.x * 16.0f / 960.0f), (float)(9.0f - p.y * 9.0f / 540.0f)));
+        renderer.submit(&sprite);
+        renderer.submit(&sprite2);
+        renderer.flush();
+
+        window.update();
+    }
+}
+
+void test_batch_renderer_tilelayer() {
     const int window_width = 960;
     const int window_height = 540;
-    GameWindow window("Game Engine", window_width, window_height);
+    GameWindow window("Test Batch Renderer", window_width, window_height);
     window.setBackgroundColor(1.0f, 1.0f, 1.0f, 1.0f);
     window.drawBackgroud();
 
@@ -114,7 +135,6 @@ int main()
     Shader& shader2 = *s2;
 
     TileLayer layer(s, content_width, content_height);
-    shader.enable(); // TODO : delete?
     srand(time(NULL));
 
     for (float y = 0; y < content_height; y += 0.05)
@@ -166,5 +186,17 @@ int main()
             timer.reset();
         }
     }
+}
+
+int main()
+{
+    // test
+    test_vector();
+    test_mesh();
+    test_mat4();
+    test_file_utils();
+    test_simple_renderer();
+    test_batch_renderer_tilelayer();
+
     return 0;
 }

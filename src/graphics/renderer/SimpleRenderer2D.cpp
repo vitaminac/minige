@@ -25,5 +25,13 @@ namespace gengine {
                 queue.pop_front();
             }
         }
+
+        void Simple2DRenderer::begin()
+        {
+        }
+        
+        void Simple2DRenderer::end()
+        {
+        }
     }
 }

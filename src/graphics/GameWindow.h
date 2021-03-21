@@ -15,7 +15,7 @@ namespace gengine {
         private:
             const char* title;
             int width, height;
-            Position position;
+            ScreenPosition position;
             bool keys[MAX_KEYS];
             bool buttons[MAX_BUTTONS];
             GLFWwindow* window = nullptr;
@@ -39,7 +39,7 @@ namespace gengine {
 
             inline int getHeight() const { return this->height; }
 
-            inline const Position& getMousePosition() const { return this->position; }
+            inline const ScreenPosition& getMousePosition() const { return this->position; }
 
             inline bool isKeyPressed(unsigned int keycode) const {
                 return keycode >= MAX_KEYS ? false : this->keys[keycode];

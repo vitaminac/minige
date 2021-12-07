@@ -26,6 +26,7 @@
 - [ ] [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 - [ ] Foundations of Game Engine Development
 - [ ] Computer Graphics: Principles and Practice
+- [ ] [Khronos Developer Books](https://www.khronos.org/developers/books/)
 
 ## Projects
 

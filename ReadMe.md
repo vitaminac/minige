@@ -16,15 +16,16 @@
 
 ## Books
 
-* 3D Math Primer for Graphics and Game Develpment
-* Real Time Rendering
-* Mathematics for 3D Game Programming
-* Fundamentals of Computer Graphics
-* [Game Engine Architecture](https://www.gameenginebook.com/)
-* [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
-* Game Coding Complete
-* [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
-* Foundations of Game Engine Development
+- [ ] 3D Math Primer for Graphics and Game Develpment
+- [ ] Real Time Rendering
+- [ ] Mathematics for 3D Game Programming
+- [ ] Fundamentals of Computer Graphics
+- [ ] [Game Engine Architecture](https://www.gameenginebook.com/)
+- [ ] [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
+- [ ] Game Coding Complete
+- [ ] [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
+- [ ] Foundations of Game Engine Development
+- [ ] Computer Graphics: Principles and Practice
 
 ## Projects
 

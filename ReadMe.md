@@ -128,6 +128,7 @@
 * [腾讯游戏学院](https://gameinstitute.qq.com/)
 * [网易游戏学院](http://game.academy.163.com/)
 
-## Practice
+## Events
 
 * [Game Jams](https://itch.io/jams)
+* [Game Developers Conference (GDC)](https://gdconf.com/)

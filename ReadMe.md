@@ -17,6 +17,7 @@
 
 ## Courses
 
+- [ ] [CS50's Introduction to Game Development](https://www.edx.org/course/cs50s-introduction-to-game-development)
 - [ ] [Courses in Graphics Offered By Stanford](https://graphics.stanford.edu/courses/)
 - [ ] [Courses in Graphics Offered By MIT](http://graphics.csail.mit.edu/about)
 - [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)

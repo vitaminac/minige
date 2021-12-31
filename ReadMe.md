@@ -2,15 +2,24 @@
 
 ## Tutorial
 
-* [Learn OpenGL](https://learnopengl.com/)
-* [OpenGL Tutorial](http://www.opengl-tutorial.org/)
-* [Vulkan Tutorial](https://vulkan-tutorial.com/)
-* [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
-* [The Book of Shaders](https://thebookofshaders.com/)
-* [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
-* [OpenGL Step by Step](http://ogldev.atspace.co.uk/)
-* [Scratchapixel](https://www.scratchapixel.com/)
-* [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
+- [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+- [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
+- [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+- [ ] [Learn OpenGL](https://learnopengl.com/)
+- [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+- [ ] [Vulkan Tutorial](https://vulkan-tutorial.com/)
+- [ ] [Modern OpenGL Guide](https://open.gl/)
+- [ ] [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
+- [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
+- [ ] [OpenGL Step by Step](http://ogldev.atspace.co.uk/)
+- [ ] [Scratchapixel](https://www.scratchapixel.com/)
+- [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
+
+## Courses
+
+- [ ] [Courses in Graphics Offered By Stanford](https://graphics.stanford.edu/courses/)
+- [ ] [Courses in Graphics Offered By MIT](http://graphics.csail.mit.edu/about)
+- [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
 
 ## Books
 
@@ -25,6 +34,7 @@
 - [ ] Foundations of Game Engine Development
 - [ ] Computer Graphics: Principles and Practice
 - [ ] [Khronos Developer Books](https://www.khronos.org/developers/books/)
+- [ ] [The Book of Shaders](https://thebookofshaders.com/)
 
 ## Projects
 
@@ -110,15 +120,10 @@
 * [GLSL Sandbox](http://glslsandbox.com/)
 * [Shadertoy](https://www.shadertoy.com/)
 
-## Videos
+## AR & VR Toolkit
 
-* [Cherno](https://www.youtube.com/user/TheChernoProject/playlists)
-* [thebennybox](https://www.youtube.com/user/thebennybox/playlists)
-
-## VR/AR
-
-* [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
-* [VR](https://developers.google.com/vr/)
+* [Google AR & VR Toolkit](https://arvr.google.com/)
+* [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
 
 ## Institute
 

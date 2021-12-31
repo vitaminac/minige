@@ -6,8 +6,6 @@
 * [OpenGL Tutorial](http://www.opengl-tutorial.org/)
 * [Vulkan Tutorial](https://vulkan-tutorial.com/)
 * [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
-* [OPENGL – Introduction](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL2.pdf)
-* [OPENGL – USING SHADERS](http://www.sci.tamucc.edu/~sking/Courses/COSC4328/Notes/OpenGL3.pdf)
 * [The Book of Shaders](https://thebookofshaders.com/)
 * [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [OpenGL Step by Step](http://ogldev.atspace.co.uk/)

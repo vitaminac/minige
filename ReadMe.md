@@ -69,6 +69,7 @@
 * [Torque3D](https://github.com/GarageGames/Torque3D)
 * [Irrlicht](http://irrlicht.sourceforge.net/)
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
+* [Cube](http://cubeengine.com/)
 
 ### Physicas Engine
 
@@ -76,6 +77,11 @@
 * [Box2D](https://github.com/erincatto/Box2D)
 * [Bullet3](https://github.com/bulletphysics/bullet3)
 * [LiquidFun](https://github.com/google/liquidfun)
+
+### Commercial Game Engine
+
+* [RPG Maker](https://www.rpgmakerweb.com/)
+* [Frostbite](https://www.ea.com/frostbite)
 
 ### Game Server
 

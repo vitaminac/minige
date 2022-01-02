@@ -1,19 +1,10 @@
 # Reference
 
-## OpenGL Tutorial
+## Tutorials
 
 * [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
 * [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
 * [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
-* [ ] [Learn OpenGL](https://learnopengl.com/)
-* [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
-* [ ] [Modern OpenGL Guide](https://open.gl/)
-* [ ] [Anton's OpenGL 4 Tutorials](https://antongerdelan.net/opengl/)
-* [ ] [Modern OpenGL Tutorial](https://ogldev.org/)
-* [ ] [OpenGL Book](https://openglbook.com/)
-
-## Game Engine Tutorial
-
 * [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [ ] [Scratchapixel](https://www.scratchapixel.com/)
 * [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
@@ -27,16 +18,24 @@
 
 ## Books
 
-- [ ] 3D Math Primer for Graphics and Game Develpment
-- [ ] Real Time Rendering
-- [ ] Mathematics for 3D Game Programming
+### Mathematical Foundations
+
+- [ ] 3D Math Primer for Graphics and Game Development
+- [ ] Mathematics for 3D Game Programming and Computer Graphics
+
+### Computer Graphics
+
 - [ ] Fundamentals of Computer Graphics
-- [ ] [Game Engine Architecture](https://www.gameenginebook.com/)
+- [ ] Real Time Rendering
+- [ ] [Foundations of Game Engine Development](https://foundationsofgameenginedev.com/)
 - [ ] [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
+- [ ] Computer Graphics: Principles and Practice
+
+### Others
+
+- [ ] [Game Engine Architecture](https://www.gameenginebook.com/)
 - [ ] Game Coding Complete
 - [ ] [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
-- [ ] Foundations of Game Engine Development
-- [ ] Computer Graphics: Principles and Practice
 - [ ] [Khronos Developer Books](https://www.khronos.org/developers/books/)
 - [ ] [The Book of Shaders](https://thebookofshaders.com/)
 
@@ -49,7 +48,7 @@
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 
-### Game Engine
+### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
 * [libgdx](https://github.com/libgdx/libgdx)
 * [Godot](https://github.com/godotengine/godot)
@@ -63,13 +62,12 @@
 
 #### 3D Game Engine
 
-* [Unity](https://github.com/Unity-Technologies/UnityCsReference)
-* [Unreal](https://github.com/EpicGames/UnrealEngine)
 * [CryEngine](https://github.com/CRYTEK/CRYENGINE)
 * [Amazon Lumberyard](https://github.com/aws/lumberyard)
 * [Panda3D](https://github.com/panda3d/panda3d)
 * [Torque3D](https://github.com/GarageGames/Torque3D)
 * [Irrlicht](http://irrlicht.sourceforge.net/)
+* [Egret Engine](https://github.com/egret-labs/egret-core)
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 * [Cube](http://cubeengine.com/)
 
@@ -96,25 +94,93 @@
 * [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 * [MaNGOS](https://github.com/MaNGOS)
 
-### Open Source Game
-
-* [id-Software](https://github.com/id-Software)
-* [0ad](https://github.com/0ad/0ad)
-* [OpenRA](https://github.com/OpenRA/OpenRA)
-* [SuperTuxKart](https://github.com/supertuxkart/stk-code)
-* [Half-Life 1](https://github.com/ValveSoftware/halflife)
-* [The Battle for Wesnoth](https://github.com/wesnoth/wesnoth)
-* [Endless Sky](http://endless-sky.github.io/)
-* [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
-* [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)
-* [A list of popular/awesome videos games](https://github.com/leereilly/games)
-* [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
-
 ### Other
 
 * [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
+
+## Game
+
+### Open Source Game
+
+* [id-Software](https://github.com/id-Software)
+* [0ad](https://github.com/0ad/0ad)
+* [Half-Life 1](https://github.com/ValveSoftware/halflife)
+* [BrowserQuest](https://github.com/mozilla/BrowserQuest)
+* [Endless Sky](http://endless-sky.github.io/)
+* [Craft - Minecraft clone written in C for Windows, Mac OS X and Linux](https://github.com/fogleman/Craft)
+* [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
+* [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)
+* [A list of popular/awesome videos games](https://github.com/leereilly/games)
+* [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
+
+### Commercial Video Game with Source Code Leaked on Internet
+
+* 魔域 VS2010
+* 弹弹堂
+* DNF台服
+* QQ飞车
+* 梦幻西游
+* 飞飞(FlyFF)
+* 剑网3
+* 剑灵
+* 传奇
+* 星尘传说
+* 龙之谷
+* 征途
+* 洛克王国
+
+### My Favorite Games Other than Above-Mentioned
+
+* 魔塔
+* 拳皇
+* Mario Series
+* Metal Slug
+* Kirby
+* QQ堂
+* Diablo II
+* Torchlight II
+* 穿越火线
+* Call of Duty
+* Halo
+* Need for Speed
+* Euro Truck Simulator 2
+* Command & Conquer: Red Alert 2
+* Empire Earth
+* Warcraft
+* StarCraft
+* Age of Empires
+* Port Royale
+* 轩辕剑三外传：天之痕
+* 仙剑奇侠传四
+* 古剑奇谭3
+* 斗战神
+* 三国杀
+* Devil May Cry
+* Tomb Raider
+* World of Warcraft
+* 天涯明月刀
+* League of Legends
+* The Elder Scrolls V: Skyrim
+* Fallout 4
+* The Witcher 3
+* Grand Theft Auto V
+* Red Dead Redemption
+* Minecraft
+* The Legend of Zelda: Breath of the Wild
+* Genshin Impact
+* Monster Hunter
+* Civilization VI
+* Forza Horizon 4
+* Sea of Thieves
+* 阴阳师
+* PUBG
+* Pokémon GO
+* Animal Crossing
+* Among Us
+* Half-Life: Alyx
+* Black Myth: Wukong
 
 ### OpenGL Libraries
 
@@ -132,15 +198,33 @@
 * [GLSL Sandbox](http://glslsandbox.com/)
 * [Shadertoy](https://www.shadertoy.com/)
 
+## Unity
+
+* [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)
+
+## Unreal Engine
+
+* [Unreal Engine Source Code](https://github.com/EpicGames/UnrealEngine)
+
+## OpenGL
+
+* [ ] [Learn OpenGL](https://learnopengl.com/)
+* [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+* [ ] [Modern OpenGL Guide](https://open.gl/)
+* [ ] [Anton's OpenGL 4 Tutorials](https://antongerdelan.net/opengl/)
+* [ ] [Modern OpenGL Step by Step Tutorials](https://ogldev.org/)
+* [ ] [OpenGL Book](https://openglbook.com/)
+
 ## DirectX 12
 
 * [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)
 * [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
+* Introduction to 3D Game Programming with DirectX 12
 
 ## Vulkan
 
-* [ ] [Vulkan Tutorial](https://vulkan-tutorial.com/)
-* [ ] [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
+* [Vulkan Tutorial](https://vulkan-tutorial.com/)
+* [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
 
 ## WebGL
 
@@ -150,6 +234,7 @@
 
 * [Google AR & VR Toolkit](https://arvr.google.com/)
 * [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
+* [OpenVR SDK](https://github.com/ValveSoftware/openvr)
 
 ## Institute
 

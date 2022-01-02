@@ -1,19 +1,22 @@
 # Reference
 
-## Tutorial
+## OpenGL Tutorial
 
-- [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
-- [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
-- [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
-- [ ] [Learn OpenGL](https://learnopengl.com/)
-- [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
-- [ ] [Vulkan Tutorial](https://vulkan-tutorial.com/)
-- [ ] [Modern OpenGL Guide](https://open.gl/)
-- [ ] [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
-- [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
-- [ ] [OpenGL Step by Step](http://ogldev.atspace.co.uk/)
-- [ ] [Scratchapixel](https://www.scratchapixel.com/)
-- [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
+* [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
+* [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
+* [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+* [ ] [Learn OpenGL](https://learnopengl.com/)
+* [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
+* [ ] [Modern OpenGL Guide](https://open.gl/)
+* [ ] [Anton's OpenGL 4 Tutorials](https://antongerdelan.net/opengl/)
+* [ ] [Modern OpenGL Tutorial](https://ogldev.org/)
+* [ ] [OpenGL Book](https://openglbook.com/)
+
+## Game Engine Tutorial
+
+* [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
+* [ ] [Scratchapixel](https://www.scratchapixel.com/)
+* [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
 
 ## Courses
 
@@ -43,9 +46,8 @@
 
 * [OGRE](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
-* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
-* [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
+* [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 
 ### Game Engine
 
@@ -114,18 +116,35 @@
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
-### Libraries
+### OpenGL Libraries
 
 * [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
 * [OpenGL Utility Libraries](https://www.opengl.org/resources/libraries/)
-* [glm](https://github.com/g-truc/glm)
-* [glfw](https://github.com/glfw/glfw)
+* [GLM](https://github.com/g-truc/glm)
+* [GLEW](http://glew.sourceforge.net/)
+* [GLFW](https://github.com/glfw/glfw)
 * [FreeImage](http://freeimage.sourceforge.net)
+* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
+* [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
 
 ### Shaders
 
 * [GLSL Sandbox](http://glslsandbox.com/)
 * [Shadertoy](https://www.shadertoy.com/)
+
+## DirectX 12
+
+* [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)
+* [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
+
+## Vulkan
+
+* [ ] [Vulkan Tutorial](https://vulkan-tutorial.com/)
+* [ ] [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
+
+## WebGL
+
+* [WebGL Specification](https://www.khronos.org/api/webgl)
 
 ## AR & VR Toolkit
 

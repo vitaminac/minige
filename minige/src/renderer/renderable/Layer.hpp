@@ -11,10 +11,10 @@ namespace gengine {
 		protected:
 			Renderer2D* renderer;
 			std::vector<Renderable2D*> renderables;
-			Shader* shader;
+			const Shader& shader;
 			math::mat4 projection_matrix;
 		protected:
-			Layer(Renderer2D* renderer, Shader* shader, math::mat4 projectionMatrix);
+			Layer(Renderer2D* renderer, const Shader& shader, math::mat4 projectionMatrix);
 		public:
 			virtual ~Layer();
 			virtual void add(Renderable2D* renderable);

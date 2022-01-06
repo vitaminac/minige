@@ -9,7 +9,7 @@ namespace gengine {
 		class SO_API TileLayer : public Layer
 		{
 		public:
-			TileLayer(Shader* shader, const int content_width, const int content_height);
+			TileLayer(const Shader& shader, const int content_width, const int content_height);
 			~TileLayer();
 		};
 	}

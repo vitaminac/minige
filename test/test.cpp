@@ -153,12 +153,10 @@ void test_batch_renderer_tilelayer() {
 	const float content_width = 16;
 	const float content_height = 9;
 
-	Shader* s = new Shader("shaders/basic.vert", "shaders/texture.frag");
-	Shader* s2 = new Shader("shaders/basic.vert", "shaders/texture.frag");
-	Shader& shader = *s;
-	Shader& shader2 = *s2;
+	Shader* shader = new Shader("shaders/basic.vert", "shaders/texture.frag");
+	Shader* shader2 = new Shader("shaders/basic.vert", "shaders/basic.frag");
 
-	TileLayer layer(s, content_width, content_height);
+	TileLayer layer(*shader, content_width, content_height);
 	srand(time(NULL));
 
 	for (float y = 0; y < content_height; y += 0.05)
@@ -169,7 +167,7 @@ void test_batch_renderer_tilelayer() {
 		}
 	}
 
-	TileLayer panel(s2, content_width, content_height);
+	TileLayer panel(*shader2, content_width, content_height);
 	Group* group = new Group(mat4::translation(vec3(0.0f, 0.0f, 0.0f)));
 	group->add(new Sprite(0, 0, 5, 5, vec4(0, 0, 1, 1)));
 	Group* button = new Group(mat4::translation(vec3(5.0f, 5.0f, 0.0f)));
@@ -181,16 +179,16 @@ void test_batch_renderer_tilelayer() {
 	Image image("test.png");
 	Texture texture(&image);
 
-	shader.enable();
-	shader.setTexture("tex", texture);
-	shader.disable();
+	shader->enable();
+	shader->setTexture("tex", texture);
+	shader->disable();
 
 	auto initial_position = vec2(4.0f, 5.0f);
 	struct Light light = {
 		initial_position
 	};
-	shader2.enable();
-	shader2.setLight("light", light);
+	shader2->enable();
+	shader2->setLight("light", light);
 
 	Timer timer;
 	unsigned int frames = 0;
@@ -198,8 +196,8 @@ void test_batch_renderer_tilelayer() {
 		window.clear();
 		auto& p = window.getMousePosition();
 		light.position = vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height));
-		shader.enable();
-		shader.setLight("light", light);
+		shader->enable();
+		shader->setLight("light", light);
 		layer.render();
 
 		panel.render();
@@ -211,6 +209,9 @@ void test_batch_renderer_tilelayer() {
 			timer.reset();
 		}
 	}
+
+	delete shader;
+	delete shader2;
 }
 
 int main()

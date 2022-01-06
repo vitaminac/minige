@@ -19,7 +19,7 @@ namespace gengine {
 			const char* fragmentPath;
 			unsigned int nextTextureId;
 
-			Impl(const char* vertexPath, const char* fragmentPath) : vertexPath(vertexPath), fragmentPath(fragmentPath), nextTextureId(1)
+			Impl(const char* vertexPath, const char* fragmentPath) : vertexPath(vertexPath), fragmentPath(fragmentPath), nextTextureId(0)
 			{
 				this->shaderID = this->load();
 			}
@@ -164,7 +164,7 @@ namespace gengine {
 				this->pImpl->nextTextureId++ : it->second;
 			glActiveTexture(GL_TEXTURE0 + textureUnit);
 			texture.bind();
-			this->setUniformInteger(name.c_str(), 1);
+			this->setUniformInteger(name.c_str(), textureUnit);
 		}
 	}
 }

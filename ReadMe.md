@@ -5,6 +5,7 @@
 * [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
 * [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
 * [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+* [ ] [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/)
 * [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [ ] [Scratchapixel](https://www.scratchapixel.com/)
 * [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
@@ -47,16 +48,19 @@
 * [KlayGE](https://github.com/gongminmin/KlayGE)
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
+* [bgfx](https://github.com/bkaradzic/bgfx)
 
 ### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
 * [libgdx](https://github.com/libgdx/libgdx)
 * [Godot](https://github.com/godotengine/godot)
 * [minetest](https://github.com/minetest/minetest)
+* [ursina](https://github.com/pokepetter/ursina)
 
 #### 2D Game Engine
 
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+* [Solar2D](https://github.com/coronalabs/corona)
 * [Solarus](https://gitlab.com/solarus-games/solarus)
 * [HGE](https://github.com/kvakvs/hge)
 
@@ -108,6 +112,8 @@
 * [0ad](https://github.com/0ad/0ad)
 * [Half-Life 1](https://github.com/ValveSoftware/halflife)
 * [BrowserQuest](https://github.com/mozilla/BrowserQuest)
+* [OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2)
+* [Flare](https://github.com/flareteam/flare-game)
 * [Endless Sky](http://endless-sky.github.io/)
 * [Craft - Minecraft clone written in C for Windows, Mac OS X and Linux](https://github.com/fogleman/Craft)
 * [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
@@ -130,6 +136,7 @@
 * 龙之谷
 * 征途
 * 洛克王国
+* Genshin Impact
 
 ### My Favorite Games Other than Above-Mentioned
 
@@ -159,6 +166,7 @@
 * 三国杀
 * Devil May Cry
 * Tomb Raider
+* Mount & Blade
 * World of Warcraft
 * 天涯明月刀
 * League of Legends
@@ -169,7 +177,6 @@
 * Red Dead Redemption
 * Minecraft
 * The Legend of Zelda: Breath of the Wild
-* Genshin Impact
 * Monster Hunter
 * Civilization VI
 * Forza Horizon 4
@@ -181,17 +188,6 @@
 * Among Us
 * Half-Life: Alyx
 * Black Myth: Wukong
-
-### OpenGL Libraries
-
-* [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
-* [OpenGL Utility Libraries](https://www.opengl.org/resources/libraries/)
-* [GLM](https://github.com/g-truc/glm)
-* [GLEW](http://glew.sourceforge.net/)
-* [GLFW](https://github.com/glfw/glfw)
-* [FreeImage](http://freeimage.sourceforge.net)
-* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
-* [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
 
 ### Shaders
 
@@ -215,16 +211,32 @@
 * [ ] [Modern OpenGL Step by Step Tutorials](https://ogldev.org/)
 * [ ] [OpenGL Book](https://openglbook.com/)
 
+### OpenGL Libraries
+
+* [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
+* [OpenGL Utility Libraries](https://www.opengl.org/resources/libraries/)
+* [GLM](https://github.com/g-truc/glm)
+* [GLEW](http://glew.sourceforge.net/)
+* [GLFW](https://github.com/glfw/glfw)
+* [FreeImage](http://freeimage.sourceforge.net)
+* [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
+* [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
+
 ## DirectX 12
 
 * [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)
 * [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
 * Introduction to 3D Game Programming with DirectX 12
 
-## Vulkan
+## [Vulkan](www.vulkan.org)
 
 * [Vulkan Tutorial](https://vulkan-tutorial.com/)
+* [Vulkan Guide](https://vkguide.dev/)
 * [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
+* [vkQuake](https://github.com/Novum/vkQuake)
+* [vkDOOM3](https://github.com/DustinHLand/vkDOOM3)
+
+## [Metal](https://developer.apple.com/metal/)
 
 ## WebGL
 

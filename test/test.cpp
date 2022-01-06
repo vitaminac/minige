@@ -2,8 +2,6 @@
 #include <fstream>
 #include <time.h>
 
-#include <FreeImage.h>
-
 #include "math/vec3.hpp"
 #include "math/vec4.hpp"
 #include "math/mat4.hpp"
@@ -118,7 +116,7 @@ void test_simple_renderer() {
 	const float content_height = 9;
 	mat4 ortho = mat4::orthographic(0.0f, content_width, 0.0f, content_height, -1.0f, 1.0f);
 
-	Shader shader("src/shaders/basic.vert", "src/shaders/basic.frag");
+	Shader shader("shaders/basic.vert", "shaders/basic.frag");
 	shader.enable();
 	shader.setUniformMat4("projection_matrix", ortho);
 
@@ -130,7 +128,7 @@ void test_simple_renderer() {
 		vec2(0.0f, 0.0f)
 	};
 
-	while (!window.closed())
+	while (!window.isClosed())
 	{
 		window.clear();
 		auto& p = window.getMousePosition();
@@ -155,8 +153,8 @@ void test_batch_renderer_tilelayer() {
 	const float content_width = 16;
 	const float content_height = 9;
 
-	Shader* s = new Shader("src/shaders/basic.vert", "src/shaders/texture.frag");
-	Shader* s2 = new Shader("src/shaders/basic.vert", "src/shaders/texture.frag");
+	Shader* s = new Shader("shaders/basic.vert", "shaders/texture.frag");
+	Shader* s2 = new Shader("shaders/basic.vert", "shaders/texture.frag");
 	Shader& shader = *s;
 	Shader& shader2 = *s2;
 
@@ -180,14 +178,11 @@ void test_batch_renderer_tilelayer() {
 	group->add(button);
 	panel.add(group);
 
-	// select active texture unit
-	glActiveTexture(GL_TEXTURE1);
 	Image image("test.png");
 	Texture texture(&image);
-	texture.bind();
 
 	shader.enable();
-	shader.setUniformInteger("tex", 1);
+	shader.setTexture("tex", texture);
 	shader.disable();
 
 	auto initial_position = vec2(4.0f, 5.0f);
@@ -199,7 +194,7 @@ void test_batch_renderer_tilelayer() {
 
 	Timer timer;
 	unsigned int frames = 0;
-	while (!window.closed()) {
+	while (!window.isClosed()) {
 		window.clear();
 		auto& p = window.getMousePosition();
 		light.position = vec2((float)(p.x * content_width / window_width), (float)(content_height - p.y * content_height / window_height));

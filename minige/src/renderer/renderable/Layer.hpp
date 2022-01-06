@@ -1,11 +1,12 @@
 #pragma once
+#include "so.h"
 #include "../Shader.hpp"
 #include "Renderable2D.hpp"
 
 namespace gengine {
 	namespace renderer {
 
-		class Layer
+		class SO_API Layer
 		{
 		protected:
 			Renderer2D* renderer;

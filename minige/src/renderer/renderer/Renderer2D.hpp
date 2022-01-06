@@ -3,6 +3,7 @@
 #include "math/vec3.hpp"
 #include "math/mat4.hpp"
 
+// TODO: deprecate Renderer, I guess Renderable should be able to do whather they need
 namespace gengine {
 	namespace renderer {
 

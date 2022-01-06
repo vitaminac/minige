@@ -1,5 +1,5 @@
 #pragma once
-
+#include "so.h"
 #include <deque>
 #include "Renderer2D.hpp"
 #include "../renderable/Renderable2D.hpp"
@@ -8,7 +8,7 @@
 namespace gengine {
 	namespace renderer {
 
-		class Simple2DRenderer2D : public Renderer2D
+		class SO_API Simple2DRenderer2D : public Renderer2D
 		{
 		private:
 			std::deque<const StaticSprite*> queue;

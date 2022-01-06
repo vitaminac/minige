@@ -15,15 +15,7 @@ namespace gengine {
 			while (!queue.empty())
 			{
 				const StaticSprite* sprite = queue.front();
-				sprite->getVAO()->bind();
-				sprite->getIBO()->bind();
-
-				sprite->getShader().setUniformMat4("model_matrix", mat4::translation(sprite->getPosition()));
-				glDrawElements(GL_TRIANGLES, sprite->getIBO()->getCount(), GL_UNSIGNED_INT, nullptr);
-
-				sprite->getIBO()->unbind();
-				sprite->getVAO()->unbind();
-
+				sprite->render();
 				queue.pop_front();
 			}
 		}

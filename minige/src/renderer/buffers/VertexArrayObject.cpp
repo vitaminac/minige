@@ -2,7 +2,6 @@
 
 namespace gengine {
 	namespace renderer {
-
 		VertexArrayObject::VertexArrayObject()
 		{
 			// Create single VAO which contains the vertex array state

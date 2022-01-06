@@ -1,5 +1,7 @@
 #include "vec4.hpp"
 
+using std::ostream;
+
 namespace gengine {
     namespace math {
         vec4 operator+(const vec4& left, const vec4& right)

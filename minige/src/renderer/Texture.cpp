@@ -1,13 +1,21 @@
 #include "Texture.hpp"
+#include <GL/glew.h>
 
 namespace gengine {
 	using namespace platform;
 
 	namespace renderer {
 
-		Texture::Texture(const Image* const image) : image(image)
+		struct Texture::Impl {
+			GLuint tid;
+			const platform::Image* const image;
+		};
+
+		Texture::Texture(const Image* const image)
 		{
+			GLuint tid;
 			glGenTextures(1, &tid);
+			this->pImpl = std::make_unique<Impl>(tid, image);
 			this->bind();
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 			glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
@@ -22,14 +30,12 @@ namespace gengine {
 			this->unbind();
 		}
 
-		Texture::~Texture()
-		{
-		}
+		Texture::~Texture() = default;
 
 		// bind texture to current texture unit defined by glActiveTexture(GL_TEXTURE{i}); which i is a integer from 0 to at least 80
 		void Texture::bind() const
 		{
-			glBindTexture(GL_TEXTURE_2D, tid);
+			glBindTexture(GL_TEXTURE_2D, this->pImpl->tid);
 		}
 
 		void Texture::unbind() const
@@ -37,5 +43,9 @@ namespace gengine {
 			glBindTexture(GL_TEXTURE_2D, 0);
 		}
 
+		const platform::Image& const Texture::getImage() const
+		{
+			return *this->pImpl->image;
+		}
 	}
 }

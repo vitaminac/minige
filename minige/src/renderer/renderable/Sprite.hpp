@@ -1,4 +1,5 @@
 #pragma once
+#include "so.h"
 #include "math/vec2.hpp"
 #include "math/vec3.hpp"
 #include "math/vec4.hpp"
@@ -7,7 +8,7 @@
 
 namespace gengine {
 	namespace renderer {
-		class Sprite : public Renderable2D
+		class SO_API Sprite : public Renderable2D
 		{
 		protected:
 			math::vec3 position;

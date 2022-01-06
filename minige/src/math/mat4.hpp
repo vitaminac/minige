@@ -14,29 +14,29 @@ namespace gengine {
 
 			mat4() = default;
 
-			friend mat4 operator*(const mat4& left, const mat4& right);
-            friend vec3 operator*(const mat4& left, const vec3& right);
-            friend vec4 operator*(const mat4& left, const vec4& right);
+			SO_API friend mat4 operator*(const mat4& left, const mat4& right);
+			SO_API friend vec3 operator*(const mat4& left, const vec3& right);
+			SO_API friend vec4 operator*(const mat4& left, const vec4& right);
 
 			const vec4& operator[](const int index) const;
 
-			static mat4 diagonal(const float diagonal);
+			SO_API static mat4 diagonal(const float diagonal);
 
-			static mat4 identity();
+			SO_API static mat4 identity();
 
-			static mat4 zero();
+			SO_API static mat4 zero();
 
-			static mat4 translation(const vec3& translation);
+			SO_API static mat4 translation(const vec3& translation);
 
-			static mat4 rotation(const vec3& axis, const float angle);
+			SO_API static mat4 rotation(const vec3& axis, const float angle);
 
-			static mat4 scale(const vec3& k);
+			SO_API static mat4 scale(const vec3& k);
 
-			static mat4 orthographic(const float left, const float right, const float bottom, const float top, const float near, const float far);
+			SO_API static mat4 orthographic(const float left, const float right, const float bottom, const float top, const float near, const float far);
 
-			static mat4 perspective(const float fov, const float aspectRatio, const float near, const float far);
+			SO_API static mat4 perspective(const float fov, const float aspectRatio, const float near, const float far);
 
-			static mat4 perspective_frustum(const float left, const float right, const float bottom, const float top, const float near, const float far);
+			SO_API static mat4 perspective_frustum(const float left, const float right, const float bottom, const float top, const float near, const float far);
 		} mat4;
 	}
 }

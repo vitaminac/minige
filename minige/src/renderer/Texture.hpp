@@ -1,22 +1,21 @@
 #pragma once
-#include <GL/glew.h>
+#include "so.h"
+#include <memory>
 #include "platform/Image.hpp"
 
 namespace gengine {
 	namespace renderer {
-
-		class Texture
+		class SO_API Texture
 		{
 		private:
-			GLuint tid;
-			const platform::Image* const image;
+			struct Impl;
+			std::unique_ptr<Impl> pImpl;
 		public:
 			Texture(const platform::Image* const image);
 			~Texture();
 			void bind() const;
 			void unbind() const;
-
-			inline const platform::Image* const getImage() const { return image; }
+			const platform::Image& const getImage() const;
 		};
 	}
 }

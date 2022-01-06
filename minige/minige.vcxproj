@@ -16,7 +16,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -34,10 +34,11 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir);$(IncludePath);$(ProjectDir)src;$(ProjectDir)GLEW;$(ProjectDir)FreeImage;</IncludePath>
-    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(ProjectDir)GLFW;$(ProjectDir)GLEW;$(ProjectDir)FreeImage;</LibraryPath>
-    <OutDir>$(ProjectDir)bin\$(Configuration)\</OutDir>
+    <IncludePath>$(ProjectDir);$(IncludePath);$(ProjectDir)src;$(SolutionDir)GLEW;$(SolutionDir)FreeImage;$(SolutionDir)GLFW</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)GLFW;$(SolutionDir)GLEW;$(SolutionDir)FreeImage</LibraryPath>
+    <OutDir>$(SolutionDir)lib\</OutDir>
     <IntDir>$(ProjectDir)bin\$(Configuration)\Intermediate\</IntDir>
+    <TargetName>$(ProjectName)_$(Platform)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -45,7 +46,7 @@
       <WarningLevel>EnableAllWarnings</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;MINIGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalOptions>
@@ -58,7 +59,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>OpenGL32.Lib;glfw3dll.lib;glew32.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OpenGL32.Lib;glfw3.lib;glew32.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -81,11 +82,11 @@
     <ClCompile Include="src\renderer\renderable\StaticSprite.cpp" />
     <ClCompile Include="src\renderer\Texture.cpp" />
     <ClCompile Include="src\ui\GameWindow.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="src\platform\FileUtils.cpp" />
     <ClCompile Include="src\platform\Image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\so.h" />
     <ClInclude Include="src\math\mat4.hpp" />
     <ClInclude Include="src\math\maths.hpp" />
     <ClInclude Include="src\math\mesh.hpp" />
@@ -108,17 +109,13 @@
     <ClInclude Include="src\platform\FileUtils.hpp" />
     <ClInclude Include="src\platform\Image.hpp" />
     <ClInclude Include="src\platform\Timer.hpp" />
-    <ClInclude Include="test.h" />
     <ClInclude Include="src\math\vec2.hpp" />
     <ClInclude Include="src\math\vec3.hpp" />
     <ClInclude Include="src\math\vec4.hpp" />
     <ClInclude Include="src\ui\GameWindow.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Design.md" />
-    <None Include="src\shaders\basic.frag" />
-    <None Include="src\shaders\texture.frag" />
-    <None Include="src\shaders\basic.vert" />
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

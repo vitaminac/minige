@@ -21,7 +21,7 @@ Use *.hpp for C++ header and use .h only for C compatible header
 
 #### Namespace
 
-Never use `using namespace` in the header files, it will pollute the names for all the source files that include it.
+Never use `using namespace` and `using` in the header files, it will pollute the names for all the source files that include it.
 
 #### Include
 
@@ -31,6 +31,7 @@ Only include the header files that are required for the definition, never includ
 
 ##### Inside of Header Files
 
+0. so.h
 1. Standard C++ library headers 
 2. Third party library headers
 3. Our own headers with alias
@@ -43,3 +44,11 @@ Only include the header files that are required for the definition, never includ
 2. Third party library headers
 3. Our own headers with alias
 4. Our own headers with relative path
+
+### Local Variables
+
+* Use auto and const when possible
+
+### Casting
+
+* prefer static_cast than C style casting

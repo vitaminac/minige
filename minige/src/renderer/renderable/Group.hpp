@@ -1,11 +1,12 @@
 #pragma once
+#include "so.h"
 #include "Renderable2D.hpp"
 #include "../renderer/Renderer2d.hpp"
 
 namespace gengine {
 	namespace renderer {
 
-		class Group : public Renderable2D
+		class SO_API Group : public Renderable2D
 		{
 		private:
 			std::vector<Renderable2D*> children;

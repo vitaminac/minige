@@ -5,6 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minige", "minige\minige.vcxproj", "{5B334BA4-A8FF-4B9A-A149-714254AF331B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{EB66BAE4-A9C7-4E49-89DD-92ADC88D85ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B334BA4-A8FF-4B9A-A149-714254AF331B} = {5B334BA4-A8FF-4B9A-A149-714254AF331B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -12,6 +17,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5B334BA4-A8FF-4B9A-A149-714254AF331B}.Debug|x64.ActiveCfg = Debug|x64
 		{5B334BA4-A8FF-4B9A-A149-714254AF331B}.Debug|x64.Build.0 = Debug|x64
+		{EB66BAE4-A9C7-4E49-89DD-92ADC88D85ED}.Debug|x64.ActiveCfg = Debug|x64
+		{EB66BAE4-A9C7-4E49-89DD-92ADC88D85ED}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

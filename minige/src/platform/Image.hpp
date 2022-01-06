@@ -1,14 +1,15 @@
 #pragma once
-#pragma warning(disable : 26812) // disabling a warning when including a header works normally for most warnings.
-#include <FreeImage.h>
+#include "so.h"
+#include <memory>
 
 namespace gengine {
 	namespace platform {
-		class Image
+		class SO_API Image
 		{
 		private:
-			// pointer to the image, once loaded
-			FIBITMAP* bitmap = nullptr;
+			// https://en.cppreference.com/w/cpp/language/pimpl
+			struct Impl;
+			std::unique_ptr <Impl> pImpl;
 		public:
 			Image(const char* filename);
 			~Image();

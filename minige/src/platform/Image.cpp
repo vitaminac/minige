@@ -1,7 +1,13 @@
 #include "Image.hpp";
 
+#include <FreeImage.h>
+
 namespace gengine {
 	namespace platform {
+		struct Image::Impl {
+			FIBITMAP* bitmap = nullptr;
+		};
+
 		Image::Image(const char* filename) {
 			FREE_IMAGE_FORMAT image_format = FIF_UNKNOWN;
 			// check the file signature and deduce its format
@@ -16,28 +22,30 @@ namespace gengine {
 			}
 
 			// check that the plugin has reading capabilities and load the file
-			if (FreeImage_FIFSupportsReading(image_format))
-				this->bitmap = FreeImage_Load(image_format, filename);
+			if (FreeImage_FIFSupportsReading(image_format)) {
+				this->pImpl = std::make_unique<Impl>(FreeImage_Load(image_format, filename));
+			}
+
 			// if the image failed to load, return failure
-			if (!this->bitmap)
+			if (!this->pImpl->bitmap) {
 				throw "image load failed";
+			}
 		}
 
 		Image::~Image() {
-			FreeImage_Unload(this->bitmap);
+			FreeImage_Unload(this->pImpl->bitmap);
 		}
 
 		const unsigned char const* Image::getData() const {
-			// retrieve the image data
-			return FreeImage_GetBits(this->bitmap);;
+			return FreeImage_GetBits(this->pImpl->bitmap);;
 		}
 
 		const unsigned int Image::getWidth() const {
-			return FreeImage_GetWidth(this->bitmap);
+			return FreeImage_GetWidth(this->pImpl->bitmap);
 		}
 
 		const unsigned int Image::getHeight() const {
-			return FreeImage_GetHeight(this->bitmap);
+			return FreeImage_GetHeight(this->pImpl->bitmap);
 		}
 	}
 }

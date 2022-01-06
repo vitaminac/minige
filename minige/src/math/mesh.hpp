@@ -1,12 +1,11 @@
-#ifndef TriangleMesh_H
-#define TriangleMesh_H
-
+#pragma once
+#include "so.h"
 #include "vec3.hpp"
 #include <vector>
 
 namespace gengine {
 	namespace math {
-		class Triangle {
+		class SO_API Triangle {
 		public:
 			unsigned int a;
 			unsigned int b;
@@ -16,8 +15,9 @@ namespace gengine {
 			}
 		};
 
-		class TriangleMesh {
+		class SO_API TriangleMesh {
 		public:
+			// TODO: make them private
 			std::vector<vec3> vertices;
 			std::vector<Triangle> faces;
 
@@ -29,8 +29,7 @@ namespace gengine {
 			vec3 vertexNormal(unsigned int index) const;
 		};
 
-		std::ostream& operator << (std::ostream & os, const Triangle& t);
-		std::ostream& operator << (std::ostream & os, const TriangleMesh& mesh);
+		SO_API std::ostream& operator<<(std::ostream& os, const Triangle& t);
+		SO_API std::ostream& operator<<(std::ostream& os, const TriangleMesh& mesh);
 	}
 }
-#endif

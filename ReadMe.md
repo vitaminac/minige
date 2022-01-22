@@ -137,6 +137,7 @@
 * 征途
 * 洛克王国
 * Genshin Impact
+* CSOL
 
 ### My Favorite Games Other than Above-Mentioned
 

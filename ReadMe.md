@@ -64,6 +64,7 @@
 * [Solar2D](https://github.com/coronalabs/corona)
 * [Solarus](https://gitlab.com/solarus-games/solarus)
 * [HGE](https://github.com/kvakvs/hge)
+* [GGELUA](https://gitee.com/GGELUA/GGELUA)
 
 #### 3D Game Engine
 

@@ -15,6 +15,7 @@
 - [ ] [CS50's Introduction to Game Development](https://www.edx.org/course/cs50s-introduction-to-game-development)
 - [ ] [Courses in Graphics Offered By Stanford](https://graphics.stanford.edu/courses/)
 - [ ] [Courses in Graphics Offered By MIT](http://graphics.csail.mit.edu/about)
+- [ ] [UC Berkeley CS184/284A: Computer Graphics and Imaging](https://cs184.eecs.berkeley.edu/)
 - [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
 
 ## Books
@@ -138,6 +139,7 @@
 * 洛克王国
 * Genshin Impact
 * CSOL
+* 天龙八部
 
 ### My Favorite Games Other than Above-Mentioned
 

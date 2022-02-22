@@ -236,6 +236,7 @@
 
 * [Vulkan Tutorial](https://vulkan-tutorial.com/)
 * [Vulkan Guide](https://vkguide.dev/)
+* [Vulkan Samples by Khronos Group](https://github.com/KhronosGroup/Vulkan-Samples/blob/master/samples/vulkan_basics.md)
 * [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
 * [vkQuake](https://github.com/Novum/vkQuake)
 * [vkDOOM3](https://github.com/DustinHLand/vkDOOM3)

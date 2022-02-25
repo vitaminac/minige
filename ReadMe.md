@@ -55,6 +55,7 @@
 
 * [libgdx](https://github.com/libgdx/libgdx)
 * [Godot](https://github.com/godotengine/godot)
+* [Cocos Creator](https://github.com/cocos-creator/engine)
 * [minetest](https://github.com/minetest/minetest)
 * [ursina](https://github.com/pokepetter/ursina)
 
@@ -141,6 +142,7 @@
 * Genshin Impact
 * CSOL
 * 天龙八部
+* 洛奇英雄传
 
 ### My Favorite Games Other than Above-Mentioned
 

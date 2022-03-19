@@ -5,6 +5,7 @@
 * [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
 * [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
 * [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
+* [ ] [Game Engine Programming](https://www.youtube.com/playlist?list=PLU2nPsAdxKWQYxkmQ3TdbLsyc1l2j25XM)
 * [ ] [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/)
 * [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [ ] [Scratchapixel](https://www.scratchapixel.com/)
@@ -144,6 +145,7 @@
 * 天龙八部
 * 洛奇英雄传
 * [穿越火线](https://www.youtube.com/channel/UCM1bV6BmqM0pzEyDdrx4xug)
+* [仙剑奇侠传三](https://github.com/JasonStein/Pal3.Unity)
 
 ### My Favorite Games Other than Above-Mentioned
 

@@ -263,5 +263,6 @@
 
 ## Events
 
-* [Game Jams](https://itch.io/jams)
 * [Game Developers Conference (GDC)](https://gdconf.com/)
+* [Global Game Jam](https://globalgamejam.org/)
+* [Game Jams](https://itch.io/jams)

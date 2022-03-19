@@ -143,6 +143,7 @@
 * CSOL
 * 天龙八部
 * 洛奇英雄传
+* [穿越火线](https://www.youtube.com/channel/UCM1bV6BmqM0pzEyDdrx4xug)
 
 ### My Favorite Games Other than Above-Mentioned
 
@@ -154,7 +155,6 @@
 * QQ堂
 * Diablo II
 * Torchlight II
-* 穿越火线
 * Call of Duty
 * Halo
 * Need for Speed

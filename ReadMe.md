@@ -51,6 +51,7 @@
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
+* [QT](https://www.qt.io/)
 
 ### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
@@ -235,6 +236,7 @@
 * [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)
 * [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
 * Introduction to 3D Game Programming with DirectX 12
+* [Windows GDI](https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi)
 
 ## [Vulkan](www.vulkan.org)
 

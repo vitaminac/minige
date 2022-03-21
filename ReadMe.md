@@ -51,7 +51,7 @@
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
-* [QT](https://www.qt.io/)
+* [Qt](https://www.qt.io/)
 
 ### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
@@ -141,7 +141,7 @@
 * 龙之谷
 * 征途
 * 洛克王国
-* Genshin Impact
+* Genshin Impact 1.5
 * CSOL
 * 天龙八部
 * 洛奇英雄传

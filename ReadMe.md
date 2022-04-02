@@ -165,7 +165,7 @@
 * Euro Truck Simulator 2
 * Command & Conquer: Red Alert 2
 * Empire Earth
-* Warcraft
+* Warcraft III: The Frozen Throne
 * StarCraft
 * Age of Empires
 * Port Royale

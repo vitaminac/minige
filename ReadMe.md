@@ -260,6 +260,10 @@
 * [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
 * [OpenVR SDK](https://github.com/ValveSoftware/openvr)
 
+## NVIDIA
+
+* [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
+
 ## Institute
 
 * [Game Institute](https://www.gameinstitute.com/)

@@ -251,7 +251,7 @@
 
 ## [Metal](https://developer.apple.com/metal/)
 
-## WebGL
+## [WebGL](https://get.webgl.org/)
 
 * [WebGL Specification](https://www.khronos.org/api/webgl)
 

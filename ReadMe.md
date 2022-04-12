@@ -198,6 +198,7 @@
 * Among Us
 * Half-Life: Alyx
 * Black Myth: Wukong
+* Elden Ring
 
 ### Shaders
 

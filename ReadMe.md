@@ -188,6 +188,7 @@
 * The Legend of Zelda: Breath of the Wild
 * Monster Hunter
 * Civilization VI
+* Anno
 * Forza Horizon 4
 * Sea of Thieves
 * 阴阳师

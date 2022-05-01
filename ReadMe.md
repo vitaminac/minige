@@ -51,7 +51,6 @@
 * [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
-* [Qt](https://www.qt.io/)
 
 ### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 

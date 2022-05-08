@@ -6,6 +6,7 @@
 * [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
 * [ ] [3D Game Engine Development Tutorial](https://www.youtube.com/playlist?list=PLEETnX-uPtBXP_B2yupUKlflXBznWIlL5)
 * [ ] [Game Engine Programming](https://www.youtube.com/playlist?list=PLU2nPsAdxKWQYxkmQ3TdbLsyc1l2j25XM)
+* [ ] [Star游戏引擎开发记录](https://github.com/star-e/StarEngine)
 * [ ] [Learning Modern 3D Graphics Programming](https://paroj.github.io/gltut/)
 * [ ] [Game Engine Architecture Lectures](http://nikoladimitroff.github.io/Game-Engine-Architecture/)
 * [ ] [Scratchapixel](https://www.scratchapixel.com/)
@@ -67,6 +68,8 @@
 * [Solarus](https://gitlab.com/solarus-games/solarus)
 * [HGE](https://github.com/kvakvs/hge)
 * [GGELUA](https://gitee.com/GGELUA/GGELUA)
+* [StarEngine](https://github.com/StarEngine/engine)
+* [ejoy2d](https://github.com/ejoy/ejoy2d)
 
 #### 3D Game Engine
 

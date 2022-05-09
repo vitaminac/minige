@@ -176,6 +176,7 @@
 * 古剑奇谭3
 * 斗战神
 * 三国杀
+* Machinarium
 * Devil May Cry
 * Tomb Raider
 * Mount & Blade

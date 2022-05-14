@@ -196,6 +196,7 @@
 * Forza Horizon 4
 * Sea of Thieves
 * 阴阳师
+* Fortnite
 * PUBG
 * Pokémon GO
 * Animal Crossing

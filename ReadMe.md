@@ -144,7 +144,7 @@
 * 龙之谷
 * 征途
 * 洛克王国
-* Genshin Impact 1.5
+* Genshin Impact 1.5, 2.6
 * CSOL
 * 天龙八部
 * 洛奇英雄传
@@ -161,6 +161,7 @@
 * QQ堂
 * Diablo II
 * Torchlight II
+* Inotia
 * Call of Duty
 * Halo
 * Need for Speed
@@ -171,6 +172,8 @@
 * StarCraft
 * Age of Empires
 * Port Royale
+* SimCity
+* The Sims
 * 轩辕剑三外传：天之痕
 * 仙剑奇侠传四
 * 古剑奇谭3

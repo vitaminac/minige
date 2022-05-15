@@ -198,7 +198,7 @@
 * Monster Hunter
 * Civilization VI
 * Anno
-* Forza Horizon 4
+* Forza
 * Sea of Thieves
 * 阴阳师
 * Fortnite

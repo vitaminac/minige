@@ -192,6 +192,7 @@
 * The Witcher 3
 * Grand Theft Auto V
 * Red Dead Redemption
+* Hitman
 * Minecraft
 * The Legend of Zelda: Breath of the Wild
 * Monster Hunter

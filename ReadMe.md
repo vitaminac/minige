@@ -186,6 +186,7 @@
 * World of Warcraft
 * 天涯明月刀
 * League of Legends
+* Assassin's Creed
 * The Elder Scrolls V: Skyrim
 * Fallout 4
 * The Witcher 3

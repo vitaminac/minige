@@ -200,6 +200,7 @@
 * Anno
 * Forza
 * Sea of Thieves
+* Clash of Clans
 * 阴阳师
 * Fortnite
 * PUBG

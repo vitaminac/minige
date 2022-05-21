@@ -211,11 +211,6 @@
 * Black Myth: Wukong
 * Elden Ring
 
-### Shaders
-
-* [GLSL Sandbox](http://glslsandbox.com/)
-* [Shadertoy](https://www.shadertoy.com/)
-
 ## Unity
 
 * [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)
@@ -243,6 +238,11 @@
 * [FreeImage](http://freeimage.sourceforge.net)
 * [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
 * [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
+
+## GLSL
+
+* [GLSL Sandbox](http://glslsandbox.com/)
+* [Shadertoy](https://www.shadertoy.com/)
 
 ## DirectX 12
 

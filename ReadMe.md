@@ -107,6 +107,7 @@
 
 ### Flash
 
+* [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler)
 * [Ruffle](https://github.com/ruffle-rs/ruffle)
 * [Lightspark](https://github.com/lightspark/lightspark)
 * [swf2js](https://github.com/swf2js/swf2js)

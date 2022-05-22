@@ -105,6 +105,15 @@
 * [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 * [MaNGOS](https://github.com/MaNGOS)
 
+### Flash
+
+* [Ruffle](https://github.com/ruffle-rs/ruffle)
+* [Lightspark](https://github.com/lightspark/lightspark)
+* [swf2js](https://github.com/swf2js/swf2js)
+* [Actionscript Virtual Machine](https://github.com/adobe/avmplus)
+* [FlashPatch](https://github.com/darktohka/FlashPatch)
+* [Open Source Flash](https://github.com/open-source-flash)
+
 ### Other
 
 * [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)

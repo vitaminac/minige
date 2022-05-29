@@ -217,6 +217,8 @@
 * Pokémon GO
 * Animal Crossing
 * Among Us
+* Apex
+* Roblox
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring

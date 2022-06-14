@@ -204,6 +204,7 @@
 * Red Dead Redemption
 * Hitman
 * Minecraft
+* Dragon Quest
 * The Legend of Zelda: Breath of the Wild
 * Monster Hunter
 * Civilization VI

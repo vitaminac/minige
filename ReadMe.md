@@ -80,7 +80,7 @@
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 * [Cube](http://cubeengine.com/)
 
-### Physicas Engine
+### Physics Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)
 * [Box2D](https://github.com/erincatto/Box2D)
@@ -120,6 +120,16 @@
 * [yuzu](https://github.com/yuzu-emu/yuzu)
 * [Ryujinx](https://github.com/Ryujinx/Ryujinx)
 * [Skyline](https://github.com/skyline-emu/skyline)
+
+#### [NES](https://github.com/topics/nes-emulator?o=desc&s=stars)
+
+#### NDS
+
+* [DeSmuME](https://github.com/TASEmulators/desmume)
+* [NooDS](https://github.com/Hydr8gon/NooDS)
+* [ndsemu](https://github.com/rasky/ndsemu)
+
+#### [GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
 
 ### Other
 

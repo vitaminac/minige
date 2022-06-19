@@ -131,12 +131,16 @@
 
 #### [GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
 
+### [Steam Deck](https://store.steampowered.com/steamdeck)
+
+* [SteamOS](https://store.steampowered.com/steamos)
+* [Proton](https://github.com/ValveSoftware/Proton)
+
 ### Other
 
 * [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
-* [Proton](https://github.com/ValveSoftware/Proton)
 
 ## Game
 

@@ -1,5 +1,3 @@
-# Reference
-
 ## Tutorials
 
 * [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
@@ -114,6 +112,14 @@
 * [Actionscript Virtual Machine](https://github.com/adobe/avmplus)
 * [FlashPatch](https://github.com/darktohka/FlashPatch)
 * [Open Source Flash](https://github.com/open-source-flash)
+
+### Emulator
+
+#### Nintendo Switch
+
+* [yuzu](https://github.com/yuzu-emu/yuzu)
+* [Ryujinx](https://github.com/Ryujinx/Ryujinx)
+* [Skyline](https://github.com/skyline-emu/skyline)
 
 ### Other
 

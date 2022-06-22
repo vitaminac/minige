@@ -131,6 +131,12 @@
 
 #### [GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
 
+#### PlayStation
+
+* [Orbital](https://github.com/AlexAltea/orbital)
+* [GPCS4](https://github.com/Inori/GPCS4)
+* [Kyty](https://github.com/InoriRus/Kyty)
+
 ### [Steam Deck](https://store.steampowered.com/steamdeck)
 
 * [SteamOS](https://store.steampowered.com/steamos)
@@ -305,8 +311,12 @@
 * [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
 * [OpenVR SDK](https://github.com/ValveSoftware/openvr)
 
-## NVIDIA
+## GPU
 
+* [NVIDIA G-SYNC](https://developer.nvidia.com/g-sync)
+* [AMD FreeSync](https://www.amd.com/en/technologies/free-sync)
+* [NVIDIA DLSS](https://www.nvidia.com/es-es/geforce/technologies/dlss/)
+* [AMD FidelityFX™ Super Resolution](https://www.amd.com/en/technologies/fidelityfx-super-resolution)
 * [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
 
 ## Institute

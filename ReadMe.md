@@ -180,6 +180,7 @@
 * 龙之谷
 * 征途
 * 洛克王国
+* 天堂2
 * Genshin Impact 1.5, 2.6
 * CSOL
 * 天龙八部
@@ -197,6 +198,7 @@
 * QQ堂
 * Diablo II
 * Torchlight II
+* Path of Exile
 * Inotia
 * Call of Duty
 * Halo
@@ -215,6 +217,7 @@
 * 古剑奇谭3
 * 斗战神
 * 三国杀
+* Hearthstone
 * Machinarium
 * Devil May Cry
 * Tomb Raider

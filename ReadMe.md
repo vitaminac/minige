@@ -308,6 +308,12 @@
 
 * [WebGL Specification](https://www.khronos.org/api/webgl)
 
+## WebXR
+
+* [WebXR Device API Specification](https://www.w3.org/TR/webxr/)
+* [Immersive Web](https://immersiveweb.dev/)
+* [WebVR](https://webvr.info/)
+
 ## AR & VR Toolkit
 
 * [Google AR & VR Toolkit](https://arvr.google.com/)

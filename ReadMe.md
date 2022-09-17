@@ -242,6 +242,7 @@
 * Sea of Thieves
 * Clash of Clans
 * 阴阳师
+* 王者荣耀
 * Fortnite
 * PUBG
 * Pokémon GO

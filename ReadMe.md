@@ -240,7 +240,6 @@
 * Anno
 * Forza
 * Sea of Thieves
-* Clash of Clans
 * 阴阳师
 * 王者荣耀
 * Fortnite
@@ -253,6 +252,12 @@
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring
+
+#### Tower defense (TD)
+
+* Plants vs. Zombies
+* Clash of Clans
+* Clash Royale
 
 ## Unity
 

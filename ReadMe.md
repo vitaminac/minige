@@ -257,6 +257,10 @@
 
 * Angry Birds
 
+#### Platform game
+
+* Temple Run
+
 #### Tower defense (TD)
 
 * Plants vs. Zombies

@@ -212,6 +212,7 @@
 * Port Royale
 * SimCity
 * The Sims
+* 金庸群侠传
 * 轩辕剑三外传：天之痕
 * 仙剑奇侠传四
 * 古剑奇谭3

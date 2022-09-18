@@ -253,6 +253,10 @@
 * Black Myth: Wukong
 * Elden Ring
 
+#### Puzzle video game
+
+* Angry Birds
+
 #### Tower defense (TD)
 
 * Plants vs. Zombies

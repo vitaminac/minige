@@ -181,7 +181,7 @@
 * 征途
 * 洛克王国
 * 天堂2
-* Genshin Impact 1.5, 2.6
+* 原神 1.5, 2.6
 * CSOL
 * 天龙八部
 * 洛奇英雄传
@@ -253,6 +253,7 @@
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring
+* 幻塔
 
 #### Puzzle video game
 

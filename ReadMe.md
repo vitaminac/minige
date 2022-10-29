@@ -181,7 +181,6 @@
 * 征途
 * 洛克王国
 * 天堂2
-* 原神 1.5, 2.6
 * CSOL
 * 天龙八部
 * 洛奇英雄传
@@ -216,15 +215,12 @@
 * 轩辕剑三外传：天之痕
 * 仙剑奇侠传四
 * 古剑奇谭3
-* 斗战神
 * 三国杀
 * Hearthstone
 * Machinarium
 * Devil May Cry
 * Tomb Raider
 * Mount & Blade
-* World of Warcraft
-* 天涯明月刀
 * League of Legends
 * Assassin's Creed
 * The Elder Scrolls V: Skyrim
@@ -253,6 +249,14 @@
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring
+
+
+#### MMORPG
+
+* World of Warcraft
+* 斗战神
+* 天涯明月刀
+* 原神 (网上可以下载到 1.5, 2.6的源码)
 * 幻塔
 
 #### Puzzle video game

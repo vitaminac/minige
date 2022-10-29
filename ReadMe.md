@@ -256,7 +256,7 @@
 * World of Warcraft
 * 斗战神
 * 天涯明月刀
-* 原神 (网上可以下载到 1.5, 2.6的源码)
+* 原神
 * 幻塔
 
 #### Puzzle video game

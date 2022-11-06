@@ -190,7 +190,6 @@
 ### My Favorite Games Other than Above-Mentioned
 
 * 魔塔
-* 拳皇
 * Mario Series
 * Metal Slug
 * Kirby
@@ -258,6 +257,11 @@
 * 天涯明月刀
 * 原神
 * 幻塔
+
+#### Arcade
+
+* The King of Fighters
+* Fruit Ninja
 
 #### Simulation game
 

@@ -259,6 +259,10 @@
 * 原神
 * 幻塔
 
+#### Simulation game
+
+* Plague Inc.
+
 #### Puzzle video game
 
 * Angry Birds

@@ -207,6 +207,7 @@
 * Warcraft III: The Frozen Throne
 * StarCraft
 * Age of Empires
+* Uncharted Waters
 * Port Royale
 * SimCity
 * The Sims

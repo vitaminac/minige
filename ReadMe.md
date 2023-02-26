@@ -181,7 +181,6 @@
 * 征途
 * 洛克王国
 * 天堂2
-* CSOL
 * 天龙八部
 * 洛奇英雄传
 * [穿越火线](https://www.youtube.com/channel/UCM1bV6BmqM0pzEyDdrx4xug)
@@ -222,6 +221,7 @@
 * Tomb Raider
 * Mount & Blade
 * League of Legends
+* Counter-Strike: Global Offensive
 * Assassin's Creed
 * The Elder Scrolls V: Skyrim
 * Fallout 4
@@ -249,7 +249,6 @@
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring
-
 
 #### MMORPG
 

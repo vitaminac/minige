@@ -199,8 +199,6 @@
 * Inotia
 * Call of Duty
 * Halo
-* Need for Speed
-* Euro Truck Simulator 2
 * Command & Conquer: Red Alert 2
 * Empire Earth
 * Warcraft III: The Frozen Throne
@@ -221,7 +219,6 @@
 * Tomb Raider
 * Mount & Blade
 * League of Legends
-* Counter-Strike: Global Offensive
 * Assassin's Creed
 * The Elder Scrolls V: Skyrim
 * Fallout 4
@@ -235,12 +232,9 @@
 * Monster Hunter
 * Civilization VI
 * Anno
-* Forza
 * Sea of Thieves
 * 阴阳师
 * 王者荣耀
-* Fortnite
-* PUBG
 * Pokémon GO
 * Animal Crossing
 * Among Us
@@ -257,6 +251,18 @@
 * 天涯明月刀
 * 原神
 * 幻塔
+
+#### Racing
+
+* Need for Speed
+* Euro Truck Simulator 2
+* Forza
+
+#### FPS
+
+* Counter-Strike: Global Offensive
+* Fortnite
+* PUBG
 
 #### Arcade
 

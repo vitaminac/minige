@@ -254,9 +254,12 @@
 
 #### Racing
 
+* Live for Speed
 * Need for Speed
+* City Car Driving
 * Euro Truck Simulator 2
 * Forza
+* Microsoft Flight Simulator
 
 #### FPS
 

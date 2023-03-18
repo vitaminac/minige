@@ -307,7 +307,6 @@
 * [ ] [Modern OpenGL Guide](https://open.gl/)
 * [ ] [Anton's OpenGL 4 Tutorials](https://antongerdelan.net/opengl/)
 * [ ] [Modern OpenGL Step by Step Tutorials](https://ogldev.org/)
-* [ ] [OpenGL Book](https://openglbook.com/)
 
 ### OpenGL Libraries
 

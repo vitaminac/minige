@@ -206,6 +206,7 @@
 * Age of Empires
 * Uncharted Waters
 * Port Royale
+* Cities: Skylines
 * SimCity
 * The Sims
 * 金庸群侠传

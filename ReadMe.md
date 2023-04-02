@@ -219,7 +219,6 @@
 * Devil May Cry
 * Tomb Raider
 * Mount & Blade
-* League of Legends
 * Assassin's Creed
 * The Elder Scrolls V: Skyrim
 * Fallout 4
@@ -235,7 +234,6 @@
 * Anno
 * Sea of Thieves
 * 阴阳师
-* 王者荣耀
 * Pokémon GO
 * Animal Crossing
 * Among Us
@@ -253,6 +251,11 @@
 * 天涯明月刀
 * 原神
 * 幻塔
+
+#### MOBA
+
+* League of Legends
+* 王者荣耀
 
 #### Racing
 

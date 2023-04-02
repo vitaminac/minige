@@ -193,8 +193,6 @@
 * Metal Slug
 * Kirby
 * QQ堂
-* Diablo II
-* Torchlight II
 * Path of Exile
 * Inotia
 * Call of Duty
@@ -204,10 +202,6 @@
 * Cities: Skylines
 * SimCity
 * The Sims
-* 金庸群侠传
-* 轩辕剑三外传：天之痕
-* 仙剑奇侠传四
-* 古剑奇谭3
 * 三国杀
 * Hearthstone
 * Machinarium
@@ -215,7 +209,6 @@
 * Tomb Raider
 * Mount & Blade
 * Assassin's Creed
-* The Elder Scrolls V: Skyrim
 * Fallout 4
 * The Witcher 3
 * Grand Theft Auto V
@@ -223,7 +216,6 @@
 * Hitman
 * Minecraft
 * Dragon Quest
-* The Legend of Zelda: Breath of the Wild
 * Monster Hunter
 * Civilization VI
 * Anno
@@ -235,7 +227,6 @@
 * Apex
 * Roblox
 * Half-Life: Alyx
-* Black Myth: Wukong
 * Elden Ring
 * 金铲铲之战
 
@@ -246,6 +237,18 @@
 * 天涯明月刀
 * 原神
 * 幻塔
+
+#### RPG
+
+* Diablo II
+* Torchlight II
+* The Elder Scrolls V: Skyrim
+* 金庸群侠传
+* 轩辕剑三外传：天之痕
+* 仙剑奇侠传四
+* 古剑奇谭3
+* The Legend of Zelda: Breath of the Wild
+* Black Myth: Wukong
 
 #### MOBA
 

@@ -199,11 +199,6 @@
 * Inotia
 * Call of Duty
 * Halo
-* Command & Conquer: Red Alert 2
-* Empire Earth
-* Warcraft III: The Frozen Throne
-* StarCraft
-* Age of Empires
 * Uncharted Waters
 * Port Royale
 * Cities: Skylines
@@ -271,6 +266,14 @@
 * Counter-Strike: Global Offensive
 * Fortnite
 * PUBG
+
+#### RTS
+
+* Command & Conquer: Red Alert 2
+* Empire Earth
+* Warcraft III: The Frozen Throne
+* StarCraft
+* Age of Empires
 
 #### Arcade
 

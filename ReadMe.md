@@ -244,6 +244,7 @@
 * Half-Life: Alyx
 * Black Myth: Wukong
 * Elden Ring
+* 金铲铲之战
 
 #### MMORPG
 

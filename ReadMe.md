@@ -189,7 +189,7 @@
 ### My Favorite Games Other than Above-Mentioned
 
 * 魔塔
-* Mario Series
+* [Mario Series](https://www.nintendo.com/store/games/mario-games/)
 * Metal Slug
 * Kirby
 * QQ堂
@@ -258,7 +258,6 @@
 
 #### Racing
 
-* Mario Kart
 * Live for Speed
 * Need for Speed
 * City Car Driving

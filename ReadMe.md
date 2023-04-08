@@ -248,6 +248,7 @@
 * 仙剑奇侠传四
 * 古剑奇谭3
 * The Legend of Zelda: Breath of the Wild
+* The Legend of Zelda: Tears of the Kingdom
 * Black Myth: Wukong
 
 #### MOBA

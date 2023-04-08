@@ -258,6 +258,7 @@
 
 #### Racing
 
+* Mario Kart
 * Live for Speed
 * Need for Speed
 * City Car Driving

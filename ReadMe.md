@@ -206,7 +206,6 @@
 * Hearthstone
 * Machinarium
 * Devil May Cry
-* Tomb Raider
 * Mount & Blade
 * Assassin's Creed
 * Fallout 4
@@ -247,6 +246,7 @@
 * 轩辕剑三外传：天之痕
 * 仙剑奇侠传四
 * 古剑奇谭3
+* Tomb Raider
 * The Legend of Zelda: Breath of the Wild
 * The Legend of Zelda: Tears of the Kingdom
 * Black Myth: Wukong

@@ -262,7 +262,7 @@
 * Need for Speed
 * City Car Driving
 * Euro Truck Simulator 2
-* Forza
+* Forza Horizon
 * Microsoft Flight Simulator
 
 #### FPS

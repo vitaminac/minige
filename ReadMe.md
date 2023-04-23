@@ -215,7 +215,6 @@
 * Hitman
 * Minecraft
 * Dragon Quest
-* Monster Hunter
 * Civilization VI
 * Anno
 * Sea of Thieves
@@ -237,6 +236,10 @@
 * 天涯明月刀
 * 原神
 * 幻塔
+
+#### ARPG
+
+* Monster Hunter
 
 #### RPG
 

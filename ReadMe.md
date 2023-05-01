@@ -199,9 +199,6 @@
 * Halo
 * Uncharted Waters
 * Port Royale
-* Cities: Skylines
-* SimCity
-* The Sims
 * 三国杀
 * Hearthstone
 * Machinarium
@@ -215,8 +212,6 @@
 * Hitman
 * Minecraft
 * Dragon Quest
-* Civilization VI
-* Anno
 * Sea of Thieves
 * 阴阳师
 * Pokémon GO
@@ -290,6 +285,11 @@
 
 #### Simulation game
 
+* Cities: Skylines
+* Civilization VI
+* Anno
+* The Sims
+* SimCity
 * Plague Inc.
 
 #### Puzzle video game

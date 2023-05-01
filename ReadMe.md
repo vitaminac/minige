@@ -290,6 +290,7 @@
 * Anno
 * The Sims
 * SimCity
+* 戴森球计划
 * Plague Inc.
 
 #### Puzzle video game

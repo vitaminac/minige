@@ -144,7 +144,6 @@
 
 ### Other
 
-* [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
@@ -335,6 +334,7 @@
 * [FreeImage](http://freeimage.sourceforge.net)
 * [OpenSceneGraph](https://github.com/openscenegraph/OpenSceneGraph)
 * [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
+* [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 
 ## GLSL
 

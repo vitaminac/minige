@@ -278,6 +278,7 @@
 * Warcraft III: The Frozen Throne
 * StarCraft
 * Age of Empires
+* Total War
 
 #### Arcade
 

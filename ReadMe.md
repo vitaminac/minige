@@ -185,6 +185,12 @@
 * [穿越火线](https://www.youtube.com/channel/UCM1bV6BmqM0pzEyDdrx4xug)
 * [仙剑奇侠传三](https://github.com/JasonStein/Pal3.Unity)
 
+### [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
+
+* [Mario](https://www.nintendo.com/store/games/mario-games/)
+* [Kirby](https://kirby.nintendo.com/)
+* [Pokémon](https://www.nintendo.com/store/games/pokemon-games/)
+
 ### My Favorite Games Other than Above-Mentioned
 
 * 魔塔
@@ -220,12 +226,6 @@
 * Elden Ring
 * 金铲铲之战
 * 永劫无间
-
-#### IP
-
-* [Mario](https://www.nintendo.com/store/games/mario-games/)
-* [Kirby](https://kirby.nintendo.com/)
-* [Pokémon](https://www.nintendo.com/store/games/pokemon-games/)
 
 #### MMORPG
 

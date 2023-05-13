@@ -51,7 +51,7 @@
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
 
-### [Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
+### [Open Source Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
 * [libgdx](https://github.com/libgdx/libgdx)
 * [Godot](https://github.com/godotengine/godot)
@@ -80,17 +80,17 @@
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 * [Cube](http://cubeengine.com/)
 
+### Commercial Game Engine
+
+* [RPG Maker](https://www.rpgmakerweb.com/)
+* [Frostbite](https://www.ea.com/frostbite)
+
 ### Physics Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)
 * [Box2D](https://github.com/erincatto/Box2D)
 * [Bullet3](https://github.com/bulletphysics/bullet3)
 * [LiquidFun](https://github.com/google/liquidfun)
-
-### Commercial Game Engine
-
-* [RPG Maker](https://www.rpgmakerweb.com/)
-* [Frostbite](https://www.ea.com/frostbite)
 
 ### Game Server
 

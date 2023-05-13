@@ -192,6 +192,8 @@
 * [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
 * [The Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda)
 * [God of War](https://en.wikipedia.org/wiki/God_of_War_(franchise))
+* [Far Cry](https://en.wikipedia.org/wiki/Far_Cry)
+* [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(video_game_series))
 * [Kirby](https://kirby.nintendo.com/)
 
 ### My Favorite Games Other than Above-Mentioned
@@ -211,7 +213,6 @@
 * Mount & Blade
 * Assassin's Creed
 * Fallout 4
-* The Witcher 3
 * Grand Theft Auto V
 * Red Dead Redemption
 * Hitman

@@ -385,6 +385,12 @@
 * [AMD FidelityFX™ Super Resolution](https://www.amd.com/en/technologies/fidelityfx-super-resolution)
 * [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
 
+## Video Game Digital Distribution Platform
+
+* [Steam](https://store.steampowered.com/)
+* [Epic Games](https://store.epicgames.com/)
+* [WeGame](https://www.wegame.com.cn/)
+
 ## Institute
 
 * [Game Institute](https://www.gameinstitute.com/)

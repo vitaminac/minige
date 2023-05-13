@@ -188,8 +188,8 @@
 ### [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
 
 * [Mario](https://www.nintendo.com/store/games/mario-games/)
-* [Kirby](https://kirby.nintendo.com/)
 * [Pokémon](https://www.nintendo.com/store/games/pokemon-games/)
+* [Kirby](https://kirby.nintendo.com/)
 
 ### My Favorite Games Other than Above-Mentioned
 
@@ -217,7 +217,6 @@
 * Dragon Quest
 * Sea of Thieves
 * 阴阳师
-* Pokémon GO
 * Animal Crossing
 * Among Us
 * Apex

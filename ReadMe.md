@@ -136,6 +136,7 @@
 * [Orbital](https://github.com/AlexAltea/orbital)
 * [GPCS4](https://github.com/Inori/GPCS4)
 * [Kyty](https://github.com/InoriRus/Kyty)
+* [Devil May Cry](https://en.wikipedia.org/wiki/Devil_May_Cry)
 
 ### [Steam Deck](https://store.steampowered.com/steamdeck)
 
@@ -206,7 +207,6 @@
 * 三国杀
 * Hearthstone
 * Machinarium
-* Devil May Cry
 * Mount & Blade
 * Assassin's Creed
 * Fallout 4

@@ -189,6 +189,7 @@
 
 * [Mario](https://www.nintendo.com/store/games/mario-games/)
 * [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
+* [The Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda)
 * [Kirby](https://kirby.nintendo.com/)
 
 ### My Favorite Games Other than Above-Mentioned
@@ -248,8 +249,6 @@
 * 仙剑奇侠传四
 * 古剑奇谭3
 * Tomb Raider
-* The Legend of Zelda: Breath of the Wild
-* The Legend of Zelda: Tears of the Kingdom
 * Black Myth: Wukong
 
 #### MOBA

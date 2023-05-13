@@ -188,9 +188,7 @@
 ### My Favorite Games Other than Above-Mentioned
 
 * 魔塔
-* [Mario Series](https://www.nintendo.com/store/games/mario-games/)
 * Metal Slug
-* Kirby
 * QQ堂
 * Path of Exile
 * Inotia
@@ -222,6 +220,12 @@
 * Elden Ring
 * 金铲铲之战
 * 永劫无间
+
+#### IP
+
+* [Mario](https://www.nintendo.com/store/games/mario-games/)
+* [Kirby](https://kirby.nintendo.com/)
+* [Pokémon](https://www.nintendo.com/store/games/pokemon-games/)
 
 #### MMORPG
 

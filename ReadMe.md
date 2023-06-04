@@ -304,6 +304,7 @@
 
 #### Platform game
 
+* Portal
 * Temple Run
 
 #### Tower defense (TD)

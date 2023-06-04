@@ -100,8 +100,6 @@
 * [Photon](https://www.photonengine.com/)
 * [orleans](https://github.com/dotnet/Orleans)
 * [orbit](https://github.com/orbit/orbit)
-* [TrinityCore](https://github.com/TrinityCore/TrinityCore)
-* [MaNGOS](https://github.com/MaNGOS)
 
 ### Flash
 

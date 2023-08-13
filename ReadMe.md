@@ -166,7 +166,6 @@
 ### Commercial Video Game with Source Code Leaked on Internet
 
 * 魔域 VS2010
-* 地下城与勇士台服
 * QQ飞车
 * 飞飞(FlyFF)
 * 剑网3
@@ -236,6 +235,7 @@
 
 #### ARPG
 
+* 地下城与勇士
 * Monster Hunter
 
 #### RPG

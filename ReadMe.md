@@ -202,7 +202,6 @@
 * Halo
 * Uncharted Waters
 * Port Royale
-* 三国杀
 * Hearthstone
 * Machinarium
 * Mount & Blade
@@ -216,7 +215,6 @@
 * Sea of Thieves
 * 阴阳师
 * Animal Crossing
-* Among Us
 * Apex
 * Roblox
 * Half-Life: Alyx
@@ -285,6 +283,11 @@
 * 神武
 * 弹弹堂
 * Total War
+
+### Party Game
+
+* 三国杀
+* Among Us
 
 #### Arcade
 

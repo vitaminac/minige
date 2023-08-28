@@ -169,6 +169,7 @@
 * QQ堂
 * 地下城与勇士
 * 梦幻西游
+* 原神
 * 洛克王国
 * 魔域 VS2010
 * QQ飞车
@@ -189,10 +190,9 @@
 * [Mario](https://www.nintendo.com/store/games/mario-games/)
 * [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
 * [The Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda)
-* [God of War](https://en.wikipedia.org/wiki/God_of_War_(franchise))
-* [Far Cry](https://en.wikipedia.org/wiki/Far_Cry)
 * [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(video_game_series))
 * [Kirby](https://kirby.nintendo.com/)
+* Tomb Raider
 
 ### My Favorite Games Other than Above-Mentioned
 
@@ -200,15 +200,11 @@
 * Metal Slug
 * Path of Exile
 * Inotia
-* Call of Duty
-* Halo
 * Uncharted Waters
 * Port Royale
 * Hearthstone
 * Machinarium
 * Mount & Blade
-* Assassin's Creed
-* Fallout 4
 * Grand Theft Auto V
 * Red Dead Redemption
 * Hitman
@@ -229,7 +225,6 @@
 * World of Warcraft
 * 斗战神
 * 天涯明月刀
-* 原神
 * 幻塔
 * Lost Ark
 
@@ -246,7 +241,6 @@
 * 轩辕剑三外传：天之痕
 * 仙剑奇侠传四
 * 古剑奇谭3
-* Tomb Raider
 * Black Myth: Wukong
 
 #### MOBA

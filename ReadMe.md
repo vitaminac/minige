@@ -209,13 +209,10 @@
 * Grand Theft Auto V
 * Red Dead Redemption
 * Hitman
-* Minecraft
 * Dragon Quest
 * Sea of Thieves
 * 阴阳师
-* Animal Crossing
 * Apex
-* Roblox
 * Half-Life: Alyx
 * Elden Ring
 * 金铲铲之战
@@ -278,6 +275,12 @@
 * 神武
 * 弹弹堂
 * Total War
+
+### Sandbox Game
+
+* Minecraft
+* Roblox
+* Animal Crossing
 
 ### Party Game
 

@@ -111,36 +111,6 @@
 * [FlashPatch](https://github.com/darktohka/FlashPatch)
 * [Open Source Flash](https://github.com/open-source-flash)
 
-### Emulator
-
-#### Nintendo Switch
-
-* [yuzu](https://github.com/yuzu-emu/yuzu)
-* [Ryujinx](https://github.com/Ryujinx/Ryujinx)
-* [Skyline](https://github.com/skyline-emu/skyline)
-
-#### [NES](https://github.com/topics/nes-emulator?o=desc&s=stars)
-
-#### NDS
-
-* [DeSmuME](https://github.com/TASEmulators/desmume)
-* [NooDS](https://github.com/Hydr8gon/NooDS)
-* [ndsemu](https://github.com/rasky/ndsemu)
-
-#### [GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
-
-#### PlayStation
-
-* [Orbital](https://github.com/AlexAltea/orbital)
-* [GPCS4](https://github.com/Inori/GPCS4)
-* [Kyty](https://github.com/InoriRus/Kyty)
-* [Devil May Cry](https://en.wikipedia.org/wiki/Devil_May_Cry)
-
-### [Steam Deck](https://store.steampowered.com/steamdeck)
-
-* [SteamOS](https://store.steampowered.com/steamos)
-* [Proton](https://github.com/ValveSoftware/Proton)
-
 ### Other
 
 * [EASTL](https://github.com/electronicarts/EASTL)
@@ -228,6 +198,7 @@
 
 #### ARPG
 
+* [Devil May Cry](https://en.wikipedia.org/wiki/Devil_May_Cry)
 * Monster Hunter
 
 #### RPG
@@ -393,6 +364,27 @@
 * [NVIDIA DLSS](https://www.nvidia.com/es-es/geforce/technologies/dlss/)
 * [AMD FidelityFX™ Super Resolution](https://www.amd.com/en/technologies/fidelityfx-super-resolution)
 * [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
+
+## Video Game Console
+
+* Nintendo Switch
+  * [yuzu](https://github.com/yuzu-emu/yuzu)
+  * [Ryujinx](https://github.com/Ryujinx/Ryujinx)
+  * [Skyline](https://github.com/skyline-emu/skyline)
+* Sony PlayStation
+  * [Orbital](https://github.com/AlexAltea/orbital)
+  * [GPCS4](https://github.com/Inori/GPCS4)
+  * [Kyty](https://github.com/InoriRus/Kyty)
+* Microsoft Xbox
+* Stream Deck
+  * [SteamOS](https://store.steampowered.com/steamos)
+  * [Proton](https://github.com/ValveSoftware/Proton)
+* Nintendo DS
+  * [DeSmuME](https://github.com/TASEmulators/desmume)
+  * [NooDS](https://github.com/Hydr8gon/NooDS)
+  * [ndsemu](https://github.com/rasky/ndsemu)
+* [Nintendo GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
+* [Nintendo Entertainment System (NES)](https://github.com/topics/nes-emulator?o=desc&s=stars)
 
 ## Video Game Digital Distribution Platform
 

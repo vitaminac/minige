@@ -174,7 +174,6 @@
 * Uncharted Waters
 * Port Royale
 * Hearthstone
-* Machinarium
 * Mount & Blade
 * Grand Theft Auto V
 * Red Dead Redemption
@@ -241,19 +240,19 @@
 * StarCraft
 * Age of Empires
 
-### Turn Based
+#### Turn Based
 
 * 神武
 * 弹弹堂
 * Total War
 
-### Sandbox Game
+#### Sandbox Game
 
 * Minecraft
 * Roblox
 * Animal Crossing
 
-### Party Game
+#### Party Game
 
 * 三国杀
 * Among Us
@@ -273,9 +272,12 @@
 * 戴森球计划
 * Plague Inc.
 
-#### Puzzle video game
+#### Puzzle Video Game
 
 * Angry Birds
+* Machinarium
+* Monument Valley
+* Sky: Children of the Light
 
 #### Platform game
 

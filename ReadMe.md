@@ -181,11 +181,9 @@
 * Dragon Quest
 * Sea of Thieves
 * 阴阳师
-* Apex
 * Half-Life: Alyx
 * Elden Ring
 * 金铲铲之战
-* 永劫无间
 
 #### MMORPG
 
@@ -229,8 +227,13 @@
 #### FPS
 
 * Counter-Strike: Global Offensive
+
+#### Battle Royale Games
+
 * Fortnite
 * PUBG
+* Apex Legends
+* 永劫无间
 
 #### RTS
 

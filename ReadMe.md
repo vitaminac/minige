@@ -1,4 +1,4 @@
-## Tutorials
+# Tutorials
 
 * [ ] [Sparky Game Engine Development](https://www.youtube.com/playlist?list=PLlrATfBNZ98fqE45g3jZA_hLGUrD4bo6_)
 * [ ] [Hazel Game Engine Development](https://github.com/TheCherno/Hazel)
@@ -10,7 +10,7 @@
 * [ ] [Scratchapixel](https://www.scratchapixel.com/)
 * [ ] [Computer Graphics Learning Materials](https://cglearn.codelight.eu/pub/computer-graphics)
 
-## Courses
+# Courses
 
 - [ ] [CS50's Introduction to Game Development](https://www.edx.org/course/cs50s-introduction-to-game-development)
 - [ ] [Courses in Graphics Offered By Stanford](https://graphics.stanford.edu/courses/)
@@ -18,14 +18,14 @@
 - [ ] [UC Berkeley CS184/284A: Computer Graphics and Imaging](https://cs184.eecs.berkeley.edu/)
 - [ ] [Standford EE267: Virtual Reality](https://stanford.edu/class/ee267/)
 
-## Books
+# Books
 
-### Mathematical Foundations
+## Mathematical Foundations
 
 - [ ] 3D Math Primer for Graphics and Game Development
 - [ ] Mathematics for 3D Game Programming and Computer Graphics
 
-### Computer Graphics
+## Computer Graphics
 
 - [ ] Fundamentals of Computer Graphics
 - [ ] Real Time Rendering
@@ -33,7 +33,7 @@
 - [ ] [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
 - [ ] Computer Graphics: Principles and Practice
 
-### Others
+## Others
 
 - [ ] [Game Engine Architecture](https://www.gameenginebook.com/)
 - [ ] Game Coding Complete
@@ -41,9 +41,9 @@
 - [ ] [Khronos Developer Books](https://www.khronos.org/developers/books/)
 - [ ] [The Book of Shaders](https://thebookofshaders.com/)
 
-## Projects
+# Projects
 
-### Graphic Engine
+## Graphic Engine
 
 * [OGRE](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
@@ -51,7 +51,7 @@
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
 
-### [Open Source Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
+## [Open Source Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
 
 * [libgdx](https://github.com/libgdx/libgdx)
 * [Godot](https://github.com/godotengine/godot)
@@ -59,7 +59,7 @@
 * [minetest](https://github.com/minetest/minetest)
 * [ursina](https://github.com/pokepetter/ursina)
 
-#### 2D Game Engine
+### 2D Game Engine
 
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
 * [Solar2D](https://github.com/coronalabs/corona)
@@ -69,7 +69,7 @@
 * [StarEngine](https://github.com/StarEngine/engine)
 * [ejoy2d](https://github.com/ejoy/ejoy2d)
 
-#### 3D Game Engine
+### 3D Game Engine
 
 * [CryEngine](https://github.com/CRYTEK/CRYENGINE)
 * [Amazon Lumberyard](https://github.com/aws/lumberyard)
@@ -80,19 +80,19 @@
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 * [Cube](http://cubeengine.com/)
 
-### Commercial Game Engine
+## Commercial Game Engine
 
 * [RPG Maker](https://www.rpgmakerweb.com/)
 * [Frostbite](https://www.ea.com/frostbite)
 
-### Physics Engine
+## Physics Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)
 * [Box2D](https://github.com/erincatto/Box2D)
 * [Bullet3](https://github.com/bulletphysics/bullet3)
 * [LiquidFun](https://github.com/google/liquidfun)
 
-### Game Server
+## Game Server
 
 * [Pomelo](https://github.com/NetEase/pomelo)
 * [KBEngine](https://github.com/kbengine/kbengine)
@@ -101,7 +101,7 @@
 * [orleans](https://github.com/dotnet/Orleans)
 * [orbit](https://github.com/orbit/orbit)
 
-### Flash
+## Flash
 
 * [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler)
 * [Ruffle](https://github.com/ruffle-rs/ruffle)
@@ -111,14 +111,14 @@
 * [FlashPatch](https://github.com/darktohka/FlashPatch)
 * [Open Source Flash](https://github.com/open-source-flash)
 
-### Other
+## Other
 
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
-## Game
+# Game
 
-### Open Source Game
+## Open Source Game
 
 * [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
@@ -134,7 +134,7 @@
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 * [仙剑奇侠传三 Unity](https://github.com/JasonStein/Pal3.Unity)
 
-### Commercial Video Game with Source Code Leaked on Internet
+## Commercial Video Game with Source Code Leaked on Internet
 
 * QQ堂
 * 地下城与勇士
@@ -156,7 +156,7 @@
 * 天龙八部
 * 洛奇英雄传
 
-### [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
+## [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
 
 * [Mario](https://www.nintendo.com/store/games/mario-games/)
 * [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
@@ -165,7 +165,7 @@
 * [Kirby](https://kirby.nintendo.com/)
 * Tomb Raider
 
-### My Favorite Games Other than Above-Mentioned
+## My Favorite Games Other than Above-Mentioned
 
 * 魔塔
 * Metal Slug
@@ -185,7 +185,7 @@
 * Elden Ring
 * 金铲铲之战
 
-#### MMORPG
+### MMORPG
 
 * World of Warcraft
 * 斗战神
@@ -193,12 +193,12 @@
 * 幻塔
 * Lost Ark
 
-#### ARPG
+### ARPG
 
 * [Devil May Cry](https://en.wikipedia.org/wiki/Devil_May_Cry)
 * Monster Hunter
 
-#### RPG
+### RPG
 
 * Diablo II
 * Torchlight II
@@ -209,12 +209,12 @@
 * 古剑奇谭3
 * Black Myth: Wukong
 
-#### MOBA
+### MOBA
 
 * League of Legends
 * 王者荣耀
 
-#### Racing
+### Racing
 
 * Live for Speed
 * Euro Truck Simulator 2
@@ -224,18 +224,18 @@
 * Need for Speed
 * Microsoft Flight Simulator
 
-#### FPS
+### FPS
 
 * Counter-Strike: Global Offensive
 
-#### Battle Royale Games
+### Battle Royale Games
 
 * Fortnite
 * PUBG
 * Apex Legends
 * 永劫无间
 
-#### RTS
+### RTS
 
 * Command & Conquer: Red Alert 2
 * Empire Earth
@@ -243,29 +243,29 @@
 * StarCraft
 * Age of Empires
 
-#### Turn Based
+### Turn Based
 
 * 神武
 * 弹弹堂
 * Total War
 
-#### Sandbox Game
+### Sandbox Game
 
 * Minecraft
 * Roblox
 * Animal Crossing
 
-#### Party Game
+### Party Game
 
 * 三国杀
 * Among Us
 
-#### Arcade
+### Arcade
 
 * The King of Fighters
 * Fruit Ninja
 
-#### Simulation game
+### Simulation game
 
 * Cities: Skylines
 * Civilization VI
@@ -275,34 +275,35 @@
 * 戴森球计划
 * Plague Inc.
 
-#### Puzzle Video Game
+### Puzzle Video Game
 
+* Tetris
 * Angry Birds
 * Machinarium
 * Monument Valley
 * Sky: Children of the Light
 
-#### Platform game
+### Platform game
 
 * Portal
 * Temple Run
 
-#### Tower defense (TD)
+### Tower defense (TD)
 
 * Plants vs. Zombies
 * 保卫萝卜
 * Clash of Clans
 * Clash Royale
 
-## Unity
+# Unity
 
 * [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)
 
-## Unreal Engine
+# Unreal Engine
 
 * [Unreal Engine Source Code](https://github.com/EpicGames/UnrealEngine)
 
-## OpenGL
+# OpenGL
 
 * [ ] [Learn OpenGL](https://learnopengl.com/)
 * [ ] [OpenGL Tutorial](http://www.opengl-tutorial.org/)
@@ -311,7 +312,7 @@
 * [ ] [Modern OpenGL Step by Step Tutorials](https://ogldev.org/)
 * [ ] Computer Graphics Programming in OpenGL with C++
 
-### OpenGL Libraries
+## OpenGL Libraries
 
 * [OpenGL Libraries](https://www.opengl.org/sdk/libs/)
 * [OpenGL Utility Libraries](https://www.opengl.org/resources/libraries/)
@@ -323,19 +324,19 @@
 * [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
 * [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 
-## GLSL
+# GLSL
 
 * [GLSL Sandbox](http://glslsandbox.com/)
 * [Shadertoy](https://www.shadertoy.com/)
 
-## DirectX 12
+# DirectX 12
 
 * [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)
 * [DirectX-Graphics-Samples](https://github.com/Microsoft/DirectX-Graphics-Samples)
 * Introduction to 3D Game Programming with DirectX 12
 * [Windows GDI](https://docs.microsoft.com/en-us/windows/win32/gdi/windows-gdi)
 
-## [Vulkan](www.vulkan.org)
+# [Vulkan](www.vulkan.org)
 
 * [Vulkan Tutorial](https://vulkan-tutorial.com/)
 * [Vulkan Guide](https://vkguide.dev/)
@@ -344,25 +345,25 @@
 * [vkQuake](https://github.com/Novum/vkQuake)
 * [vkDOOM3](https://github.com/DustinHLand/vkDOOM3)
 
-## [Metal](https://developer.apple.com/metal/)
+# [Metal](https://developer.apple.com/metal/)
 
-## [WebGL](https://get.webgl.org/)
+# [WebGL](https://get.webgl.org/)
 
 * [WebGL Specification](https://www.khronos.org/api/webgl)
 
-## WebXR
+# WebXR
 
 * [WebXR Device API Specification](https://www.w3.org/TR/webxr/)
 * [Immersive Web](https://immersiveweb.dev/)
 * [WebVR](https://webvr.info/)
 
-## AR & VR Toolkit
+# AR & VR Toolkit
 
 * [Google AR & VR Toolkit](https://arvr.google.com/)
 * [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
 * [OpenVR SDK](https://github.com/ValveSoftware/openvr)
 
-## GPU
+# GPU
 
 * [NVIDIA G-SYNC](https://developer.nvidia.com/g-sync)
 * [AMD FreeSync](https://www.amd.com/en/technologies/free-sync)
@@ -370,7 +371,7 @@
 * [AMD FidelityFX™ Super Resolution](https://www.amd.com/en/technologies/fidelityfx-super-resolution)
 * [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
 
-## Video Game Console
+# Video Game Console
 
 * Nintendo Switch
   * [yuzu](https://github.com/yuzu-emu/yuzu)
@@ -391,19 +392,19 @@
 * [Nintendo GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
 * [Nintendo Entertainment System (NES)](https://github.com/topics/nes-emulator?o=desc&s=stars)
 
-## Video Game Digital Distribution Platform
+# Video Game Digital Distribution Platform
 
 * [Steam](https://store.steampowered.com/)
 * [Epic Games](https://store.epicgames.com/)
 * [WeGame](https://www.wegame.com.cn/)
 
-## Institute
+# Institute
 
 * [Game Institute](https://www.gameinstitute.com/)
 * [腾讯游戏学院](https://gameinstitute.qq.com/)
 * [网易游戏学院](http://game.academy.163.com/)
 
-## Events
+# Events
 
 * [Game Developers Conference (GDC)](https://gdconf.com/)
 * [Global Game Jam](https://globalgamejam.org/)

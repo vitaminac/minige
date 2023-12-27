@@ -257,7 +257,6 @@
 
 ### Party Game
 
-* 三国杀
 * Among Us
 
 ### Arcade
@@ -294,6 +293,15 @@
 * 保卫萝卜
 * Clash of Clans
 * Clash Royale
+
+### Auto Chess
+
+* Teamfight Tactics
+
+### Card Game
+
+* 斗地主
+* 三国杀
 
 # Unity
 

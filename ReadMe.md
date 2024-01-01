@@ -404,6 +404,7 @@
 
 * [Steam](https://store.steampowered.com/)
 * [Epic Games](https://store.epicgames.com/)
+* [GOG](https://www.gog.com/)
 * [WeGame](https://www.wegame.com.cn/)
 
 # Institute

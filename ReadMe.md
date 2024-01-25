@@ -183,7 +183,6 @@
 * 阴阳师
 * Half-Life: Alyx
 * Elden Ring
-* 金铲铲之战
 
 ### MMORPG
 
@@ -258,6 +257,8 @@
 ### Party Game
 
 * Among Us
+* 蛋仔派对
+* 元梦之星
 
 ### Arcade
 
@@ -297,6 +298,7 @@
 ### Auto Chess
 
 * Teamfight Tactics
+* 金铲铲之战
 
 ### Card Game
 

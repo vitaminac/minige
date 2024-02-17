@@ -101,16 +101,6 @@
 * [orleans](https://github.com/dotnet/Orleans)
 * [orbit](https://github.com/orbit/orbit)
 
-## Flash
-
-* [JPEXS Free Flash Decompiler](https://github.com/jindrapetrik/jpexs-decompiler)
-* [Ruffle](https://github.com/ruffle-rs/ruffle)
-* [Lightspark](https://github.com/lightspark/lightspark)
-* [swf2js](https://github.com/swf2js/swf2js)
-* [Actionscript Virtual Machine](https://github.com/adobe/avmplus)
-* [FlashPatch](https://github.com/darktohka/FlashPatch)
-* [Open Source Flash](https://github.com/open-source-flash)
-
 ## Other
 
 * [EASTL](https://github.com/electronicarts/EASTL)
@@ -168,6 +158,7 @@
 ## My Favorite Games Other than Above-Mentioned
 
 * 魔塔
+* [魔域2.4小游戏](https://vitaminac.github.io/moyu24/)
 * Metal Slug
 * Path of Exile
 * Inotia

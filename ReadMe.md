@@ -393,13 +393,6 @@
 * [Nintendo GBA](https://github.com/topics/gameboy-advance-emulator?o=desc&s=stars)
 * [Nintendo Entertainment System (NES)](https://github.com/topics/nes-emulator?o=desc&s=stars)
 
-# Video Game Digital Distribution Platform
-
-* [Steam](https://store.steampowered.com/)
-* [Epic Games](https://store.epicgames.com/)
-* [GOG](https://www.gog.com/)
-* [WeGame](https://www.wegame.com.cn/)
-
 # Institute
 
 * [Game Institute](https://www.gameinstitute.com/)

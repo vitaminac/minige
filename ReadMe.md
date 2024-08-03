@@ -382,7 +382,6 @@
   * [Orbital](https://github.com/AlexAltea/orbital)
   * [GPCS4](https://github.com/Inori/GPCS4)
   * [Kyty](https://github.com/InoriRus/Kyty)
-* Microsoft Xbox
 * Stream Deck
   * [SteamOS](https://store.steampowered.com/steamos)
   * [Proton](https://github.com/ValveSoftware/Proton)

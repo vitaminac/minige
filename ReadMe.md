@@ -124,28 +124,6 @@
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 * [仙剑奇侠传三 Unity](https://github.com/JasonStein/Pal3.Unity)
 
-## Commercial Video Game with Source Code Leaked on Internet
-
-* QQ堂
-* 地下城与勇士
-* 梦幻西游
-* 原神
-* 洛克王国
-* 魔域 VS2010
-* QQ飞车
-* [穿越火线](https://www.youtube.com/channel/UCM1bV6BmqM0pzEyDdrx4xug)
-* 传奇
-* 冒险岛
-* 龙之谷
-* 飞飞(FlyFF)
-* 剑网3
-* 剑灵
-* 星尘传说
-* 征途
-* 天堂2
-* 天龙八部
-* 洛奇英雄传
-
 ## [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
 
 * [Mario](https://www.nintendo.com/store/games/mario-games/)

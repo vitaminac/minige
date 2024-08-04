@@ -177,11 +177,6 @@
 * 古剑奇谭3
 * Black Myth: Wukong
 
-### MOBA
-
-* League of Legends
-* 王者荣耀
-
 ### Racing
 
 * Live for Speed
@@ -191,25 +186,6 @@
 * Forza Horizon
 * Need for Speed
 * Microsoft Flight Simulator
-
-### FPS
-
-* Counter-Strike: Global Offensive
-
-### Battle Royale Games
-
-* Fortnite
-* PUBG
-* Apex Legends
-* 永劫无间
-
-### RTS
-
-* Command & Conquer: Red Alert 2
-* Empire Earth
-* Warcraft III: The Frozen Throne
-* StarCraft
-* Age of Empires
 
 ### Turn Based
 
@@ -222,12 +198,6 @@
 * Minecraft
 * Roblox
 * Animal Crossing
-
-### Party Game
-
-* Among Us
-* 蛋仔派对
-* 元梦之星
 
 ### Arcade
 

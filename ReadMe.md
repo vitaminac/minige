@@ -187,12 +187,6 @@
 * Need for Speed
 * Microsoft Flight Simulator
 
-### Turn Based
-
-* 神武
-* 弹弹堂
-* Total War
-
 ### Sandbox Game
 
 * Minecraft
@@ -223,16 +217,6 @@
 * 保卫萝卜
 * Clash of Clans
 * Clash Royale
-
-### Auto Chess
-
-* Teamfight Tactics
-* 金铲铲之战
-
-### Card Game
-
-* 斗地主
-* 三国杀
 
 # Unity
 

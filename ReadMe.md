@@ -136,7 +136,6 @@
 ## My Favorite Games Other than Above-Mentioned
 
 * 魔塔
-* [魔域2.4小游戏](https://vitaminac.github.io/moyu24/)
 * Metal Slug
 * Path of Exile
 * Inotia
@@ -144,14 +143,11 @@
 * Port Royale
 * Hearthstone
 * Mount & Blade
-* Grand Theft Auto V
-* Red Dead Redemption
 * Hitman
 * Dragon Quest
 * Sea of Thieves
 * 阴阳师
 * Half-Life: Alyx
-* Elden Ring
 
 ### MMORPG
 
@@ -160,22 +156,6 @@
 * 天涯明月刀
 * 幻塔
 * Lost Ark
-
-### ARPG
-
-* [Devil May Cry](https://en.wikipedia.org/wiki/Devil_May_Cry)
-* Monster Hunter
-
-### RPG
-
-* Diablo II
-* Torchlight II
-* The Elder Scrolls V: Skyrim
-* 金庸群侠传
-* 轩辕剑三外传：天之痕
-* 仙剑奇侠传四
-* 古剑奇谭3
-* Black Myth: Wukong
 
 ### Racing
 

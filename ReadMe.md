@@ -135,7 +135,6 @@
 
 ## My Favorite Games Other than Above-Mentioned
 
-* 魔塔
 * Metal Slug
 * Path of Exile
 * Inotia
@@ -146,16 +145,7 @@
 * Hitman
 * Dragon Quest
 * Sea of Thieves
-* 阴阳师
 * Half-Life: Alyx
-
-### MMORPG
-
-* World of Warcraft
-* 斗战神
-* 天涯明月刀
-* 幻塔
-* Lost Ark
 
 ### Racing
 
@@ -166,12 +156,6 @@
 * Forza Horizon
 * Need for Speed
 * Microsoft Flight Simulator
-
-### Sandbox Game
-
-* Minecraft
-* Roblox
-* Animal Crossing
 
 ### Arcade
 

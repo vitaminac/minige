@@ -147,16 +147,6 @@
 * Sea of Thieves
 * Half-Life: Alyx
 
-### Racing
-
-* Live for Speed
-* Euro Truck Simulator 2
-* Assetto Corsa
-* City Car Driving
-* Forza Horizon
-* Need for Speed
-* Microsoft Flight Simulator
-
 ### Arcade
 
 * The King of Fighters

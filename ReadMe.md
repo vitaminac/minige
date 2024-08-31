@@ -114,24 +114,15 @@
 * [0ad](https://github.com/0ad/0ad)
 * [Half-Life 1](https://github.com/ValveSoftware/halflife)
 * [BrowserQuest](https://github.com/mozilla/BrowserQuest)
-* [OpenDiablo2](https://github.com/OpenDiablo2/OpenDiablo2)
-* [Flare](https://github.com/flareteam/flare-game)
-* [Endless Sky](http://endless-sky.github.io/)
 * [Craft - Minecraft clone written in C for Windows, Mac OS X and Linux](https://github.com/fogleman/Craft)
-* [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
-* [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
-* [仙剑奇侠传三 Unity](https://github.com/JasonStein/Pal3.Unity)
 
 ## [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
 
 * [Mario](https://www.nintendo.com/store/games/mario-games/)
 * [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
-* [The Legend of Zelda](https://en.wikipedia.org/wiki/The_Legend_of_Zelda)
-* [The Witcher](https://en.wikipedia.org/wiki/The_Witcher_(video_game_series))
 * [Kirby](https://kirby.nintendo.com/)
-* Tomb Raider
 
 ## My Favorite Games Other than Above-Mentioned
 

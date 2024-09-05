@@ -62,6 +62,7 @@
 ### 2D Game Engine
 
 * [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+* [pygame](https://github.com/pygame/pygame)
 * [Solar2D](https://github.com/coronalabs/corona)
 * [Solarus](https://gitlab.com/solarus-games/solarus)
 * [HGE](https://github.com/kvakvs/hge)
@@ -118,29 +119,8 @@
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 
-## [Best-Selling Video Game Franchises](https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises)
-
-* [Mario](https://www.nintendo.com/store/games/mario-games/)
-* [Pokémon](https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series))
-* [Kirby](https://kirby.nintendo.com/)
-
-## My Favorite Games Other than Above-Mentioned
-
-* Metal Slug
-* Path of Exile
-* Inotia
-* Uncharted Waters
-* Port Royale
-* Hearthstone
-* Mount & Blade
-* Hitman
-* Dragon Quest
-* Sea of Thieves
-* Half-Life: Alyx
-
 ### Arcade
 
-* The King of Fighters
 * Fruit Ninja
 
 ### Puzzle Video Game

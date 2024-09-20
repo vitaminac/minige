@@ -111,37 +111,17 @@
 
 ## Open Source Game
 
-* [id-Software](https://github.com/id-Software)
 * [0ad](https://github.com/0ad/0ad)
-* [Half-Life 1](https://github.com/ValveSoftware/halflife)
 * [BrowserQuest](https://github.com/mozilla/BrowserQuest)
 * [Craft - Minecraft clone written in C for Windows, Mac OS X and Linux](https://github.com/fogleman/Craft)
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 
-### Arcade
-
-* Fruit Ninja
-
 ### Puzzle Video Game
 
-* Tetris
-* Angry Birds
 * Machinarium
 * Monument Valley
 * Sky: Children of the Light
-
-### Platform game
-
-* Portal
-* Temple Run
-
-### Tower defense (TD)
-
-* Plants vs. Zombies
-* 保卫萝卜
-* Clash of Clans
-* Clash Royale
 
 # Unity
 

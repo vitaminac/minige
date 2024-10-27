@@ -117,12 +117,6 @@
 * [A list of popular/awesome videos games](https://github.com/leereilly/games)
 * [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
 
-### Puzzle Video Game
-
-* Machinarium
-* Monument Valley
-* Sky: Children of the Light
-
 # Unity
 
 * [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)

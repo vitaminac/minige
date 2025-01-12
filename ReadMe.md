@@ -107,16 +107,6 @@
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
-# Game
-
-## Open Source Game
-
-* [0ad](https://github.com/0ad/0ad)
-* [BrowserQuest](https://github.com/mozilla/BrowserQuest)
-* [Craft - Minecraft clone written in C for Windows, Mac OS X and Linux](https://github.com/fogleman/Craft)
-* [A list of popular/awesome videos games](https://github.com/leereilly/games)
-* [Minecraft One Week](https://github.com/Hopson97/MineCraft-One-Week-Challenge)
-
 # Unity
 
 * [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)

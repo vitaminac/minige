@@ -170,14 +170,6 @@
 * [Apple AR Toolkit](https://developer.apple.com/augmented-reality/)
 * [OpenVR SDK](https://github.com/ValveSoftware/openvr)
 
-# GPU
-
-* [NVIDIA G-SYNC](https://developer.nvidia.com/g-sync)
-* [AMD FreeSync](https://www.amd.com/en/technologies/free-sync)
-* [NVIDIA DLSS](https://www.nvidia.com/es-es/geforce/technologies/dlss/)
-* [AMD FidelityFX™ Super Resolution](https://www.amd.com/en/technologies/fidelityfx-super-resolution)
-* [NVIDIA Omniverse](https://developer.nvidia.com/nvidia-omniverse-platform)
-
 # Institute
 
 * [Game Institute](https://www.gameinstitute.com/)

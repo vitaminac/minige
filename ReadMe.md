@@ -81,11 +81,6 @@
 * [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
 * [Cube](http://cubeengine.com/)
 
-## Commercial Game Engine
-
-* [RPG Maker](https://www.rpgmakerweb.com/)
-* [Frostbite](https://www.ea.com/frostbite)
-
 ## Physics Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)

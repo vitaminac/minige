@@ -50,36 +50,6 @@
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
 
-## [Open Source Game Engine](https://en.wikipedia.org/wiki/List_of_game_engines)
-
-* [libgdx](https://github.com/libgdx/libgdx)
-* [Godot](https://github.com/godotengine/godot)
-* [Cocos Creator](https://github.com/cocos-creator/engine)
-* [minetest](https://github.com/minetest/minetest)
-* [ursina](https://github.com/pokepetter/ursina)
-
-### 2D Game Engine
-
-* [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
-* [pygame](https://github.com/pygame/pygame)
-* [Solar2D](https://github.com/coronalabs/corona)
-* [Solarus](https://gitlab.com/solarus-games/solarus)
-* [HGE](https://github.com/kvakvs/hge)
-* [GGELUA](https://gitee.com/GGELUA/GGELUA)
-* [StarEngine](https://github.com/StarEngine/engine)
-* [ejoy2d](https://github.com/ejoy/ejoy2d)
-
-### 3D Game Engine
-
-* [CryEngine](https://github.com/CRYTEK/CRYENGINE)
-* [Amazon Lumberyard](https://github.com/aws/lumberyard)
-* [Panda3D](https://github.com/panda3d/panda3d)
-* [Torque3D](https://github.com/GarageGames/Torque3D)
-* [Irrlicht](http://irrlicht.sourceforge.net/)
-* [Egret Engine](https://github.com/egret-labs/egret-core)
-* [Source SDK](https://github.com/ValveSoftware/source-sdk-2013)
-* [Cube](http://cubeengine.com/)
-
 ## Physics Engine
 
 * [PhysX SDK](https://developer.nvidia.com/physx-sdk)

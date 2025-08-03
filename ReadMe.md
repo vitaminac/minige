@@ -50,13 +50,6 @@
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
 
-## Physics Engine
-
-* [PhysX SDK](https://developer.nvidia.com/physx-sdk)
-* [Box2D](https://github.com/erincatto/Box2D)
-* [Bullet3](https://github.com/bulletphysics/bullet3)
-* [LiquidFun](https://github.com/google/liquidfun)
-
 ## Game Server
 
 * [Pomelo](https://github.com/NetEase/pomelo)

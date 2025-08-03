@@ -47,7 +47,6 @@
 
 * [OGRE](https://github.com/OGRECave/ogre)
 * [KlayGE](https://github.com/gongminmin/KlayGE)
-* [Blender](https://wiki.blender.org/wiki/Source/File_Structure)
 * [MeshLab](https://github.com/cnr-isti-vclab/meshlab)
 * [bgfx](https://github.com/bkaradzic/bgfx)
 

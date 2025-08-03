@@ -71,14 +71,6 @@
 * [EASTL](https://github.com/electronicarts/EASTL)
 * [behaviac](https://github.com/Tencent/behaviac)
 
-# Unity
-
-* [Unity C# Reference Source Code](https://github.com/Unity-Technologies/UnityCsReference)
-
-# Unreal Engine
-
-* [Unreal Engine Source Code](https://github.com/EpicGames/UnrealEngine)
-
 # OpenGL
 
 * [ ] [Learn OpenGL](https://learnopengl.com/)
@@ -120,18 +112,6 @@
 * [Vulkan C++ Examples and Demos](https://github.com/SaschaWillems/Vulkan)
 * [vkQuake](https://github.com/Novum/vkQuake)
 * [vkDOOM3](https://github.com/DustinHLand/vkDOOM3)
-
-# [Metal](https://developer.apple.com/metal/)
-
-# [WebGL](https://get.webgl.org/)
-
-* [WebGL Specification](https://www.khronos.org/api/webgl)
-
-# WebXR
-
-* [WebXR Device API Specification](https://www.w3.org/TR/webxr/)
-* [Immersive Web](https://immersiveweb.dev/)
-* [WebVR](https://webvr.info/)
 
 # AR & VR Toolkit
 

@@ -85,11 +85,6 @@
 * [Simple DirectMedia Layer](https://github.com/libsdl-org/SDL)
 * [The OpenGL Samples Pack](https://github.com/g-truc/ogl-samples)
 
-# GLSL
-
-* [GLSL Sandbox](http://glslsandbox.com/)
-* [Shadertoy](https://www.shadertoy.com/)
-
 # DirectX 12
 
 * [Direct3D 12](https://docs.microsoft.com/en-us/windows/win32/direct3d12)

@@ -20,24 +20,7 @@
 
 # Books
 
-## Mathematical Foundations
-
-- [ ] 3D Math Primer for Graphics and Game Development
-- [ ] Mathematics for 3D Game Programming and Computer Graphics
-
-## Computer Graphics
-
-- [ ] Fundamentals of Computer Graphics
-- [ ] Real Time Rendering
 - [ ] [Foundations of Game Engine Development](https://foundationsofgameenginedev.com/)
-- [ ] [Physically Based Rendering: From Theory To Implementation](http://www.pbr-book.org/)
-- [ ] Computer Graphics: Principles and Practice
-
-## Others
-
-- [ ] [Game Engine Architecture](https://www.gameenginebook.com/)
-- [ ] Game Coding Complete
-- [ ] [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html)
 - [ ] [Khronos Developer Books](https://www.khronos.org/developers/books/)
 - [ ] [The Book of Shaders](https://thebookofshaders.com/)
 
